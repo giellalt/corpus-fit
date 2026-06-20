@@ -1,0 +1,879 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><wordcount>191</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><origFileName>http://www.lansstyrelsen.se/stockholm/Sv/manniska-och-samhalle/nationella-minoriteter/meankieli/Pages/hallintoaluheet.aspx</origFileName><parallel_text xml:lang="fin" location="nat-min-hallintoalueet.html"/><parallel_text xml:lang="sma" location="nat-min-reeremedajvh.html"/><parallel_text xml:lang="sme" location="nat-min-halddahusguovllut.html"/><parallel_text xml:lang="smj" location="nat-min-tjuottjudusguovlo.html"/><parallel_text xml:lang="swe" location="nat-min-forvaltningsomraden.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Hallintoaluheet>"
+	"alue" N Pl Nom @HNOUN #1->0
+		"hallinto" N Nom Cmp #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<Länsstyrelsen>"
+	"Länsstyrelsen" N Prop Sem/Org Sg Nom @>N #3->4
+: 
+"<i>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Attr @>N #4->5
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @>N #4->5
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<Stockholm>"
+	"Stockholm" N Prop Sem/Plc Sg Nom @<SPRED #5->1
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Hallintoaluheet>"
+	"alue" N Pl Nom @HNOUN #1->0
+		"hallinto" N Nom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Laki>"
+	"Laki" N Prop Sem/Plc Sg Nom @SUBJ> #1->6
+: 
+"<kansalisista>"
+	"kansalinen" A Pl Ela @>N #2->3
+: 
+"<minuriteetistä>"
+	"minuriteetti" N Sg Ela @<ADVL #3->1
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<minuriteettikielistä>"
+	"minuriteettikieli" N Pl Ela @<ADVL #5->3
+: 
+"<tarkottaa>"
+	"tarkottaa" V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<ette>"
+	"ette" CS @CVP #7->0
+: 
+"<kolmele>"
+	"kolme" Num Sg All @<ADVL #8->6
+: 
+"<minuriteettikielistä>"
+	"minuriteettikieli" N Pl Ela @NUM< #9->9
+: 
+"<–>"
+	"–" PUNCT MIDDLE #10->11
+: 
+"<suomi>"
+	"Suomi" N Prop Sem/Sur Sg Nom @OBJ> #11->17
+"<,>"
+	"," CLB #12->17
+: 
+"<saamenkieli>"
+	"kieli" N Sg Nom @OBJ> #13->11
+		"saame" N Sg Gen Cmp #13->11
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<meänkieli>"
+	"meänkieli" N Sg Nom @SUBJ> #15->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #16->17
+: 
+"<lisäthään>"
+	"lisätä" V Pass Ind Prs @FS-<ADVL #17->6
+: hallinto¬aluheita 
+"<seittemästä>"
+	"seittemän" Num Sg Ela @N< #18->15
+: 
+"<kunnasta>"
+	"Kunnas" N Prop Sem/Sur Sg Par @<OBJ #19->17
+: 
+"<Norrbottenin>"
+	"Norrbotten" N Prop Sem/Plc Sg Gen @<OBJ #20->17
+: 
+"<läänissä>"
+	"lääni" N Sg Ine @<ADVL #21->17
+: 
+"<yhtheensä>"
+	"yhtheensä" Adv @ADVL #22->23
+: 
+"<68>"
+	"68" Num Arab Sem/ID @X #23->0
+	 Use/Circ Use/Circ"68" Num Arab Sg Nom
+	 Use/Circ"68" A Arab Ord Attr CLBfinal
+	 Use/Circ"68" Num Arab Sem/ID
+	 Use/Circ"68" Num Arab Sg Nom
+: 
+"<kunthaan>"
+	"Kunttu" N Prop Sem/Sur Sg Nom Foc/haan @>N #24->25
+: 
+"<koko>"
+	"Koko" N Prop Sem/Plc Sg Nom @>N #25->26
+: 
+"<Ruottissa>"
+	"Ruotti" N Prop Sem/Plc Sg Ine @<ADVL #26->17
+"<.>"
+	"." CLB #27->6
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Suomen>"
+	"suomi" N Sg Gen @>N #1->2
+: 
+"<kielen>"
+	"kieli" N Sg Gen @X #2->0
+: 
+"<hallintoaluheesheen>"
+	"alue" N Sg Ill @X #3->0
+		"hallinto" N Nom Cmp #3->0
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @>N #4->5
+: 
+"<kunnat>"
+	"kunta" N Pl Nom @>N #5->6
+: 
+"<Borlänge>"
+	"Borlänge" N Prop Sem/Plc Sg Nom @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<Borås>"
+	"Borås" N Prop Sem/Sur Sg Nom @X #8->0
+"<,>"
+	"," CLB #9->8
+: 
+"<Botkyrka>"
+	"Botkyrka" ? @X #10->0
+"<,>"
+	"," CLB #11->10
+: 
+"<Degerfors>"
+	"Degerfors" ? @X #12->0
+"<,>"
+	"," CLB #13->12
+: 
+"<Enköping>"
+	"Enköping" ? @X #14->0
+"<,>"
+	"," CLB #15->14
+: 
+"<Eskilstuna>"
+	"Eskilstuna" N Prop Sem/Plc Sg Nom @X #16->0
+"<,>"
+	"," CLB #17->16
+: 
+"<Fagersta>"
+	"Fagersta" N Prop Sem/Plc Sg Nom @X #18->0
+"<,>"
+	"," CLB #19->18
+: 
+"<Finspång>"
+	"Finspång" N Prop Sem/Plc Sg Nom @X #20->0
+"<,>"
+	"," CLB #21->20
+: 
+"<Jellivaara>"
+	"Jellivaara" N Prop Sem/Plc Sg Nom @X #22->0
+"<(>"
+	"(" PUNCT LEFT #23->24
+"<Gällivare>"
+	"Gällivare" N Prop Sem/Plc Sg Nom @X #24->0
+"<)>"
+	")" PUNCT RIGHT #25->24
+"<,>"
+	"," CLB #26->26
+: 
+"<Gävle>"
+	"Gävle" N Prop Sem/Plc Sg Nom @X #27->0
+"<,>"
+	"," CLB #28->27
+: 
+"<Göteborg>"
+	"Göteborg" N Prop Sem/Plc Sg Nom @X #29->0
+	"Gøteborg" N Prop Sem/Plc Sg Nom @X #29->0
+"<,>"
+	"," CLB #30->29
+: 
+"<Hallstahammar>"
+	"Hallstahammar" N Prop Sem/Plc Sg Nom @X #31->0
+"<,>"
+	"," CLB #32->31
+: 
+"<Haninge>"
+	"Haninge" ? @X #33->0
+"<,>"
+	"," CLB #34->33
+: 
+"<Haaparanta>"
+	"Haaparanta" N Prop Sem/Plc Sg Nom @X #35->0
+: 
+"<(>"
+	"(" PUNCT LEFT #36->37
+"<Haparanda>"
+	"Haparanda" N Prop Sem/Plc Sg Nom @X #37->0
+"<)>"
+	")" PUNCT RIGHT #38->37
+"<,>"
+	"," CLB #39->39
+: 
+"<Hofors>"
+	"Hofors" N Prop Sem/Plc Sg Nom @X #40->0
+"<,>"
+	"," CLB #41->40
+: 
+"<Huddinge>"
+	"Huddinge" N Prop Sem/Plc Sg Nom @X #42->0
+"<,>"
+	"," CLB #43->42
+: 
+"<Håbo>"
+	"Håbo" ? @X #44->0
+"<,>"
+	"," CLB #45->44
+: 
+"<Hällefors>"
+	"Hällefors" ? @X #46->0
+"<,>"
+	"," CLB #47->46
+: 
+"<Kainus>"
+	"Kainus" ? @X #48->0
+: 
+"<(>"
+	"(" PUNCT LEFT #49->50
+"<Kalix>"
+	"Kalix" Err/Lex N Prop Sem/Plc Sg Nom @X #50->0
+"<)>"
+	")" PUNCT RIGHT #51->50
+"<,>"
+	"," CLB #52->52
+: 
+"<Karlskoga>"
+	"Karlskoga" N Prop Sem/Plc Sg Nom @X #53->0
+"<,>"
+	"," CLB #54->53
+: 
+"<Kiruna>"
+	"Kiruna" N Prop Sem/Plc Sg Nom @X #55->0
+"<,>"
+	"," CLB #56->55
+: 
+"<Köping>"
+	"Köping" N Prop Sem/Plc Sg Nom @X #57->0
+	"Køping" N Prop Sem/Plc Sg Nom @X #57->0
+"<,>"
+	"," CLB #58->57
+: 
+"<Lindesberg>"
+	"Lindesberg" N Prop Sem/Sur Sg Nom @X #59->0
+"<,>"
+	"," CLB #60->59
+: 
+"<Luleå>"
+	"Luleå" N Prop Sem/Plc Sg Nom @X #61->0
+"<,>"
+	"," CLB #62->61
+: 
+"<Motala>"
+	"Motala" N Prop Sem/Plc Sg Nom @X #63->0
+"<,>"
+	"," CLB #64->63
+: 
+"<Norrköping>"
+	"Norrköping" N Prop Sem/Plc Sg Nom @X #65->0
+"<,>"
+	"," CLB #66->65
+: 
+"<Norrtälje>"
+	"Norrtälje" N Prop Sem/Plc Sg Nom @X #67->0
+"<,>"
+	"," CLB #68->67
+: 
+"<Pajala>"
+	"Pajala" N Prop Sem/Plc Sg Nom @X #69->0
+"<,>"
+	"," CLB #70->69
+: 
+"<Sandviken>"
+	"Sandviken" N Prop Sem/Plc Sg Nom @X #71->0
+"<,>"
+	"," CLB #72->71
+: 
+"<Sigtuna>"
+	"Sigtuna" N Prop Sem/Plc Sg Nom @X #73->0
+"<,>"
+	"," CLB #74->73
+: 
+"<Skinnskatteberg>"
+	"Skinnskatteberg" N Prop Sem/Sur Sg Nom @X #75->0
+"<,>"
+	"," CLB #76->75
+: 
+"<Skövde>"
+	"Skövde" N Prop Sem/Plc Sg Nom @X #77->0
+"<,>"
+	"," CLB #78->77
+: 
+"<Solna>"
+	"Solna" N Prop Sem/Plc Sg Nom @X #79->0
+"<,>"
+	"," CLB #80->79
+: 
+"<Stockholmi>"
+	"Stockholmi" ? @X #81->0
+"<,>"
+	"," CLB #82->81
+: 
+"<Sundbyberg>"
+	"Sundbyberg" N Prop Sem/Sur Sg Nom @X #83->0
+"<,>"
+	"," CLB #84->83
+: 
+"<Sundsvall>"
+	"Sundsvall" N Prop Sem/Plc Sg Nom @X #85->0
+"<,>"
+	"," CLB #86->85
+: 
+"<Surahammar>"
+	"Surahammar" N Prop Sem/Plc Sg Nom @X #87->0
+"<,>"
+	"," CLB #88->87
+: 
+"<Södertälje>"
+	"Södertälje" N Prop Sem/Plc Sg Nom @X #89->0
+"<,>"
+	"," CLB #90->89
+: 
+"<Tierp>"
+	"Tierp" N Prop Sem/Sur Sg Nom @X #91->0
+"<,>"
+	"," CLB #92->91
+: 
+"<Trollhättan>"
+	"Trollhättan" N Prop Sem/Plc Sg Nom @X #93->0
+"<,>"
+	"," CLB #94->93
+: 
+"<Trosa>"
+	"Trosa" N Prop Sem/Plc Sg Nom @X #95->0
+"<,>"
+	"," CLB #96->95
+: 
+"<Uddevalla>"
+	"Uddevalla" N Prop Sem/Plc Sg Nom @X #97->0
+"<,>"
+	"," CLB #98->97
+: 
+"<Uumaja>"
+	"Uumaja" N Prop Sem/Plc Sg Nom @X #99->0
+: 
+"<(>"
+	"(" PUNCT LEFT #100->101
+"<Umeå>"
+	"Umeå" N Prop Sem/Plc Sg Nom @X #101->0
+"<)>"
+	")" PUNCT RIGHT #102->101
+"<,>"
+	"," CLB #103->103
+: 
+"<Upplands>"
+	"Upplands" ? @X #104->0
+: 
+"<Väsby>"
+	"Väsby" ? @X #105->0
+"<,>"
+	"," CLB #106->105
+: 
+"<Upplands-Bro>"
+	"Upplands-Bro" ? @X #107->0
+"<,>"
+	"," CLB #108->107
+: 
+"<Uppsala>"
+	"Uppsala" N Prop Sem/Plc Sg Nom @X #109->0
+"<,>"
+	"," CLB #110->109
+: 
+"<Västerås>"
+	"Västerås" N Prop Sem/Plc Sg Nom @X #111->0
+"<,>"
+	"," CLB #112->111
+: 
+"<Älvkarleby>"
+	"Älvkarleby" N Prop Sem/Plc Sg Nom @X #113->0
+"<,>"
+	"," CLB #114->113
+: 
+"<Örebro>"
+	"Örebro" N Prop Sem/Plc Sg Nom @X #115->0
+"<,>"
+	"," CLB #116->115
+: 
+"<Österåker>"
+	"Österåker" ? @X #117->0
+"<,>"
+	"," CLB #118->117
+: 
+"<Östhammar>"
+	"Östhammar" ? @X #119->0
+: 
+"<ja>"
+	"ja" CC @CNP #120->119
+: 
+"<Matarenki>"
+	"Matarenki" N Prop Sem/Plc Sg Nom @X #121->0
+: 
+"<(>"
+	"(" PUNCT LEFT #122->123
+"<Övertorneå>"
+	"Övertorneå" N Prop Sem/Plc Sg Nom @X #123->0
+"<)>"
+	")" PUNCT RIGHT #124->123
+"<.>"
+	"." CLB #125->125
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Saamen>"
+	"saame" N Sg Gen @>N #1->2
+: 
+"<kielen>"
+	"kieli" N Sg Gen @X #2->0
+: 
+"<hallintoaluheesheen>"
+	"alue" N Sg Ill @X #3->0
+		"hallinto" N Nom Cmp #3->0
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @>N #4->5
+: 
+"<kunnat>"
+	"kunta" N Pl Nom @>N #5->6
+: 
+"<Arjeplog>"
+	"Arjeplog" N Prop Sem/Plc Sg Nom @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<Arvidsjaur>"
+	"Arvidsjaur" N Prop Sem/Plc Sg Nom @X #8->0
+"<,>"
+	"," CLB #9->8
+: 
+"<Berg>"
+	"Berg" N Prop Sem/Sur Sg Nom @X #10->0
+"<,>"
+	"," CLB #11->10
+: 
+"<Jellivaara>"
+	"Jellivaara" N Prop Sem/Plc Sg Nom @X #12->0
+"<,>"
+	"," CLB #13->12
+: 
+"<Härjedalen>"
+	"Härjedalen" N Prop Sem/Plc Sg Nom @X #14->0
+"<,>"
+	"," CLB #15->14
+: 
+"<Jokkmokki>"
+	"Jokkmokki" N Prop Sem/Plc Sg Nom @X #16->0
+"<(>"
+	"(" PUNCT LEFT #17->18
+"<Jokkmokk>"
+	"Jokkmokk" N Prop Sem/Plc Sg Nom @X #18->0
+"<)>"
+	")" PUNCT RIGHT #19->18
+"<,>"
+	"," CLB #20->43
+: 
+"<Kiruna>"
+	"Kiruna" N Prop Sem/Plc Sg Nom @X #21->0
+"<,>"
+	"," CLB #22->21
+: 
+"<Krokom>"
+	"Krokom" N Prop Sem/Sur Sg Nom @X #23->0
+"<,>"
+	"," CLB #24->23
+: 
+"<Lycksele>"
+	"Lycksele" N Prop Sem/Plc Sg Nom @X #25->0
+"<,>"
+	"," CLB #26->25
+: 
+"<Malå>"
+	"Malå" N Prop Sem/Plc Sg Nom @X #27->0
+"<,>"
+	"," CLB #28->27
+: 
+"<Sorsele>"
+	"Sorsele" N Prop Sem/Plc Sg Nom @X #29->0
+"<,>"
+	"," CLB #30->29
+: 
+"<Storuman>"
+	"Storuman" N Prop Sem/Plc Sg Nom @X #31->0
+"<,>"
+	"," CLB #32->31
+: 
+"<Strömsund>"
+	"Strömsund" ? @X #33->0
+"<,>"
+	"," CLB #34->33
+: 
+"<Uumaja>"
+	"Uumaja" N Prop Sem/Plc Sg Nom @X #35->0
+"<,>"
+	"," CLB #36->35
+: 
+"<Vilhelmina>"
+	"Vilhelmina" N Prop Sem/Fem Sg Nom @X #37->0
+"<,>"
+	"," CLB #38->37
+: 
+"<Åre>"
+	"Åre" ? @X #39->0
+"<,>"
+	"," CLB #40->39
+: 
+"<Älvdalen>"
+	"Älvdalen" N Prop Sem/Plc Sg Nom @X #41->0
+: 
+"<ja>"
+	"ja" CC @CNP #42->41
+: 
+"<Östersund>"
+	"Östersund" N Prop Sem/Plc Sg Nom @SUBJ> #43->0
+"<.>"
+	"." CLB #44->43
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Meänkielen>"
+	"meänkieli" N Sg Gen @X #1->0
+: 
+"<hallintoaluheesheen>"
+	"alue" N Sg Ill @X #2->0
+		"hallinto" N Nom Cmp #2->0
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @>N #3->4
+: 
+"<kunnat>"
+	"kunta" N Pl Nom @>N #4->5
+: 
+"<Jellivaara>"
+	"Jellivaara" N Prop Sem/Plc Sg Nom @X #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<Haaparanta>"
+	"Haaparanta" N Prop Sem/Plc Sg Nom @X #7->0
+"<,>"
+	"," CLB #8->7
+: 
+"<Kainus>"
+	"Kainus" ? @X #9->0
+"<,>"
+	"," CLB #10->9
+: 
+"<Kiruna>"
+	"Kiruna" N Prop Sem/Plc Sg Nom @X #11->0
+"<,>"
+	"," CLB #12->11
+: 
+"<Pajala>"
+	"Pajala" N Prop Sem/Plc Sg Nom @X #13->0
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<Matarenki>"
+	"Matarenki" N Prop Sem/Plc Sg Nom @SUBJ> #15->0
+: 
+"<(>"
+	"(" PUNCT LEFT #16->17
+"<Övertorneå>"
+	"Övertorneå" N Prop Sem/Plc Sg Nom @X #17->0
+"<)>"
+	")" PUNCT RIGHT #18->17
+"<.>"
+	"." CLB #19->15
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Suomen>"
+	"suomi" N Sg Gen @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<saamen>"
+	"saame" N Sg Gen @>N #3->6
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<meänkielen>"
+	"meänkieli" N Sg Gen @>N #5->3
+: 
+"<hallintoaluheishiin>"
+	"alue" N Pl Ill @ADVL> #6->7
+		"hallinto" N Nom Cmp #6->7
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @HNOUN #7->1
+: 
+"<kans>"
+	"kans" Po @ADVL #8->1
+: 
+"<landstingit>"
+	"landstingit" ? @X #9->0
+: 
+"<Dalarnan>"
+	"Dalarna" N Prop Sem/Plc Sg Gen @<OBJ #10->10
+"<,>"
+	"," CLB #11->10
+: 
+"<Gävleborgin>"
+	"Gävleborgin" ? @X #12->0
+"<,>"
+	"," CLB #13->12
+: 
+"<Jämtlandin>"
+	"Jämtland" N Prop Sem/Plc Sg Gen @<OBJ #14->10
+"<,>"
+	"," CLB #15->14
+: 
+"<Norrbottenin>"
+	"Norrbotten" N Prop Sem/Plc Sg Gen @<OBJ #16->14
+"<,>"
+	"," CLB #17->16
+: 
+"<Stockholmin>"
+	"Stockholm" N Prop Sem/Plc Sg Gen @<OBJ #18->14
+"<,>"
+	"," CLB #19->18
+: 
+"<Södermanlandin>"
+	"Södermanland" N Prop Sem/Plc Sg Gen @<OBJ #20->14
+"<,>"
+	"," CLB #21->20
+: 
+"<Upplandin>"
+	"Uppland" N Prop Sem/Plc Sg Gen @<OBJ #22->14
+"<,>"
+	"," CLB #23->22
+: 
+"<Västerbottenin>"
+	"Västerbotten" N Prop Sem/Plc Sg Gen @<OBJ #24->14
+"<,>"
+	"," CLB #25->24
+: 
+"<Västmanlandin>"
+	"Västmanland" N Prop Sem/Plc Sg Gen @<OBJ #26->14
+"<,>"
+	"," CLB #27->26
+: 
+"<Västernorrland>"
+	"Västernorrland" ? @X #28->0
+"<,>"
+	"," CLB #29->28
+: 
+"<Örebro>"
+	"Örebro" N Prop Sem/Plc Sg Nom @X #30->0
+"<,>"
+	"," CLB #31->30
+: 
+"<Östergötland>"
+	"Östergötland" N Prop Sem/Plc Sg Nom @>N #32->33
+: 
+"<läänissä>"
+	"lääni" N Sg Ine @X #33->0
+: 
+"<ja>"
+	"ja" CC @CNP #34->33
+: 
+"<kans>"
+	"kans" Po @ADVL #35->33
+: 
+"<Västra>"
+	"Västra" ? @X #36->0
+: 
+"<Götalandin>"
+	"Götaland" N Prop Sem/Plc Sg Gen @<OBJ #37->14
+: 
+"<seutu>"
+	"seutu" N Sg Nom @X #38->0
+: 
+"<(>"
+	"(" PUNCT LEFT #39->40
+"<region>"
+	"Region" N Prop Sem/Obj Sg Nom @<SPRED #40->7
+"<)>"
+	")" PUNCT RIGHT #41->40
+"<.>"
+	"." CLB #42->8
+: 
+"<Muilaki>"
+	"muu" Pron Indef Pl Ade Foc/kin @>N #1->2
+: 
+"<kunnila>"
+	"kunta" N Pl Ade @ADVL> #2->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #3->0
+: 
+"<maholisuus>"
+	"maholinen" A Der/suus N Sg Nom @SUBJ> #4->0
+	"maholisuus" N Sg Nom @SUBJ> #4->0
+: 
+"<vapaaehtosesti>"
+	"vapaaehtosesti" Adv @ADVL #5->6
+: 
+"<hakea>"
+	"hakea" V Inf @X #6->0
+: 
+"<jos>"
+	"jos" CC @CNP #7->6
+: 
+"<halvaa>"
+	"halvata" V Act Ind Prs Sg3 @X #8->0
+: 
+"<kuulua>"
+	"kuulua" V Inf @X #9->0
+: 
+"<hallintoaluheishiin>"
+	"alue" N Pl Ill @<ADVL #10->4
+		"hallinto" N Nom Cmp #10->4
+: 
+"<.>"
+	"." CLB #11->3
+: 
+"<Hallitus>"
+	"Hallitus" N Prop Sem/Org Sg Nom @SUBJ> #1->2
+: 
+"<päättää>"
+	"päättää" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<asiasta>"
+	"Asia" N Prop Sem/Plc Sg Ela @<ADVL #3->2
+: 
+"<ko>"
+	"ko" CS @CVP #4->7
+: 
+"<kunta>"
+	"kunta" N Sg Nom @SUBJ> #5->0
+: 
+"<joka>"
+	"joka" Pr @X #6->0
+: 
+"<halvaa>"
+	"halvata" V Act Ind Prs Sg3 @X #7->0
+: 
+"<liittyä>"
+	"liittyä" V Inf @X #8->0
+: 
+"<hallintoaluheesheen>"
+	"alue" N Sg Ill @<ADVL #9->2
+		"hallinto" N Nom Cmp #9->2
+: 
+"<tekkee>"
+	"tehhä" V Act Ind Prs Sg3 @X #10->0
+	"tehjä" V Act Ind Prs Sg3 @X #10->0
+	"tehä" V Act Ind Prs Sg3 @X #10->0
+: 
+"<hakemuksen>"
+	"hakemus" N Sg Gen @<OBJ #11->11
+: 
+"<siittä>"
+	"se" Pron Pers Sg Ela @<ADVL #12->2
+"<.>"
+	"." CLB #13->2
+: 
+"<Hakemus>"
+	"hakemus" N Sg Nom @SUBJ> #1->2
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<lähättää>"
+	"lähättää" V Inf @X #3->0
+: 
+"<ette>"
+	"ette" CS @CVP #4->6
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #5->6
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-<ADVL #6->2
+: 
+"<Hallituskansliissa>"
+	"Hallituskansliissa" ? @X #7->0
+: 
+"<viimisthään>"
+	"viimi" A Sg Gen PxSg2 Foc/haan @>N #8->10
+: 
+"<1>"
+	"1" Num Arab Sem/Time-clock Sg Nom @X #9->0
+	"1" Num Arab Sem/ID @X #9->0
+	 Use/Circ Use/Circ"1" Num Arab Sg Nom
+	 Use/Circ"1" A Arab Ord Attr CLBfinal
+	 Use/Circ"1" Num Arab Sem/ID
+	 Use/Circ"1" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"1" Num Arab Sg Nom
+: 
+"<aprilli>"
+	"aprilli" N Sg Nom @NUM< #10->10
+"<->"
+	"-" PUNCT MIDDLE #11->11
+"</>"
+	"/" PUNCT MIDDLE #12->13
+"<huhtikuuta>"
+	"huhtikuu" N Sg Par @X #13->0
+"<.>"
+	"." CLB #14->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

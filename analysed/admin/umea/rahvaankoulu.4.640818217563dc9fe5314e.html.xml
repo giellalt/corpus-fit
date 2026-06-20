@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Rahvaankoulu - Umeå kommun</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><wordcount>90</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="dan"/></multilingual><origFileName>https://www.umea.se/kommunochpolitik/languages/meankieli/lapsetjakoulutus/rahvaankoulu.4.640818217563dc9fe5314e.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA[: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Meny>"
+	"menyy" Err/Orth N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Rahvaankoulu>"
+	"Rahvaankoulu" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Kunnalinen>"
+	"kunnalinen" A Sg Nom @>N #1->2
+: 
+"<raahvaankoulutus>"
+	"koulutus" N Sg Nom @HNOUN #2->0
+		"raavas" A Sg Gen Cmp #2->0
+: 
+"<koostuu>"
+	"koostuu" ? @X #3->0
+: 
+"<koulutuksista>"
+	"koulutus" N Pl Ela @N< #4->2
+: 
+"<kunnalisen>"
+	"kunnalinen" A Sg Gen @X #5->0
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<ulkopuolisen>"
+	"ulkopuolisen" ? @X #7->0
+: 
+"<ohjauksela>"
+	"ohjauksela" ? @X #8->0
+"<.>"
+	"." CLB #9->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Raahvaankoulutuksessa>"
+	"koulutus" N Sg Ine @ADVL> #1->3
+		"raavas" A Sg Gen Cmp #1->3
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #2->3
+: 
+"<saatat>"
+	"saattaa" V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<lukea>"
+	"lukea" V Inf @X #4->0
+: 
+"<perustavan>"
+	"perustaa" V Act PrsPrc Sg Gen @>N #5->8
+: 
+"<eli>"
+	"eli" CC @X #6->0
+: 
+"<jymnaasian>"
+	"jymnaasia" N Sg Gen @>N #7->8
+: 
+"<tasola>"
+	"taso" N Sg Ade @<ADVL #8->3
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #10->11
+: 
+"<saatat>"
+	"saattaa" V Act Ind Prs Sg2 @FMV #11->3
+: 
+"<valita>"
+	"valita" V Inf @X #12->0
+: 
+"<eri>"
+	"Eri" N Prop Sem/Plc Sg Nom @>N #13->14
+: 
+"<oppimisen>"
+	"oppia" V Der/minen N Sg Gen @X #14->0
+: 
+"<tapoja>"
+	"tapa" N Pl Par @<SUBJ #15->11
+"<,>"
+	"," CLB #16->15
+: 
+"<esimerkiks>"
+	"esimerkiks" Adv @ADVL #17->14
+: 
+"<sjeeman>"
+	"sjeema" N Sg Gen @<OBJ #18->11
+: 
+"<mukhaan>"
+	"Mukka" N Prop Sem/Sur Sg Ill @<ADVL #19->20
+	"Mukka" N Prop Sem/Sur Sg Nom Foc/haan @SUBJ> #19->20
+: 
+"<eli>"
+	"ellää" V Act Ind Prt Sg3 @FMV #20->3
+: 
+"<distansila>"
+	"distansila" ? @X #21->0
+"<.>"
+	"." CLB #22->3
+: 
+"<Raahvaankoulutus>"
+	"koulutus" N Sg Nom @SUBJ> #1->2
+		"raavas" A Sg Gen Cmp #1->2
+: 
+"<tarjoaa>"
+	"tarjota" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<sekä>"
+	"sekä" CC @X #3->0
+: 
+"<teureettisia>"
+	"teureettinen" A Pl Par @>N #4->5
+: 
+"<kursia>"
+	"kursi" N Pl Par @<OBJ #5->2
+: 
+"<ette>"
+	"ette" CS @CVP #6->0
+: 
+"<ammattikoulutusta>"
+	"tunen" N Sg Par @X #7->0
+		"koulu" N Nom Cmp #7->0
+			"ammatti" N Nom Cmp #7->0
+	"koulutus" N Sg Par @X #7->0
+		"ammatti" N Nom Cmp #7->0
+"<.>"
+	"." CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ammattikorkeakoulun>"
+	"korkeakoulu" N Sg Gen @>N #1->2
+		"ammatti" N Nom Cmp #1->2
+: 
+"<koulutukset>"
+	"koulutus" N Pl Nom @SUBJ> #2->8
+: 
+"<vastaavat>"
+	"vastata" V Act PrsPrc Pl Nom @>N #3->5
+: 
+"<toelista>"
+	"toelinen" A Sg Par @>N #4->5
+: 
+"<työmarkkinan>"
+	"markkina" N Sg Gen @>N #5->6
+		"työ" N Nom Cmp #5->6
+: 
+"<tarvetta>"
+	"tarve" N Sg Par @<OBJ #6->6
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<ohjathaan>"
+	"ohja" N Pl Nom Foc/haan @<OBJ #8->6
+	"ohjata" V Pass Ind Prs @FMV #8->6
+: 
+"<läheisessä>"
+	"läheisessä" ? @X #9->0
+: 
+"<yhteistyössä>"
+	"yhteistyö" N Sg Ine @<ADVL #10->8
+: 
+"<työelämän>"
+	"elämä" N Sg Gen @<OBJ #11->8
+		"työ" N Nom Cmp #11->8
+: 
+"<kans>"
+	"kans" Po @ADVL #12->9
+"<.>"
+	"." CLB #13->12
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

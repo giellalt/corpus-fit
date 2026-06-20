@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Lapset ja koulutus - Umeå kommun</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><wordcount>59</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="dan"/></multilingual><origFileName>https://www.umea.se/kommunochpolitik/languages/meankieli/lapsetjakoulutus.4.640818217563dc9fe5309d.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA[: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Meny>"
+	"menyy" Err/Orth N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Lapset>"
+	"lapsi" N Pl Nom @HNOUN #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<koulutus>"
+	"koulutus" N Sg Nom @SUBJ> #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Koulu>"
+	"koulu" N Sg Nom @>N #1->2
+: 
+"<Uumajassa>"
+	"Uumaja" N Prop Sem/Plc Sg Ine @<ADVL #2->2
+: 
+"<tarjoa>"
+	"tarjota" V Act Ind Prs ConNeg @X #3->0
+: 
+"<opetusta>"
+	"opetus" N Sg Par @<OBJ #4->4
+: 
+"<joka>"
+	"joka" Pr @X #5->0
+: 
+"<pannee>"
+	"panna" V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<oppilhaan>"
+	"oppilas" N Sg Gen @>N #7->8
+: 
+"<keskusthaan>"
+	"keskusta" N Sg Nom Foc/haan @SUBJ> #8->10
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<antaa>"
+	"antaa" V Act Ind Prs Sg3 @FMV #10->6
+: 
+"<niitä>"
+	"net" Pron Pers Pl Par @>N #11->12
+: 
+"<tietoja>"
+	"tieto" N Pl Par @<P #12->12
+: 
+"<joitako>"
+	"joka" Pron Rel Pl Par Qst @<P #13->13
+: 
+"<meän>"
+	"met" Pron Pers Pl Gen @>N #14->15
+: 
+"<yhtheiskunta>"
+	"yhtheiskunta" N Sg Nom @SUBJ> #15->16
+: 
+"<vaatii>"
+	"vaatia" V Act Ind Prs Sg3 @FS-N< #16->12
+"<.>"
+	"." CLB #17->6
+: 
+"<Koulu>"
+	"koulu" N Sg Nom @>N #1->2
+: 
+"<Uumajassa>"
+	"Uumaja" N Prop Sem/Plc Sg Ine @<ADVL #2->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #3->0
+: 
+"<jaettu>"
+	"jakaa" V Pass PrfPrc Sg Nom @>N #4->6
+: 
+"<kahtheen>"
+	"kaksi" Num Sg Ill @<ADVL #5->5
+: 
+"<toiminthaan>"
+	"toiminta" N Sg Ill @NUM< #6->6
+"<,>"
+	"," CLB #7->6
+: 
+"<esi>"
+	"esi" ? @X #8->0
+"<->"
+	"-" PUNCT MIDDLE #9->10
+: 
+"<ja>"
+	"ja" CC @CNP #10->8
+: 
+"<peruskoulu>"
+	"peruskoulu" N Sg Nom @<OBJ #11->11
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<jymnaasia>"
+	"jymnaasia" N Sg Nom @<OBJ #13->11
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<koulutus>"
+	"koulutus" N Sg Nom @<OBJ #15->11
+: 
+"<täysile>"
+	"täysile" ? @X #16->0
+"<.>"
+	"." CLB #17->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

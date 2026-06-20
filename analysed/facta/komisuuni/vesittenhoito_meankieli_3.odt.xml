@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="facta"/><author><unknown/></author><translator><person firstname="Bengt" lastname="Pohjanen" sex="m" born="1944" nationality="SV"/></translator><wordcount>18</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><origFileName>Vesittenhoito meänkieli 3.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<(>"
+	"(" PUNCT LEFT #1->2
+"<LOGGA>"
+	"LOGGA" ? @X #2->0
+"<)>"
+	")" PUNCT RIGHT #3->4
+: 
+"<SUOMALAIS-RUOTTALAINEN>"
+	"ruottalainen" N Sg Nom @HNOUN #4->0
+		"suomalainen" A Nom Cmp #4->0
+	"ruottalainen" N Sg Nom @HNOUN #4->0
+		"suomalainen" N Nom Cmp #4->0
+: 
+"<RAJAVÄYLÄKOMIšUUNI>"
+	"RAJAVÄYLÄKOMIšUUNI" ? @X #5->0
+: 
+"<¶>"
+	"¶" CLB #6->4
+:\n
+"<SRRVK>"
+	"SRRVK" ? @X #1->0
+: 
+"<Komišuuni>"
+	"komišuun" Err/Orth N Sg Nom @HNOUN #2->0
+: 
+"<Aijankohtasta>"
+	"Aijankohtasta" ? @X #3->0
+: 
+"<Vesittenhoito>"
+	"hoito" N Sg Nom @>N #4->5
+		"vesi" N Gen Cmp #4->5
+: 
+"<Luononsuojelu>"
+	"luononsuojelu" N Sg Nom @HNOUN #5->2
+: 
+"<Tulvasuojelu>"
+	"Tulvasuojelu" ? @X #6->0
+: 
+"<Kalastus>"
+	"kalastus" N Sg Nom @>N #7->8
+: 
+"<Yhtheystiot>"
+	"tieto" N Pl Nom @>N #8->9
+		"yhtheys" N Sg Nom Cmp #8->9
+: 
+"<Histuuria>"
+	"histuuria" N Sg Nom @>N #9->10
+: 
+"<Kaartat>"
+	"kaartta" N Pl Nom @HNOUN #10->5
+: 
+"<¶>"
+	"¶" CLB #11->2
+:\n
+"<Formulärets>"
+	"Formulärets" ? @X #1->0
+: 
+"<överkant>"
+	"överkant" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Formulärets>"
+	"Formulärets" ? @X #1->0
+: 
+"<nederkant>"
+	"nederkant" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Vesittenhoito>"
+	"hoito" N Sg Nom @HNOUN #1->0
+		"vesi" N Gen Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+
+]]></dependency></body></document>

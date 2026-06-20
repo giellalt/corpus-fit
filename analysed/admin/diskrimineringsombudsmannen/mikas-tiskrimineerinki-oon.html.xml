@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Mikäs tiskrimineerinki oon? | DO</title><genre code="admin"/><author><unknown/></author><wordcount>1411</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>mikas-tiskrimineerinki-oon.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Se>"
+	"se" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<olla>"
+	"olla" V Inf @FAUX #3->2
+: 
+"<tapahtumasta>"
+	"tapahtua" V InfMa Ela @IMV #4->3
+	"tapahtuma" N Sg Ela @<ADVL #4->3
+: 
+"<elikkä>"
+	"elikkä" CC @CNP #5->4
+: 
+"<tilantheesta>"
+	"tilanne" N Sg Ela @<ADVL #6->4
+: 
+"<joka>"
+	"joka" Pr @X #7->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #8->2
+: 
+"<epäetulinen>"
+	"epäetulinen" ? @X #9->0
+: 
+"<elikkä>"
+	"elikkä" CC @X #10->0
+: 
+"<loukkaa>"
+	"loukata" V Act Ind Prs Sg3 @FMV #11->2
+: 
+"<yhtä>"
+	"yhtä" Adv @ADVL #12->10
+	"yksi" Pron Indef Par @>N #12->10
+: 
+"<henkilöä>"
+	"henkilö" N Sg Par @NUM< #13->13
+"<.>"
+	"." CLB #14->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Epäetulisella>"
+	"Epäetulisella" ? @X #1->0
+: 
+"<kohtelulla>"
+	"kohtelulla" ? @X #2->0
+: 
+"<elikkä>"
+	"elikkä" CC @X #3->0
+: 
+"<loukkauksella>"
+	"loukkaus" N Sg Ade @ADVL> #4->5
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<olla>"
+	"olla" V Inf @FAUX #6->5
+: 
+"<yhtheys>"
+	"yhtheys" N Sg Nom @<SPRED #7->5
+: 
+"<yhen>"
+	"yksi" Num Sg Gen @N< #8->7
+	"yksi" Pron Indef Gen @>N #8->7
+: 
+"<elikkä>"
+	"elikkä" CC @X #9->0
+: 
+"<useaman>"
+	"usea" A Comp Sg Gen @<OBJ #10->5
+: 
+"<niistä>"
+	"Niki" N Prop Sem/Mal Sg Ela @<ADVL #11->5
+: 
+"<seittemästä>"
+	"seittemän" Num Sg Ela @N< #12->11
+: 
+"<tiskrimineerinkiperustoista>"
+	"tiskrimineerinkiperustoista" ? @X #13->0
+: 
+"<(>"
+	"(" PUNCT LEFT #14->15
+"<esimerkiksi>"
+	"esimerkiksi" Adv @ADVL #15->13
+: 
+"<sukupuoli>"
+	"sukupuoli" N Sg Nom @<SPRED #16->5
+: 
+"<elikkä>"
+	"elikkä" CC @CNP #17->16
+: 
+"<ikä>"
+	"ikä" N Sg Nom @SUBJ> #18->0
+"<)>"
+	")" PUNCT RIGHT #19->18
+"<.>"
+	"." CLB #20->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tapahtuma>"
+	"tapahtuma" N Sg Nom @SUBJ> #1->3
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @X #2->0
+: 
+"<olla>"
+	"olla" V Inf @FAUX #3->0
+: 
+"<tapahtunnu>"
+	"tapahtua" V Act PrfPrc Sg Nom @>N #4->6
+: 
+"<jonku>"
+	"joku" Pron Sg Gen @>N #5->6
+: 
+"<yhtheiskunta-aluheen>"
+	"alue" N Sg Gen @<OBJ #6->6
+		"kunta" N Nom Cmp #6->6
+			"yhtheinen" A Nom Cmp #6->6
+	"alue" N Sg Gen @<OBJ #6->6
+		"yhtheiskunta" N Nom Cmp #6->6
+: 
+"<sisälä>"
+	"sisälä" Adv @ADVL #7->2
+: 
+"<jossako>"
+	"joka" Pron Interr Sg Ine Qst @<ADVL #8->1
+: 
+"<laki>"
+	"Laki" N Prop Sem/Plc Sg Nom @SUBJ> #9->10
+: 
+"<jällaa>"
+	"jällata" V Act Ind Prs Sg3 @FMV #10->3
+: 
+"<(>"
+	"(" PUNCT LEFT #11->12
+"<esimerkiksi>"
+	"esimerkiksi" Adv @ADVL #12->2
+: 
+"<työelämä>"
+	"elämä" N Sg Nom @<SPRED #13->10
+		"työ" N Nom Cmp #13->10
+: 
+"<elikkä>"
+	"elikkä" CC @CNP #14->13
+: 
+"<asuntomarkkina>"
+	"markkina" N Sg Nom @SUBJ> #15->0
+		"asunto" N Nom Cmp #15->0
+"<)>"
+	")" PUNCT RIGHT #16->15
+"<.>"
+	"." CLB #17->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<trakasseriitä>"
+	"trakasseriitä" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Ohjeita>"
+	"ita" N Sg Nom @HNOUN #1->0
+		"ohje" N Nom Cmp #1->0
+: 
+"<ette>"
+	"ette" CS @CVP #2->0
+: 
+"<tiskrimineerata>"
+	"tiskrimineerata" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Alottamisessa>"
+	"alottaa" V Der/minen N Sg Ine @X #1->0
+: 
+"<elikkä>"
+	"elikkä" CC @CNP #2->1
+: 
+"<elinkeinotoiminan>"
+	"toiminta" N Sg Gen @<OBJ #3->3
+		"elinkeino" N Nom Cmp #3->3
+: 
+"<harrastamisessa>"
+	"harrastaa" V Der/minen N Sg Ine @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Ylheisessä>"
+	"ylheinen" A Sg Ine @>N #1->2
+: 
+"<kokkouksessa>"
+	"kokkous" N Sg Ine @ADVL> #2->5
+: 
+"<elikkä>"
+	"elikkä" CC @CNP #3->2
+: 
+"<julkisessa>"
+	"julkinen" A Sg Ine @>N #4->5
+: 
+"<tapahtumassa>"
+	"tapahtua" V InfMa Ine @IMV #5->0
+	"tapahtuma" N Sg Ine @HNOUN #5->0
+: 
+"<¶>"
+	"¶" CLB #6->5
+:\n
+"<sille>"
+	"se" Pron Pers Sg All @ADVL> #1->8
+: 
+"<joka>"
+	"joka" Pr @X #2->0
+	"jokata" V Act Imprt Sg2 @X #2->0
+: 
+"<esimerkiksi>"
+	"esimerkiksi" Adv @ADVL #3->2
+: 
+"<mönstraa>"
+	"mönstraa" ? @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<hakkee>"
+	"hakea" V Act Ind Prs Sg3 @X #6->0
+: 
+"<elikkä>"
+	"elikkä" CC @X #7->0
+: 
+"<tekkee>"
+	"tehhä" V Act Ind Prs Sg3 @FMV #8->0
+	"tehjä" V Act Ind Prs Sg3 @FMV #8->0
+	"tehä" V Act Ind Prs Sg3 @FMV #8->0
+: 
+"<militäärikoulutusta>"
+	"tunen" N Sg Par @<P #9->9
+		"koulu" N Nom Cmp #9->9
+			"militääri" N Nom Cmp #9->9
+	"koulutus" N Sg Par @<P #9->9
+		"militääri" N Nom Cmp #9->9
+: 
+"<¶>"
+	"¶" CLB #10->3
+:\n
+
+]]></dependency></body></document>

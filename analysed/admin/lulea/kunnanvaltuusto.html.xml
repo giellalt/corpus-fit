@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Kunnanvaltuusto - Luleå kommun</title><genre code="admin"/><author><unknown/></author><wordcount>264</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>kunnanvaltuusto.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Kunnanvaltuusto>"
+	"kunnanvaltuusto" N Sg Nom @SUBJ> #1->2
+: 
+"<häätyy>"
+	"häätyä" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<päättää>"
+	"päättää" V Inf @X #3->0
+: 
+"<kysymyksistä>"
+	"kysymys" N Pl Ela @<ADVL #4->2
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #5->6
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FS-N< #6->4
+: 
+"<prinsipielliä>"
+	"prinsipielliä" ? @X #7->0
+: 
+"<elikkä>"
+	"elikkä" CC @X #8->0
+: 
+"<suuremasta>"
+	"suuri" A Comp Sg Ela @>N #9->10
+: 
+"<arvosta>"
+	"Arvonen" N Prop Sem/Sur Sg Par @<SUBJ #10->6
+: 
+"<kunnale>"
+	"kunta" N Sg All @<ADVL #11->6
+"<,>"
+	"," CLB #12->11
+: 
+"<esim>"
+	"esim" ? @X #13->0
+"<:>"
+	":" CLB #14->2
+: 
+"<¶>"
+	"¶" CLB #15->2
+:\n
+"<Esikouhluun>"
+	"esikoulu" N Sg Ill @ADVL> #1->2
+: 
+"<haku>"
+	"haku" N Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+
+]]></dependency></body></document>

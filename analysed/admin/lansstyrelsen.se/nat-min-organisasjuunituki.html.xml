@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><wordcount>105</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><origFileName>http://www.lansstyrelsen.se/stockholm/Sv/manniska-och-samhalle/nationella-minoriteter/meankieli/Pages/organisasjuunituki.aspx</origFileName><parallel_text xml:lang="fin" location="nat-min-jarjestotuki.html"/><parallel_text xml:lang="sma" location="nat-min-aarganisasjovnedaarjoeh.html"/><parallel_text xml:lang="sme" location="nat-min-organisasuvdnadoarjja.html"/><parallel_text xml:lang="smj" location="nat-min-organisasjavnnadoarjja.html"/><parallel_text xml:lang="swe" location="nat-min-organisationsbidrag.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Organisasjuunituki>"
+	"Organisasjuunituki" ? @X #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<Länsstyrelsen>"
+	"Länsstyrelsen" N Prop Sem/Org Sg Nom @>N #3->4
+: 
+"<i>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Attr @>N #4->5
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @>N #4->5
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<Stockholm>"
+	"Stockholm" N Prop Sem/Plc Sg Nom @HNOUN #5->0
+: 
+"<¶>"
+	"¶" CLB #6->5
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Organisasjuunituki>"
+	"Organisasjuunituki" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Lääninhallitus>"
+	"Lääninhallitus" N Prop Sem/Org Sg Nom @SUBJ> #1->2
+: 
+"<maksaa>"
+	"maksaa" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<vuosittain>"
+	"vuosittain" ? @X #3->0
+: 
+"<ulos>"
+	"ulos" Adv @ADVL #4->3
+: 
+"<organisasjuunitukea>"
+	"organisasjuunitukea" ? @X #5->0
+: 
+"<niile>"
+	"Niki" N Prop Sem/Mal Sg All @<ADVL #6->2
+: 
+"<organisasjuunile>"
+	"organisasjuunile" ? @X #7->0
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #8->0
+: 
+"<eustavat>"
+	"eustaa" V Act PrsPrc Pl Nom @>N #9->11
+: 
+"<kansalisia>"
+	"kansalinen" A Pl Par @>N #10->11
+: 
+"<minuriteettiä>"
+	"minuriteetti" N Pl Par @<OBJ #11->11
+: 
+"<juutalaiset>"
+	"juutalainen" N Pl Nom @<OBJ #12->12
+"<,>"
+	"," CLB #13->12
+: 
+"<roomit>"
+	"roomi" N Pl Nom @<OBJ #14->12
+"<,>"
+	"," CLB #15->14
+: 
+"<ruottinsuomalaiset>"
+	"ruottinsuomalainen" N Pl Nom @<OBJ #16->12
+: 
+"<ja>"
+	"ja" CC @CNP #17->16
+: 
+"<tornionlaaksolaiset>"
+	"tornionlaaksolainen" A Pl Nom @<OBJ #18->12
+"<.>"
+	"." CLB #19->2
+: 
+"<Tuen>"
+	"Tuen" N Prop Sem/Sur Sg Nom @>N #1->2
+: 
+"<tarkotus>"
+	"tarkotus" N Sg Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #3->0
+: 
+"<tukea>"
+	"tukea" V Inf @X #4->0
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<helpottaa>"
+	"helpottaa" V Act Ind Prs Sg3 @FMV #6->3
+: 
+"<organisasjuunitten>"
+	"organisasjuunitten" ? @X #7->0
+: 
+"<toimintaa>"
+	"toiminta" N Sg Par @<SUBJ #8->6
+"<.>"
+	"." CLB #9->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tuen>"
+	"Tuen" N Prop Sem/Sur Sg Nom @>N #1->2
+: 
+"<säänöt>"
+	"sääntö" N Pl Nom @SUBJ> #2->3
+	"säänö" N Pl Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FAUX #3->0
+: 
+"<asetuksessa>"
+	"asetus" N Sg Ine @<ADVL #4->2
+: 
+"<(>"
+	"(" PUNCT LEFT #5->6
+"<förordning>"
+	"förordning" ? @X #6->0
+"<)>"
+	")" PUNCT RIGHT #7->6
+: 
+"<(>"
+	"(" PUNCT LEFT #8->9
+"<2005:765>"
+	"2005:765" Num Arab Sem/ID @X #9->0
+	 Use/Circ"2005:765" Num Arab Sem/ID
+"<)>"
+	")" PUNCT RIGHT #10->11
+: 
+"<valtiontuesta>"
+	"tuki" N Sg Ela @<ADVL #11->2
+		"valtio" N Gen Cmp #11->2
+: 
+"<kansalisile>"
+	"kansalinen" A Pl All @>N #12->13
+: 
+"<minuriteetile>"
+	"minuriteetti" N Sg All @<ADVL #13->2
+"<.>"
+	"." CLB #14->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuka>"
+	"kuka" Pron Prel Sg Nom @SUBJ> #1->3
+: 
+"<tukea>"
+	"tuki" N Sg Par @SUBJ @OBJ #2->3
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<hakea>"
+	"hakea" V Inf @X #4->0
+"<?>"
+	"?" CLB #5->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Organisasjuuni>"
+	"Organisasjuuni" ? @X #1->0
+: 
+"<joka>"
+	"joka" Pr @X #2->0
+	"jokata" V Act Imprt Sg2 @X #2->0
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<saa>"
+	"saaja" V Act Ind Prs Sg3 @X #4->0
+	"saa’a" V Act Ind Prs Sg3 @X #4->0
+: 
+"<organisasjuunitukea>"
+	"organisasjuunitukea" ? @X #5->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #6->3
+: 
+"<valtakunnalinen>"
+	"valtakunnalinen" A Sg Nom @>N #7->9
+: 
+"<organisasjuuni>"
+	"organisasjuuni" ? @X #8->0
+: 
+"<eli>"
+	"Eli" N Prop Sem/Fem Sg Nom @SUBJ> #9->12
+: 
+"<organisasjuuni>"
+	"organisasjuuni" ? @X #10->0
+: 
+"<jolla>"
+	"jollata" V Act Imprt Sg2 @X #11->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #12->6
+: 
+"<valtakunnaliset>"
+	"valtakunnalinen" A Pl Nom @>N #13->14
+: 
+"<intressit>"
+	"intressi" N Pl Nom @<SPRED #14->3
+: 
+"<joka>"
+	"joka" Pr @X #15->0
+: 
+"<¶>"
+	"¶" CLB #16->3
+:\n
+"<eustaa>"
+	"eustaa" V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<jotaki>"
+	"joka" Pron Interr Sg Par Foc/kin @<OBJ #2->1
+	"joku" Pron Sg Par @<OBJ #2->1
+: 
+"<kansalisista>"
+	"kansalinen" A Pl Ela @>N #3->4
+: 
+"<minuriteetistä>"
+	"minuriteetti" N Sg Ela @<ADVL #4->1
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<jossa>"
+	"joka" Pron Rel Sg Ine @>N #6->8
+: 
+"<organisasjuunin>"
+	"organisasjuunin" ? @X #7->0
+: 
+"<jäsenet>"
+	"jäsen" N Pl Nom @>N #8->9
+: 
+"<eli>"
+	"Eli" N Prop Sem/Fem Sg Nom @SUBJ> #9->0
+: 
+"<paikaliset>"
+	"paikalinen" A Pl Nom @>N #10->12
+: 
+"<föreninkit>"
+	"föreninkit" ? @X #11->0
+: 
+"<eli>"
+	"Eli" N Prop Sem/Fem Sg Nom @>N #12->13
+: 
+"<osastot>"
+	"osasto" N Pl Nom @>N #13->14
+: 
+"<pääasiassa>"
+	"pääasia" N Sg Ine @<ADVL #14->1
+: 
+"<koostuvat>"
+	"koostuvat" ? @X #15->0
+: 
+"<henkilöistä>"
+	"henkilö" N Pl Ela @<ADVL #16->1
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #17->0
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @>N #18->20
+: 
+"<kansalisheen>"
+	"kansalinen" A Sg Ill @>N #19->20
+: 
+"<minuriteethiin>"
+	"minuriteetti" N Sg Ill @<ADVL #20->1
+"<,>"
+	"," CLB #21->22
+: 
+"<ja>"
+	"ja" CC @CNP #22->20
+: 
+"<¶>"
+	"¶" CLB #23->1
+:\n
+"<niitten>"
+	"net" Pron Pers Pl Gen @>N #1->2
+: 
+"<toiminan>"
+	"toiminta" N Sg Gen @>N #2->3
+: 
+"<tarkotus>"
+	"tarkotus" N Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<ette>"
+	"ette" CS @CVP #5->6
+: 
+"<vahvistaa>"
+	"vahvistaa" V Act Ind Prs Sg3 @FS-<ADVL #6->4
+: 
+"<kansalisen>"
+	"kansalinen" A Sg Gen @>N #7->8
+: 
+"<minuriteetin>"
+	"minuriteetti" N Sg Gen @X #8->0
+: 
+"<vaikutusvaltaa>"
+	"valta" N Sg Par @<OBJ #9->6
+		"vaikutus" N Sg Nom Cmp #9->6
+"<,>"
+	"," CLB #10->5
+: 
+"<ette>"
+	"ette" CC @X #11->0
+: 
+"<eesauttaa>"
+	"eesauttaa" V Act Ind Prs Sg3 @FS-<ADVL #12->6
+: 
+"<oman>"
+	"Oman" N Prop Sem/Plc Sg Nom @SUBJ> #13->23
+: 
+"<kansalisen>"
+	"kansalinen" A Sg Gen @>N #14->15
+: 
+"<minuriteettiryhmän>"
+	"ryhmä" N Sg Gen @X #15->0
+		"minuriteetti" N Nom Cmp #15->0
+: 
+"<identtiteettiä>"
+	"identtiteetti" N Sg Par @<OBJ #16->12
+"<,>"
+	"," CLB #17->5
+: 
+"<kulttuuria>"
+	"kulttuuri" N Pl Par @<OBJ #18->16
+	"kulttuuri" N Sg Par @<OBJ #18->16
+"<,>"
+	"," CLB #19->5
+: 
+"<kieltä>"
+	"kieli" N Sg Par @<OBJ #20->16
+"<,>"
+	"," CLB #21->5
+: 
+"<ette>"
+	"ette" CS @CVP #22->23
+: 
+"<vastustaa>"
+	"vastustaa" V Act Ind Prs Sg3 @FS-<ADVL #23->12
+: 
+"<diskrimineerinkiä>"
+	"diskrimineerinki" N Pl Par @<OBJ #24->23
+	"diskrimineerinki" N Sg Par @<OBJ #24->23
+: 
+"<eli>"
+	"Eli" N Prop Sem/Fem Sg Nom @SUBJ> #25->27
+: 
+"<ette>"
+	"ette" CC @X #26->0
+: 
+"<levittää>"
+	"levittää" V Act Ind Prs Sg3 @FS-<ADVL #27->23
+: 
+"<tietoa>"
+	"tieto" N Sg Par @<OBJ #28->27
+: 
+"<omasta>"
+	"Oma" N Prop Sem/Plc Sg Ela @<ADVL #29->27
+: 
+"<ryhmästä>"
+	"ryhmä" N Sg Ela @<ADVL #30->27
+"<.>"
+	"." CLB #31->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

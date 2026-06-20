@@ -1,0 +1,2567 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><year>2021</year><wordcount>723</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="dan"/></multilingual><origFileName>https://www.folkhalsomyndigheten.se/contentassets/0694e78aaa3546688982301a61a21880/till-dig-som-vaccinerar-dig-covid19-meankieli.pdf</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Sulle>"
+	"sie" Pron Pers Sg All @ADVL> #1->1
+: 
+"<joka>"
+	"joka" Pr @X #2->0
+	"jokata" V Act Imprt Sg2 @X #2->0
+: 
+"<saat>"
+	"saaja" V Act Ind Prs Pl3 @X #3->0
+	"saaja" V Act Ind Prs Sg2 @X #3->0
+	"saa’a" V Act Ind Prs Pl3 @X #3->0
+	"saa’a" V Act Ind Prs Sg2 @X #3->0
+	"sata" Num Pl Nom @X #3->0
+: 
+"<vaksiinin>"
+	"vaksiinin" ? @X #4->0
+: 
+"<covid-19>"
+	"covid-19" N @X #5->0
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #6->5
+: 
+"<¶>"
+	"¶" CLB #7->6
+:\n
+"<Sulla>"
+	"sie" Pron Pers Sg Ade @ADVL> #1->4
+"<,>"
+	"," CLB #2->1
+: 
+"<jollekko>"
+	"jollekko" ? @X #3->0
+: 
+"<tarjothaan>"
+	"tarjota" V Pass Ind Prs @FMV #4->0
+: 
+"<vaksinasuunia>"
+	"vaksinasuunia" ? @X #5->0
+: 
+"<covid-19>"
+	"covid-19" N @X #6->0
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #7->6
+"<,>"
+	"," CLB #8->7
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #9->4
+: 
+"<piiain>"
+	"piiain" Adv @ADVL #10->6
+: 
+"<kysymyksiä>"
+	"kysymys" N Pl Par @<SUBJ #11->9
+: 
+"<ennen>"
+	"ennen" Pr @X #12->0
+: 
+"<sinun>"
+	"sie" Pron Pers Sg Gen @>N #13->14
+: 
+"<päätöstä>"
+	"päätös" N Sg Par @SUBJ> #14->0
+"<.>"
+	"." CLB #15->4
+: 
+"<Tämä>"
+	"tämä" Pron Dem Sg Nom @>N #1->2
+: 
+"<informasuuni>"
+	"informasuuni" N Sg Nom @SUBJ> #2->3
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<olla>"
+	"olla" V Inf @FAUX #4->3
+: 
+"<tuki>"
+	"tuki" N Sg Nom @<SPRED #5->3
+: 
+"<sulle>"
+	"sie" Pron Pers Sg All @<ADVL #6->3
+: 
+"<vaksinasuunia>"
+	"vaksinasuunia" ? @X #7->0
+: 
+"<ennen>"
+	"ennen" Adv @ADVL #8->7
+"<,>"
+	"," CLB #9->8
+: 
+"<sen>"
+	"se" Pron Dem Sg Gen @>N #10->11
+: 
+"<aikana>"
+	"aika" N Sg Ess @<SPRED #11->3
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<jälkhiin>"
+	"jälkhiin" Adv @ADVL #13->7
+	"jälki" N Pl Ill @<ADVL #13->7
+: 
+"<sen>"
+	"se" Pron Pers Sg Gen @<P #14->14
+"<.>"
+	"." CLB #15->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tautia>"
+	"tauti" N Pl Par @X #1->0
+	"tauti" N Sg Par @X #1->0
+: 
+"<covid-19>"
+	"covid-19" N @X #2->0
+: 
+"<aiheuttaa>"
+	"aiheuttaa" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<viirys>"
+	"viirys" N Sg Nom @X #4->0
+"<.>"
+	"." CLB #5->3
+: 
+"<Usseimat>"
+	"usseimat" Adv @ADVL #1->5
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @>N #2->3
+: 
+"<saavat>"
+	"saaja" V Act PrsPrc Pl Nom @>N #3->4
+	"saapa" N Pl Nom @>N #3->4
+	"saa’a" V Act PrsPrc Pl Nom @>N #3->4
+: 
+"<tauin>"
+	"tauti" N Sg Gen @>N #4->5
+: 
+"<covid-19>"
+	"covid-19" N @X #5->0
+: 
+"<tulevat>"
+	"tuleva" A Pl Nom @<OBJ #6->6
+	"tulla" V Act PrsPrc Pl Nom @<OBJ #6->6
+: 
+"<lievästi>"
+	"lievä" A Sg Gen PxSg2 @<OBJ #7->7
+: 
+"<saihraaksi>"
+	"sairas" A Sg Tra @X #8->0
+"<,>"
+	"," CLB #9->8
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @<OBJ #10->10
+: 
+"<jokku>"
+	"joku" Pron Pl Nom @SUBJ> #11->0
+: 
+"<tulevat>"
+	"tuleva" A Pl Nom @<OBJ #12->12
+	"tulla" V Act PrsPrc Pl Nom @<OBJ #12->12
+: 
+"<vakavasti>"
+	"vakavasti" Adv @ADVL #13->8
+: 
+"<saihraaksi>"
+	"sairas" A Sg Tra @X #14->0
+"<.>"
+	"." CLB #15->1
+: 
+"<Pahhiimassa>"
+	"Pahhiimassa" ? @X #1->0
+: 
+"<taphauksessa>"
+	"taphaus" N Sg Ine @ADVL> #2->4
+: 
+"<sitä>"
+	"se" Pron Pers Sg Par @SUBJ> #3->4
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<kuolla>"
+	"kuolla" V Inf @X #5->0
+: 
+"<tauista>"
+	"Tau" N Prop Pl Ela @<ADVL #6->4
+"<.>"
+	"." CLB #7->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Vaksinasuuni>"
+	"Vaksinasuuni" ? @X #1->0
+: 
+"<suojaa>"
+	"suojata" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<sinua>"
+	"sie" Pron Pers Sg Par @<OBJ #3->2
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<muita>"
+	"muu" Pron Indef Pl Par @<OBJ #5->3
+:  
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<Vaksinasuuni>"
+	"Vaksinasuuni" ? @X #1->0
+: 
+"<covid-19>"
+	"covid-19" N @X #2->0
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #3->2
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @X #4->0
+: 
+"<suojata>"
+	"suojata" V Inf @X #5->0
+: 
+"<sinua>"
+	"sie" Pron Pers Sg Par @<SUBJ #6->0
+: 
+"<saamasta>"
+	"saaja" V InfMa Ela @IMV #7->5
+	"saa’a" V InfMa Ela @IMV #7->5
+: 
+"<tautia>"
+	"tauti" N Pl Par @<SUBJ #8->0
+	"tauti" N Sg Par @<SUBJ #8->0
+"<,>"
+	"," CLB #9->10
+: 
+"<ja>"
+	"ja" CC @CNP #10->8
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #11->12
+: 
+"<vähentää>"
+	"vähentää" V Act Ind Prs Sg3 @FMV #12->0
+: 
+"<kansa>"
+	"kansa" N Sg Nom @>N #13->14
+: 
+"<riskiä>"
+	"Riski" N Prop Sem/Sur Sg Par @<SUBJ #14->12
+: 
+"<ette>"
+	"ette" CS @CVP #15->17
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #16->17
+: 
+"<tartutat>"
+	"tartuttaa" V Act Ind Prs Sg2 @FS-<ADVL #17->12
+: 
+"<muita>"
+	"muu" Pron Indef Pl Par @<OBJ #18->17
+"<.>"
+	"." CLB #19->3
+: 
+"<Aijan>"
+	"aika" N Sg Gen @>N #1->2
+: 
+"<olhoon>"
+	"olo" N Sg Ill @<ADVL #2->2
+: 
+"<tartunan>"
+	"tartunta" N Sg Gen @<OBJ #3->3
+: 
+"<leviämistä>"
+	"leviämistä" ? @X #4->0
+: 
+"<saatethaan>"
+	"saattaa" V Pass Ind Prs @FMV #5->0
+: 
+"<topata>"
+	"topata" V Inf @X #6->0
+"<.>"
+	"." CLB #7->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kelles>"
+	"kelles" N Sg Nom @SUBJ> #1->3
+: 
+"<vaksinasuunia>"
+	"vaksinasuunia" ? @X #2->0
+: 
+"<tarjothaan>"
+	"tarjota" V Pass Ind Prs @FMV #3->0
+"<?>"
+	"?" CLB #4->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Justhiins>"
+	"justhiins" Adv @ADVL #1->3
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->3
+: 
+"<vaksinasuunia>"
+	"vaksinasuunia" ? @X #3->0
+: 
+"<covid-19>"
+	"covid-19" N @X #4->0
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #5->4
+: 
+"<tarjothaan>"
+	"tarjota" V Pass Ind Prs @FMV #6->0
+: 
+"<henkilöile>"
+	"henkilö" N Pl All @<ADVL #7->6
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #8->9
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FS-N< #9->7
+: 
+"<18>"
+	"18" Num Arab Sem/Time-clock Sg Nom @<OBJ #10->9
+	 Use/Circ Use/Circ"18" Num Arab Sg Nom
+	 Use/Circ"18" A Arab Ord Attr CLBfinal
+	 Use/Circ"18" Num Arab Sem/ID
+	 Use/Circ"18" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"18" Num Arab Sg Nom
+: 
+"<vuotta>"
+	"vuosi" N Sg Par @<SUBJ #11->9
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<vanheemat>"
+	"vanhaa" A Comp Pl Nom @<OBJ #13->9
+	"vanheemat" N Sg Nom @<OBJ #13->9
+"<,>"
+	"," CLB #14->13
+: 
+"<Kansanterhveysviraston>"
+	"Kansanterhveysviraston" ? @X #15->0
+: 
+"<rekomentasuunitten>"
+	"rekomentasuunitten" ? @X #16->0
+: 
+"<mukhaan>"
+	"Mukka" N Prop Sem/Sur Sg Ill @<ADVL #17->9
+	"Mukka" N Prop Sem/Sur Sg Nom Foc/haan @<OBJ #17->9
+"<.>"
+	"." CLB #18->1
+: 
+"<Vaksiini>"
+	"Vaksiini" ? @X #1->0
+: 
+"<tarjothaan>"
+	"tarjota" V Pass Ind Prs @FMV #2->0
+: 
+"<ensinä>"
+	"ensinä" Adv @ADVL #3->1
+: 
+"<niile>"
+	"Niki" N Prop Sem/Mal Sg All @<ADVL #4->2
+: 
+"<jollako>"
+	"joka" Pron Rel Sg Ade Qst @<ADVL #5->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-N< #6->4
+: 
+"<suuriin>"
+	"suuri" A Superl Sg Nom @>N #7->8
+: 
+"<riski>"
+	"Riski" N Prop Sem/Sur Sg Nom @>N #8->9
+: 
+"<tulla>"
+	"Tulla" N Prop Sem/Fem Sg Nom @<OBJ #9->6
+: 
+"<vakavasti>"
+	"vakavasti" Adv @ADVL #10->1
+: 
+"<saihraaksi>"
+	"sairas" A Sg Tra @<SPRED #11->6
+"<.>"
+	"." CLB #12->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Intivityelliä>"
+	"Intivityelliä" ? @X #1->0
+: 
+"<arviointia>"
+	"arviointia" ? @X #2->0
+: 
+"<saatethaan>"
+	"saattaa" V Pass Ind Prs @FMV #3->0
+: 
+"<tarttea>"
+	"tarttea" V Inf @X #4->0
+:  
+"<¶>"
+	"¶" CLB #5->3
+:\n
+"<Aluksi>"
+	"alku" N Sg Tra @X #1->0
+: 
+"<vaksinasuunia>"
+	"vaksinasuunia" ? @X #2->0
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FAUX #3->0
+: 
+"<tarjota>"
+	"tarjota" V Inf @X #4->0
+: 
+"<henkilöile>"
+	"henkilö" N Pl All @<ADVL #5->3
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #6->7
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FS-N< #7->5
+: 
+"<17>"
+	"17" Num Arab Sem/Time-clock Sg Nom @SUBJ> #8->0
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom
+	 Use/Circ"17" A Arab Ord Attr CLBfinal
+	 Use/Circ"17" Num Arab Sem/ID
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"17" Num Arab Sg Nom
+: 
+"<vuotta>"
+	"vuosi" N Sg Par @<SUBJ #9->7
+: 
+"<elikkä>"
+	"elikkä" CC @X #10->0
+: 
+"<nuoremat>"
+	"nuori" A Comp Pl Nom @>N #11->13
+: 
+"<elikkä>"
+	"elikkä" CC @X #12->0
+: 
+"<henkilöile>"
+	"henkilö" N Pl All @<ADVL #13->7
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #14->15
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FS-N< #15->13
+: 
+"<raskhaana>"
+	"raskas" A Sg Ess @<SPRED #16->15
+"<.>"
+	"." CLB #17->3
+: 
+"<Tilane>"
+	"tilanne" N Sg Nom @SUBJ> #1->2
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<kuitenki>"
+	"kuiten" Adv Foc/kin @ADVL #3->4
+	"kuitenki" Adv @ADVL #3->4
+: 
+"<muuttua>"
+	"muuttua" V Inf @X #4->0
+: 
+"<sen>"
+	"se" Pron Dem Sg Gen @>N #5->6
+	"se" Pron Pers Sg Gen @>N #5->6
+: 
+"<mukhaan>"
+	"Mukka" N Prop Sem/Sur Sg Ill @<ADVL #6->2
+	"Mukka" N Prop Sem/Sur Sg Nom Foc/haan @SUBJ> #6->2
+: 
+"<ko>"
+	"ko" CS @CVP #7->9
+: 
+"<tieto>"
+	"tieto" N Sg Nom @SUBJ> #8->9
+: 
+"<lissäintyy>"
+	"lissäintyä" V Act Ind Prs Sg3 @FS-<ADVL #9->2
+"<.>"
+	"." CLB #10->2
+: 
+"<Riippuen>"
+	"riippua" V InfE Ins @IMV #1->0
+: 
+"<vaksiinista>"
+	"vaksiinista" ? @X #2->0
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<yksityisen>"
+	"yksityinen" A Sg Gen @>N #4->5
+: 
+"<henkilön>"
+	"henkilö" N Sg Gen @<OBJ #5->1
+: 
+"<perusongelmasta>"
+	"perusongelmasta" ? @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<vaksinasuunista>"
+	"vaksinasuunista" ? @X #8->0
+: 
+"<mennee>"
+	"mennä" V Act Ind Prs Sg3 @FMV #9->0
+: 
+"<erityisissä>"
+	"erityinen" A Pl Ine @>N #10->11
+: 
+"<taphauksissa>"
+	"taphaus" N Pl Ine @<ADVL #11->9
+: 
+"<keskustella>"
+	"keskustella" V Inf @X #12->0
+: 
+"<käsittelevän>"
+	"käsitellä" V Act PrsPrc Sg Gen @>N #13->14
+: 
+"<lääkärin>"
+	"lääkäri" N Sg Gen @<OBJ #14->9
+: 
+"<kansa>"
+	"kansa" N Sg Nom @X #15->0
+"<.>"
+	"." CLB #16->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Riski>"
+	"Riski" N Prop Sem/Sur Sg Nom @SUBJ> #1->5
+: 
+"<ette>"
+	"ette" CS @CVP #2->4
+: 
+"<sairastua>"
+	"sairastua" ? @X #3->0
+: 
+"<vakavasti>"
+	"vakavasti" Adv @ADVL #4->3
+: 
+"<lissäintyy>"
+	"lissäintyä" V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<iän>"
+	"ikä" N Sg Gen @<OBJ #6->5
+	"itä" N Sg Gen @<OBJ #6->5
+: 
+"<mukhaan>"
+	"Mukka" N Prop Sem/Sur Sg Nom Foc/haan @X #7->0
+:  
+"<¶>"
+	"¶" CLB #8->4
+:\n
+"<Riski>"
+	"Riski" N Prop Sem/Sur Sg Nom @SUBJ> #1->13
+: 
+"<ette>"
+	"ette" CS @CVP #2->5
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #3->0
+: 
+"<sairastut>"
+	"sairastut" ? @X #4->0
+: 
+"<vakavasti>"
+	"vakavasti" Adv @ADVL #5->4
+: 
+"<covid-19>"
+	"covid-19" N @X #6->0
+"<:>"
+	":" CLB #7->3
+"<sta>"
+	"sta" ? @X #8->0
+: 
+"<lissäintyy>"
+	"lissäintyä" V Act Ind Prs Sg3 @X #9->0
+: 
+"<mitä>"
+	"mitä" Adv @ADVL #10->9
+: 
+"<vanheempi>"
+	"vanhaa" A Comp Sg Nom @SUBJ> #11->13
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #12->13
+: 
+"<olet>"
+	"olla" V Act Ind Prs Sg2 @FS-VFIN< #13->9
+"<,>"
+	"," CLB #14->2
+: 
+"<olletikki>"
+	"olletikki" Adv @ADVL #15->9
+: 
+"<jos>"
+	"jos" CS @CVP #16->18
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #17->18
+: 
+"<olet>"
+	"olla" V Act Ind Prs Sg2 @FS-<ADVL #18->13
+: 
+"<70>"
+	"70" Num Arab Sem/ID @X #19->0
+	 Use/Circ Use/Circ"70" Num Arab Sg Nom
+	 Use/Circ"70" A Arab Ord Attr CLBfinal
+	 Use/Circ"70" Num Arab Sem/ID
+	 Use/Circ"70" Num Arab Sg Nom
+: 
+"<vuotta>"
+	"vuosi" N Sg Par @NUM< #20->20
+: 
+"<elikkä>"
+	"elikkä" CC @X #21->0
+: 
+"<vanheempi>"
+	"vanhaa" A Comp Sg Nom @<SPRED #22->18
+"<.>"
+	"." CLB #23->3
+: 
+"<Sitä>"
+	"se" Pron Pers Sg Par @X #1->0
+: 
+"<paitti>"
+	"paitti" CC @X #2->0
+: 
+"<henkilöilä>"
+	"henkilö" N Pl Ade @ADVL> #3->20
+"<,>"
+	"," CLB #4->3
+: 
+"<joilako>"
+	"Joki" N Prop Sem/Sur Sg Ade Qst @ADVL> #5->20
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #6->0
+: 
+"<vissiä>"
+	"vissi" A Sg Par @>N #7->8
+: 
+"<saihrauksia>"
+	"saihraus" N Pl Par @<SUBJ #8->6
+"<,>"
+	"," CLB #9->8
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #10->6
+: 
+"<suurempi>"
+	"suuri" A Comp Sg Nom @>N #11->12
+: 
+"<riski>"
+	"Riski" N Prop Sem/Sur Sg Nom @<SPRED #12->0
+: 
+"<ko>"
+	"ko" CS @CVP #13->0
+: 
+"<muila>"
+	"muu" Pron Indef Pl Ade @<ADVL #14->8
+: 
+"<ette>"
+	"ette" CS @CVP #15->16
+: 
+"<saaja>"
+	"saaja" V Inf @X #16->0
+	"saa’a" V Inf @X #16->0
+: 
+"<vakavan>"
+	"vakava" A Sg Gen @<OBJ #17->17
+: 
+"<covid-19>"
+	"covid-19" N @X #18->0
+"<,>"
+	"," CLB #19->18
+: 
+"<riippumatta>"
+	"riippua" V InfMa Abe @FS-IMV #20->10
+: 
+"<ikkää>"
+	"ikä" N Sg Par @<OBJ #21->20
+"<.>"
+	"." CLB #22->6
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Antaa>"
+	"antaa" V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<suojan>"
+	"suoja" N Sg Gen @<OBJ #2->1
+: 
+"<vakavaa>"
+	"vakava" A Sg Par @>N #3->4
+: 
+"<tautia>"
+	"tauti" N Sg Par @<OBJ #4->1
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #5->0
+:  
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Vaksinasuunin>"
+	"Vaksinasuunin" ? @X #1->0
+: 
+"<jälkhiin>"
+	"jälkhiin" A Sg Nom @SUBJ> #2->1
+	"jälkhiin" Adv @ADVL #2->1
+	"jälki" N Pl Ill @ADVL> #2->1
+: 
+"<kropan>"
+	"kroppa" N Sg Gen @X #3->0
+: 
+"<imynisuoja>"
+	"imynisuoja" ? @X #4->0
+: 
+"<antaa>"
+	"antaa" V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<suojan>"
+	"suoja" N Sg Gen @<OBJ #6->5
+: 
+"<covid-19>"
+	"covid-19" N @X #7->0
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #8->7
+"<.>"
+	"." CLB #9->5
+: 
+"<Se>"
+	"se" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FAUX #2->0
+: 
+"<ole>"
+	"olla" V Act Ind Prs ConNeg @FMV #3->2
+: 
+"<kuitenkhaan>"
+	"kuiten" Adv Foc/kaan @ADVL #4->9
+	"kuitenki" Adv Foc/haan @ADVL #4->9
+: 
+"<varma>"
+	"varma" A Sg Nom @SUBJ> #5->0
+: 
+"<ette>"
+	"ette" CS @CVP #6->0
+: 
+"<kaikin>"
+	"Kai" N Prop Sem/Mal Sg Nom Foc/kin @SUBJ> #7->0
+: 
+"<joitako>"
+	"joka" Pron Rel Pl Par Qst @<OBJ #8->8
+: 
+"<vaksineerathaan>"
+	"vaksineerathaan" ? @X #9->0
+: 
+"<saavat>"
+	"saaja" V Act PrsPrc Pl Nom @>N #10->3
+	"saapa" N Pl Nom @<SPRED #10->3
+	"saa’a" V Act PrsPrc Pl Nom @>N #10->3
+: 
+"<kokohnaisen>"
+	"kokohnainen" A Sg Gen @>N #11->12
+: 
+"<suojan>"
+	"suoja" N Sg Gen @<OBJ #12->12
+"<.>"
+	"." CLB #13->2
+: 
+"<Tämä>"
+	"tämä" Pron Dem Sg Nom @SUBJ> #1->2
+: 
+"<jällaa>"
+	"jällata" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<kaikile>"
+	"kaikki" Pron Qu Pl All @<ADVL #3->2
+: 
+"<vaksiinile>"
+	"vaksiinile" ? @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FAUX #6->2
+: 
+"<vain>"
+	"vain" Adv @ADVL #7->4
+: 
+"<covid-19>"
+	"covid-19" N @X #8->0
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #9->8
+"<.>"
+	"." CLB #10->2
+: 
+"<Mutta>"
+	"mutta" CS @CVP #1->3
+: 
+"<sulla>"
+	"sie" Pron Pers Sg Ade @HAB #2->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-VFIN< #3->0
+: 
+"<kuitenki>"
+	"kuiten" Adv Foc/kin @ADVL #4->7
+	"kuitenki" Adv @ADVL #4->7
+: 
+"<pienempi>"
+	"pieni" A Comp Sg Nom @>N #5->6
+: 
+"<riski>"
+	"Riski" N Prop Sem/Sur Sg Nom @<SPRED #6->0
+: 
+"<sairastua>"
+	"sairastua" ? @X #7->0
+: 
+"<vakavasti>"
+	"vakavasti" Adv @ADVL #8->7
+"<.>"
+	"." CLB #9->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<JOULUKUU>"
+	"joulukuu" N Sg Nom @HNOUN #1->0
+: 
+"<2020>"
+	"2020" Num Arab Sem/Year Sg Nom @N< #2->1
+	"2020" Num Arab Sem/ID @N< #2->1
+	 Use/Circ Use/Circ"2020" Num Arab Sg Nom
+	 Use/Circ"2020" Num Arab Sem/ID
+	 Use/Circ"2020" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2020" Num Arab Sg Nom
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Ennen>"
+	"ennen" Adv @ADVL #1->2
+: 
+"<vaksinasuunia>"
+	"vaksinasuunia" ? @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Vaksinasuuni>"
+	"Vaksinasuuni" ? @X #1->0
+: 
+"<covid-19>"
+	"covid-19" N @X #2->0
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #3->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<vapaehtonen>"
+	"vapaehtonen" N Sg Nom @<SPRED #5->4
+"<.>"
+	"." CLB #6->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #1->11
+"<,>"
+	"," CLB #2->3
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #3->11
+: 
+"<halvaat>"
+	"halvata" V Act Ind Prs Sg2 @X #4->0
+: 
+"<tietää>"
+	"tietää" V Inf @X #5->0
+: 
+"<lissää>"
+	"lissää" Adv @ADVL #6->5
+: 
+"<ennen>"
+	"ennen" Adv @ADVL #7->5
+: 
+"<vaksinasuunin>"
+	"vaksinasuunin" ? @X #8->0
+: 
+"<päätöstä>"
+	"päätös" N Sg Par @<P #9->9
+"<,>"
+	"," CLB #10->9
+: 
+"<löyät>"
+	"löytää" V Act Ind Prs Sg2 @FMV #11->0
+: 
+"<faktaa>"
+	"fakta" N Sg Par @<P #12->12
+: 
+"<ja>"
+	"ja" CC @CNP #13->12
+: 
+"<informasuunia>"
+	"informasuuni" N Sg Par @<P #14->14
+: 
+"<1177>"
+	"1177" Num Arab Sem/Year Sg Nom @N< #15->14
+	"1177" Num Arab Sem/ID @N< #15->14
+	 Use/Circ Use/Circ"1177" Num Arab Sg Nom
+	 Use/Circ"1177" Num Arab Sem/ID
+	 Use/Circ"1177" Num Arab Sem/Year Sg Nom
+	 Use/Circ"1177" Num Arab Sg Nom
+"<,>"
+	"," CLB #16->15
+: 
+"<Kansanterhveysvirastolla>"
+	"Kansanterhveysvirastolla" ? @X #17->0
+: 
+"<ja>"
+	"ja" CC @CNP #18->17
+: 
+"<Lääkevirastolla>"
+	"Lääkevirastolla" ? @X #19->0
+"<.>"
+	"." CLB #20->6
+: 
+"<Katto>"
+	"kattaa" V Act Ind Prt Sg3 @FMV #1->0
+	"kattoa" V Act Ind Prt Sg3 @FMV #1->0
+: 
+"<kontaktitietoja>"
+	"tieto" N Pl Par @<OBJ #2->1
+		"kontakti" N Nom Cmp #2->1
+: 
+"<ensi>"
+	"ensi" A Sg Nom @>N #3->4
+: 
+"<sivula>"
+	"Sivula" N Prop Sem/Sur Sg Nom @X #4->0
+"<.>"
+	"." CLB #5->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Näin>"
+	"näin" Adv @ADVL #1->2
+: 
+"<vaksinasuuni>"
+	"vaksinasuuni" ? @X #2->0
+: 
+"<tehhään>"
+	"tehhä" V Pass Ind Prs @X #3->0
+	"tehä" V Pass Ind Prs @X #3->0
+	"tehjä" V Pass Ind Prs @X #3->0
+:  
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Ennen>"
+	"ennen" Adv @ADVL #1->2
+: 
+"<vaksinasuunia>"
+	"vaksinasuunia" ? @X #2->0
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #3->4
+: 
+"<täytät>"
+	"täyttää" V Act Ind Prs Sg2 @FMV #4->0
+: 
+"<terhveysdeklarasuunin>"
+	"terhveysdeklarasuunin" ? @X #5->0
+"<.>"
+	"." CLB #6->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Saihraanhoitaja>"
+	"saihraanhoitaja" N Sg Nom @SUBJ> #1->2
+: 
+"<antaa>"
+	"antaa" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<sulle>"
+	"sie" Pron Pers Sg All @<ADVL #3->2
+: 
+"<vaksiinin>"
+	"vaksiinin" ? @X #4->0
+: 
+"<pruutala>"
+	"pruutala" ? @X #5->0
+: 
+"<käsivartheen>"
+	"käsivarsi" N Sg Ill @<ADVL #6->2
+"<.>"
+	"." CLB #7->2
+: 
+"<Jos>"
+	"jos" Pr @X #1->0
+: 
+"<sinua>"
+	"sie" Pron Pers Sg Par @<P #2->2
+: 
+"<tarttee>"
+	"tarttea" V Act Ind Prs Sg3 @X #3->0
+: 
+"<vaksineerata>"
+	"vaksineerata" ? @X #4->0
+: 
+"<kaks>"
+	"kaksi" Num Sg Nom @SUBJ> #5->0
+: 
+"<kertaa>"
+	"kerta" N Sg Par @NUM< #6->6
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #7->0
+: 
+"<saat>"
+	"saaja" V Act Ind Prs Pl3 @X #8->0
+	"saaja" V Act Ind Prs Sg2 @X #8->0
+	"saa’a" V Act Ind Prs Pl3 @X #8->0
+	"saa’a" V Act Ind Prs Sg2 @X #8->0
+	"sata" Num Pl Nom @X #8->0
+: 
+"<saman>"
+	"sama" Pron Indef Sg Gen @<OBJ #9->9
+: 
+"<sorttisen>"
+	"sorttisen" ? @X #10->0
+: 
+"<vaksiinin>"
+	"vaksiinin" ? @X #11->0
+: 
+"<molemilla>"
+	"molemilla" Pron @X #12->0
+: 
+"<kertoina>"
+	"kerta" N Pl Ess @<SPRED #13->7
+"<.>"
+	"." CLB #14->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Pistoksen>"
+	"pistos" N Sg Gen @X #1->0
+: 
+"<jälkhiin>"
+	"jälkhiin" A Sg Nom @SUBJ> #2->1
+	"jälkhiin" Adv @ADVL #2->1
+	"jälki" N Pl Ill @ADVL> #2->1
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<tavalista>"
+	"tavalinen" A Sg Par @<SUBJ #5->4
+: 
+"<ette>"
+	"ette" CS @CVP #6->8
+: 
+"<käsivarressa>"
+	"käsivarsi" N Sg Ine @<ADVL #7->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-<ADVL #8->4
+: 
+"<vähän>"
+	"vähän" Adv @ADVL #9->1
+: 
+"<kipua>"
+	"kipu" N Sg Par @<SUBJ #10->8
+"<,>"
+	"," CLB #11->6
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #12->13
+: 
+"<punehtuu>"
+	"punehtua" V Act Ind Prs Sg3 @FMV #13->4
+"<,>"
+	"," CLB #14->6
+: 
+"<paisuu>"
+	"paisua" V Act Ind Prs Sg3 @X #15->0
+: 
+"<elikkä>"
+	"elikkä" CC @X #16->0
+: 
+"<kutisee>"
+	"kutista" V Act Ind Prs Sg3 @FMV #17->13
+"<.>"
+	"." CLB #18->4
+: 
+"<Jokku>"
+	"joku" Pron Pl Nom @SUBJ> #1->0
+: 
+"<saattavat>"
+	"saattaa" V Act PrsPrc Pl Nom @>N #2->5
+: 
+"<saaja>"
+	"saaja" V Inf @X #3->0
+	"saa’a" V Inf @X #3->0
+: 
+"<lyhyaikhaisen>"
+	"lyhyaikhaisen" ? @X #4->0
+: 
+"<kuuhmeen>"
+	"kuume" N Sg Gen @<OBJ #5->5
+"<,>"
+	"," CLB #6->5
+: 
+"<päänsärjyn>"
+	"päänsärjyn" ? @X #7->0
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<ylheisen>"
+	"ylheinen" A Sg Gen @<OBJ #9->5
+: 
+"<saihrauentuntheen>"
+	"saihrauentuntheen" ? @X #10->0
+"<.>"
+	"." CLB #11->1
+: 
+"<Nämät>"
+	"nämä" Pron Dem Pl Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<luonoliset>"
+	"luonolinen" A Pl Nom @>N #3->4
+: 
+"<reaksuunit>"
+	"reaksuuni" N Pl Nom @>N #4->5
+: 
+"<kropan>"
+	"kroppa" N Sg Gen @X #5->0
+: 
+"<imynisuojassa>"
+	"imynisuojassa" ? @X #6->0
+"<.>"
+	"." CLB #7->2
+: 
+"<Oihreet>"
+	"Oihreet" ? @X #1->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<usseimiten>"
+	"usseimiten" Adv @ADVL #3->1
+: 
+"<lieviä>"
+	"lievä" A Pl Par @<SUBJ #4->2
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<menevät>"
+	"menevä" A Pl Nom @<SPRED #6->2
+	"mennä" V Act PrsPrc Pl Nom @>N #6->2
+: 
+"<yli>"
+	"yli" Adv @ADVL #7->1
+: 
+"<jonku>"
+	"joku" Pron Sg Gen @>N #8->9
+: 
+"<päivän>"
+	"päivä" N Sg Gen @<OBJ #9->2
+: 
+"<päästä>"
+	"pää" N Sg Ela @<ADVL #10->2
+"<.>"
+	"." CLB #11->2
+: 
+"<Alerkiset>"
+	"alerkinen" N Pl Nom @>N #1->2
+: 
+"<reaksuunit>"
+	"reaksuuni" N Pl Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FMV #3->0
+: 
+"<kauhean>"
+	"kauhean" Adv @ADVL #4->5
+: 
+"<harvinhaiset>"
+	"harvinhaiset" ? @X #5->0
+"<.>"
+	"." CLB #6->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Jälkhiin>"
+	"jälkhiin" A Sg Nom @HNOUN #1->2
+	"jälkhiin" Adv @ADVL #1->2
+	"jälki" N Pl Ill @HNOUN #1->2
+: 
+"<vaksinasuunin>"
+	"vaksinasuunin" ? @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Jos>"
+	"jos" CS @CVP #1->3
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @>N #2->3
+: 
+"<voit>"
+	"voi" N Pl Nom @SUBJ> #3->19
+	"voija" V Act Ind Prs Sg2 @FS-ADVL> #3->19
+	"voija" V Act Ind Prt Sg2 @FS-ADVL> #3->19
+: 
+"<huonosti>"
+	"huonosti" Adv @ADVL #4->5
+: 
+"<elikkä>"
+	"elikkä" CC @X #5->0
+: 
+"<olet>"
+	"olla" V Act Ind Prs Sg2 @FS-ADVL> #6->19
+: 
+"<kiusoissa>"
+	"kiusoissa" Adv @ADVL #7->5
+: 
+"<vaksinasuunin>"
+	"vaksinasuunin" ? @X #8->0
+: 
+"<jälkhiin>"
+	"jälkhiin" A Sg Nom @SUBJ> #9->8
+	"jälkhiin" Adv @ADVL #9->8
+	"jälki" N Pl Ill @<ADVL #9->8
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #10->19
+: 
+"<piät>"
+	"pittää" V Act Ind Prs Sg2 @X #11->0
+: 
+"<ottaa>"
+	"Otta" N Prop Sem/Plc Sg Par @<P #12->12
+: 
+"<yhtheyttä>"
+	"yhtheys" N Sg Par @<P #13->13
+: 
+"<saihraanhoijon>"
+	"hoito" N Sg Gen @>N #14->15
+		"sairas" A Sg Gen Cmp #14->15
+: 
+"<kansa>"
+	"kansa" N Sg Nom @SUBJ> #15->19
+: 
+"<ette>"
+	"ette" CS @CVP #16->19
+: 
+"<sinun>"
+	"sie" Pron Pers Sg Gen @<P #17->17
+: 
+"<oihreet>"
+	"oihreet" ? @X #18->0
+: 
+"<tutkithaan>"
+	"tutkia" V Act Ind Prs Sg2 Foc/haan @FS-<ADVL #19->0
+	"tutkia" V Act Ind Prt Pl3 Foc/haan @FS-<ADVL #19->0
+	"tutkia" V Act Ind Prt Sg2 Foc/haan @FS-<ADVL #19->0
+"<,>"
+	"," CLB #20->16
+: 
+"<riippumatta>"
+	"riippua" V InfMa Abe @FS-IMV #21->6
+: 
+"<jos>"
+	"jos" CS @CVP #22->24
+: 
+"<net>"
+	"net" Pron Pers Pl Nom @SUBJ> #23->27
+: 
+"<liittyvät>"
+	"liittyä" V Act PrsPrc Pl Nom @SUBJ> #24->27
+: 
+"<vaksinasuuhniin>"
+	"vaksinasuuhniin" ? @X #25->0
+: 
+"<elikkä>"
+	"elikkä" CC @X #26->0
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FS-<ADVL #27->21
+"<.>"
+	"." CLB #28->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Saihraanhoito>"
+	"saihraanhoito" N Sg Nom @SUBJ> #1->2
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ilmottaa>"
+	"ilmottaa" V Inf @X #3->0
+: 
+"<eppäiltyjä>"
+	"eppäiltyjä" ? @X #4->0
+: 
+"<sivuvaikutuksia>"
+	"vaikutus" N Pl Par @<OBJ #5->2
+		"sivu" N Nom Cmp #5->2
+: 
+"<Lääkevirasthoon>"
+	"Lääkevirasthoon" ? @X #6->0
+"<.>"
+	"." CLB #7->2
+: 
+"<Jos>"
+	"jos" CS @CVP #1->6
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #2->8
+: 
+"<koet>"
+	"kokea" V Act Ind Prs Sg2 @X #3->0
+: 
+"<sivuvaikutuksia>"
+	"vaikutus" N Pl Par @<P #4->4
+		"sivu" N Nom Cmp #4->4
+: 
+"<vaksinasuunin>"
+	"vaksinasuunin" ? @X #5->0
+: 
+"<jälkhiin>"
+	"jälkhiin" A Sg Nom @SUBJ> #6->5
+	"jälkhiin" Adv @ADVL #6->5
+	"jälki" N Pl Ill @<ADVL #6->5
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #7->8
+: 
+"<saatat>"
+	"saattaa" V Act Ind Prs Sg2 @FMV #8->0
+: 
+"<kansa>"
+	"kansa" N Sg Nom @SUBJ> #9->0
+: 
+"<itte>"
+	"itte" Pron Refl Nom @SUBJ> #10->0
+: 
+"<ilmottaa>"
+	"ilmottaa" V Act Ind Prs Sg3 @X #11->0
+	"ilmottaa" V Inf @X #11->0
+: 
+"<net>"
+	"net" Pron Pers Pl Nom @X #12->0
+: 
+"<osotheela>"
+	"osote" N Sg Ade @<ADVL #13->8
+"<:>"
+	":" CLB #14->8
+: 
+"<www.lakemedelsverket.se/rapportera.>"
+	"www.lakemedelsverket.se/rapportera." URL #15->15
+: 
+"<¶>"
+	"¶" CLB #16->8
+:\n
+"<Viimisen>"
+	"viiminen" A Sg Gen @>N #1->2
+: 
+"<annoksen>"
+	"annos" N Sg Gen @X #2->0
+: 
+"<jälkhiin>"
+	"jälkhiin" A Sg Nom @SUBJ> #3->2
+	"jälkhiin" Adv @ADVL #3->2
+	"jälki" N Pl Ill @ADVL> #3->2
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #4->5
+: 
+"<mennee>"
+	"mennä" V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<viikko>"
+	"viikko" N Sg Nom @SUBJ> #6->10
+: 
+"<ennen>"
+	"ennen" Adv @ADVL #7->2
+: 
+"<ko>"
+	"ko" CS @CVP #8->10
+: 
+"<suoja>"
+	"suoja" N Sg Nom @SUBJ> #9->10
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-<ADVL #10->5
+: 
+"<täyelinen>"
+	"täyelinen" A Sg Nom @<SPRED #11->5
+:  
+"<¶>"
+	"¶" CLB #12->5
+:\n
+"<Riippuen>"
+	"riippua" V InfE Ins @IMV #1->0
+: 
+"<mitä>"
+	"mitä" Adv @ADVL #2->3
+: 
+"<vaksiiniä>"
+	"vaksiiniä" ? @X #3->0
+: 
+"<käytethään>"
+	"käytetty" A Sg Nom Foc/haan @OBJ> #4->6
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @OBJ> #5->6
+: 
+"<tarvithaan>"
+	"tarvita" V Pass Ind Prs @FMV #6->0
+: 
+"<eri>"
+	"Eri" N Prop Sem/Plc Sg Nom @>N #7->8
+: 
+"<määrä>"
+	"määrä" N Sg Nom @>N #8->9
+: 
+"<annoksia>"
+	"annos" N Pl Par @<OBJ #9->6
+: 
+"<ette>"
+	"ette" CS @CVP #10->11
+: 
+"<saaja>"
+	"saaja" V Inf @X #11->0
+	"saa’a" V Inf @X #11->0
+: 
+"<hyvän>"
+	"hyvä" A Sg Gen @>N #12->13
+: 
+"<suojan>"
+	"suoja" N Sg Gen @<OBJ #13->13
+"<.>"
+	"." CLB #14->1
+: 
+"<Nyt>"
+	"nyt" Adv @ADVL #1->0
+: 
+"<tarvithaan>"
+	"tarvita" V Pass Ind Prs @FMV #2->0
+: 
+"<kaks>"
+	"kaksi" Num Sg Nom @<OBJ #3->2
+: 
+"<annosta>"
+	"annos" N Sg Par @<OBJ #4->2
+"<.>"
+	"." CLB #5->1
+: 
+"<Se>"
+	"se" Pron Pers Sg Nom @>N #1->3
+: 
+"<viipyy>"
+	"viipyy" ? @X #2->0
+: 
+
+"<suunile>"
+	"suunile" Adv @ADVL #3->2
+	"suunta" N Pl All @ADVL> #3->2
+: 
+"<viikon>"
+	"viikko" N Sg Gen @>N #4->6
+: 
+"<viimisen>"
+	"viiminen" A Sg Gen @>N #5->6
+: 
+"<annoksen>"
+	"annos" N Sg Gen @>N #6->7
+: 
+"<jälkhiin>"
+	"jälkhiin" A Sg Nom @SUBJ> #7->2
+	"jälkhiin" Adv @ADVL #7->2
+	"jälki" N Pl Ill @ADVL> #7->2
+: 
+"<ennen>"
+	"ennen" Adv @ADVL #8->2
+: 
+"<ko>"
+	"ko" CS @CVP #9->11
+: 
+"<kroppa>"
+	"kroppa" N Sg Nom @SUBJ> #10->11
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-VFIN< #11->2
+: 
+"<saanu>"
+	"saaja" V Act PrfPrc Sg Nom @>N #12->14
+	"saa’a" V Act PrfPrc Sg Nom @>N #12->14
+: 
+"<täyelisen>"
+	"täyelinen" A Sg Gen @>N #13->14
+: 
+"<suojan>"
+	"suoja" N Sg Gen @<P #14->14
+"<.>"
+	"." CLB #15->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sulle>"
+	"sie" Pron Pers Sg All @ADVL> #1->3
+: 
+"<joka>"
+	"joka" Pr @X #2->0
+	"jokata" V Act Imprt Sg2 @X #2->0
+: 
+"<annat>"
+	"antaa" V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<tukea>"
+	"tukea" V Inf @X #4->0
+: 
+"<omhaiselle>"
+	"omhainen" A Sg All @<ADVL #5->3
+: 
+"<vaksinasuunin>"
+	"vaksinasuunin" ? @X #6->0
+: 
+"<päätöksessä>"
+	"päätös" N Sg Ine @<ADVL #7->3
+:  
+"<¶>"
+	"¶" CLB #8->3
+:\n
+"<Sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #1->3
+: 
+"<joka>"
+	"joka" Pr @X #2->0
+	"jokata" V Act Imprt Sg2 @X #2->0
+: 
+"<annat>"
+	"antaa" V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<tukea>"
+	"tukea" V Inf @X #4->0
+: 
+"<likhiiselle>"
+	"likhiiselle" ? @X #5->0
+: 
+"<omhaiselle>"
+	"omhainen" A Sg All @<ADVL #6->3
+: 
+"<vaksinasuunin>"
+	"vaksinasuunin" ? @X #7->0
+: 
+"<päätöksessä>"
+	"päätös" N Sg Ine @<ADVL #8->3
+: 
+"<saatat>"
+	"saattaa" V Act Ind Prs Sg2 @FMV #9->3
+: 
+"<tarvita>"
+	"tarvita" V Inf @X #10->0
+: 
+"<puhua>"
+	"puhua" V Inf @X #11->0
+: 
+"<lääkärin>"
+	"lääkäri" N Sg Gen @>N #12->14
+: 
+"<elikkä>"
+	"elikkä" CC @CNP #13->12
+: 
+"<saihraanhoitajan>"
+	"saihraanhoitaja" N Sg Gen @<P #14->14
+: 
+"<kansa>"
+	"kansa" N Sg Nom @SUBJ> #15->17
+: 
+"<jos>"
+	"jos" CS @CVP #16->17
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-<ADVL #17->9
+: 
+"<kysymyksiä>"
+	"kysymys" N Pl Par @<P #18->18
+"<.>"
+	"." CLB #19->3
+: 
+"<Tämä>"
+	"tämä" Pron Dem Sg Nom @SUBJ> #1->11
+: 
+"<jällaa>"
+	"jällata" V Act Ind Prs Sg3 @X #2->0
+: 
+"<erityisesti>"
+	"erityisesti" Adv @ADVL #3->2
+: 
+"<jos>"
+	"jos" Pr @X #4->0
+: 
+"<sinun>"
+	"sie" Pron Pers Sg Gen @<P #5->5
+: 
+"<omhaisella>"
+	"omhainen" A Sg Ade @>N #6->8
+: 
+"<helpola>"
+	"helppo" A Sg Ade @<ADVL #7->1
+: 
+"<vuotaa>"
+	"vuota" N Sg Par @<P #8->8
+: 
+"<veri>"
+	"veri" N Sg Nom @SUBJ> #9->11
+"<,>"
+	"," CLB #10->9
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #11->0
+: 
+"<takanaolevia>"
+	"takanaolevia" ? @X #12->0
+: 
+"<saihrauksia>"
+	"saihraus" N Pl Par @<P #13->13
+: 
+"<elikkä>"
+	"elikkä" CC @X #14->0
+: 
+"<käyttää>"
+	"käyttää" V Act Ind Prs Sg3 @FMV #15->11
+: 
+"<lääkheitä>"
+	"lääke" N Pl Par @<P #16->16
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #17->18
+: 
+"<vaikuttavat>"
+	"vaikuttaa" V Act PrsPrc Pl Nom @FS-N< #18->16
+: 
+"<imynisuohjaan>"
+	"imynisuohjaan" ? @X #19->0
+"<.>"
+	"." CLB #20->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lissää>"
+	"lisätä" V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<tauista>"
+	"Tau" N Prop Pl Ela @<ADVL #2->1
+	"tauti" N Sg Ela @<ADVL #2->1
+: 
+"<covid-19>"
+	"covid-19" N @X #3->0
+:  
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Covid-19>"
+	"covid-19" N @X #1->0
+"<:>"
+	":" CLB #2->2
+"<in>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Gen @X #3->0
+: 
+"<oihreet>"
+	"oihreet" ? @X #4->0
+: 
+"<vaihtelevat>"
+	"vaihdella" Err/Lex V Act PrsPrc Pl Nom @HNOUN #5->3
+	"vaihtela" V Act PrsPrc Pl Nom @HNOUN #5->3
+"<.>"
+	"." CLB #6->6
+: 
+"<Usseimiten>"
+	"usseimiten" Adv @ADVL #1->5
+: 
+"<net>"
+	"net" Pron Pers Pl Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FMV #3->0
+: 
+"<saman>"
+	"sama" Pron Indef Sg Gen @<OBJ #4->3
+: 
+"<sorttiset>"
+	"sorttiset" ? @X #5->0
+: 
+"<ko>"
+	"ko" CS @CVP #6->0
+: 
+"<kovan>"
+	"kova" A Sg Gen @>N #7->8
+: 
+"<yskän>"
+	"yskä" N Sg Gen @>N #8->10
+: 
+"<elikkä>"
+	"elikkä" CC @CNP #9->8
+: 
+"<flunsainfeksuunin>"
+	"infeksuuni" N Sg Gen @X #10->0
+		"flunsa" N Nom Cmp #10->0
+"<.>"
+	"." CLB #11->1
+: 
+"<Kuume>"
+	"kuume" N Sg Nom @SUBJ> #1->4
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<yskiminen>"
+	"yskiä" V Der/minen N Sg Nom @SUBJ> #3->1
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<tavalisimat>"
+	"tavalinen" A Superl Pl Nom @>N #5->7
+: 
+"<oihreet>"
+	"oihreet" ? @X #6->0
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #7->0
+: 
+"<yks>"
+	"yksi" Num Sg Nom @N< #8->7
+: 
+"<elikkä>"
+	"elikkä" CC @X #9->0
+: 
+"<useat>"
+	"usea" A Pl Nom @>N #10->12
+	"usea" Pron Pl Nom @>N #10->12
+: 
+"<seuraavista>"
+	"seuraava" A Pl Ela @>N #11->12
+: 
+"<oihreista>"
+	"oire" N Pl Ela @<ADVL #12->4
+: 
+"<saattavat>"
+	"saattaa" V Act PrsPrc Pl Nom @>N #13->14
+: 
+"<kansa>"
+	"kansa" N Sg Nom @<SPRED #14->4
+: 
+"<essiintyä>"
+	"essiintyä" V Inf @X #15->0
+"<:>"
+	":" CLB #16->4
+: 
+"<hengitysvaikeukset>"
+	"hengitysvaikeukset" ? @X #17->0
+"<,>"
+	"," CLB #18->17
+: 
+"<nuha>"
+	"nuha" N Sg Nom @X #19->0
+"<,>"
+	"," CLB #20->19
+: 
+"<tukossa>"
+	"tukko" N Sg Ine @<ADVL #21->19
+	"tukossa" Adv @ADVL #21->19
+: 
+"<nokka>"
+	"Nokka" N Prop Sem/Sur Sg Nom @X #22->0
+"<,>"
+	"," CLB #23->22
+: 
+"<kurkkukipu>"
+	"kipu" N Sg Nom @X #24->0
+		"kurkku" N Nom Cmp #24->0
+"<,>"
+	"," CLB #25->24
+: 
+"<päänsärky>"
+	"päänsärky" N Sg Nom @X #26->0
+"<,>"
+	"," CLB #27->26
+: 
+"<pahavointi>"
+	"vointi" N Sg Nom @X #28->0
+		"paha" A Sg Nom Cmp #28->0
+	"vointi" N Sg Nom @X #28->0
+		"paha" N Nom Cmp #28->0
+"<,>"
+	"," CLB #29->28
+: 
+"<löysilä>"
+	"löysi" A Sg Ade @<ADVL #30->4
+	"löysä" A Pl Ade @<ADVL #30->4
+: 
+"<vatta>"
+	"vatta" N Sg Nom @X #31->0
+"<,>"
+	"," CLB #32->31
+: 
+"<prippuja>"
+	"prippu" N Pl Par @X #33->0
+: 
+"<ihossa>"
+	"iho" N Sg Ine @<ADVL #34->4
+"<,>"
+	"," CLB #35->34
+: 
+"<kaonu>"
+	"kaota" V Act PrfPrc Sg Nom @>N #36->39
+: 
+"<elikkä>"
+	"elikkä" CC @X #37->0
+: 
+"<huonompi>"
+	"huono" A Comp Sg Nom @>N #38->39
+: 
+"<maku>"
+	"maku" N Sg Nom @SUBJ> #39->1
+"<,>"
+	"," CLB #40->39
+: 
+"<lihaksitten>"
+	"lihas" N Pl Par Err/Orth @<OBJ #41->41
+: 
+"<ja>"
+	"ja" CC @CNP #42->41
+: 
+"<nivelitten>"
+	"nivelitten" ? @X #43->0
+: 
+"<särkyä>"
+	"särky" N Sg Par @<OBJ #44->41
+"<.>"
+	"." CLB #45->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kansalinen>"
+	"kansalinen" A Sg Nom @HNOUN #1->0
+: 
+"<vaksinasuunirekisteri>"
+	"vaksinasuunirekisteri" ? @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Kaikki>"
+	"kaikki" Pron Qu Sg Nom @SUBJ> #1->4
+: 
+"<covid-19>"
+	"covid-19" N @X #2->0
+: 
+"<vaksinasuunit>"
+	"vaksinasuunit" ? @X #3->0
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<rekistreerata>"
+	"rekistreerata" ? @X #5->0
+: 
+"<kansalisessa>"
+	"kansalinen" A Sg Ine @<ADVL #6->4
+: 
+"<vaksinasuunirekisterissä>"
+	"vaksinasuunirekisterissä" ? @X #7->0
+"<.>"
+	"." CLB #8->4
+: 
+"<Se>"
+	"se" Pron Dem Sg Nom @>N #1->2
+: 
+"<informasuuni>"
+	"informasuuni" N Sg Nom @SUBJ> #2->5
+: 
+"<mitä>"
+	"mitä" Adv @ADVL #3->4
+: 
+"<rekistreerathaan>"
+	"rekistreerathaan" ? @X #4->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<henkilönumero>"
+	"numero" N Sg Nom @SUBJ> #6->22
+		"henkilö" N Nom Cmp #6->22
+: 
+"<elikkä>"
+	"elikkä" CC @CNP #7->6
+: 
+"<järjestysnumero>"
+	"numero" N Sg Nom @SUBJ> #8->6
+		"järjestys" N Sg Nom Cmp #8->6
+"<,>"
+	"," CLB #9->8
+: 
+"<vaksiinin>"
+	"vaksiinin" ? @X #10->0
+: 
+"<päivämäärä>"
+	"määrä" N Sg Nom @SUBJ> #11->6
+		"päivä" N Nom Cmp #11->6
+"<,>"
+	"," CLB #12->13
+: 
+"<mitä>"
+	"mikä" Pron Rel Pl Par @<SUBJ #13->5
+: 
+"<vaksiiniä>"
+	"vaksiiniä" ? @X #14->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-N< #15->11
+: 
+"<käytetty>"
+	"käyttää" V Pass PrfPrc Sg Nom @SUBJ> #16->22
+"<,>"
+	"," CLB #17->16
+: 
+"<satsinumero>"
+	"satsinumero" ? @X #18->0
+"<,>"
+	"," CLB #19->18
+: 
+"<hoijonantaja>"
+	"antaja" N Sg Nom @SUBJ> #20->16
+		"hoito" N Sg Gen Cmp #20->16
+: 
+"<joka>"
+	"joka" Pr @X #21->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #22->5
+: 
+"<vastuulinen>"
+	"vastuulinen" ? @X #23->0
+: 
+"<vaksinasuunista>"
+	"vaksinasuunista" ? @X #24->0
+"<,>"
+	"," CLB #25->24
+: 
+"<annosnumero>"
+	"numero" N Sg Nom @>N #26->27
+		"annos" N Sg Nom Cmp #26->27
+: 
+"<covid-19>"
+	"covid-19" N @X #27->0
+"<:>"
+	":" CLB #28->3
+"<ille>"
+	"ille" ? @X #29->0
+"<.>"
+	"." CLB #30->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tämä>"
+	"tämä" Pron Dem Sg Nom @SUBJ> #1->2
+: 
+"<tehhään>"
+	"tehhä" V Pass Ind Prs @FMV #2->0
+	"tehä" V Pass Ind Prs @FMV #2->0
+	"tehjä" V Pass Ind Prs @FMV #2->0
+: 
+"<ette>"
+	"ette" CS @CVP #3->4
+: 
+"<saatethaan>"
+	"saattaa" V Pass Ind Prs @FS-<ADVL #4->2
+: 
+"<seurata>"
+	"seurata" V Inf @X #5->0
+: 
+"<ylös>"
+	"ylös" Adv @ADVL #6->5
+: 
+"<vaksinasuunit>"
+	"vaksinasuunit" ? @X #7->0
+"<.>"
+	"." CLB #8->2
+: 
+"<Tietoja>"
+	"tieto" N Pl Par @X #1->0
+: 
+"<suojaa>"
+	"suojata" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ehoton>"
+	"ehoton" Adv @ADVL #3->1
+: 
+"<salhaisuus>"
+	"salhainen" A Der/suus N Sg Nom @SUBJ> #4->5
+	"salhaisuus" N Sg Nom @SUBJ> #4->5
+: 
+"<eikä>"
+	"ei" V Neg Act Prs Sg3 Foc/ka @FAUX #5->2
+: 
+"<siiheen>"
+	"siiheen" Adv @ADVL #6->1
+: 
+"<pääse>"
+	"päästä" V Act Ind Prs ConNeg @FMV #7->5
+	"päästä" V Neg Act Imprt ConNeg Sg2 @FMV #7->5
+: 
+"<potilasjournaalin>"
+	"potilasjournaalin" ? @X #8->0
+: 
+"<kautta>"
+	"kausi" N Sg Par @<OBJ #9->7
+"<.>"
+	"." CLB #10->2
+: 
+"<Sulla>"
+	"sie" Pron Pers Sg Ade @HAB #1->1
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #2->0
+: 
+"<oikeus>"
+	"oikeus" N Sg Nom @<SPRED #3->0
+: 
+"<vaatia>"
+	"vaatia" V Inf @X #4->0
+: 
+"<ulos>"
+	"ulos" Adv @ADVL #5->4
+: 
+"<tiot>"
+	"tieto" N Pl Nom @<OBJ #6->6
+: 
+"<Taattasuojelulain>"
+	"Taattasuojelulain" ? @X #7->0
+: 
+"<mukhaan>"
+	"Mukka" N Prop Sem/Sur Sg Ill @<ADVL #8->0
+	"Mukka" N Prop Sem/Sur Sg Nom Foc/haan @<SPRED #8->0
+: 
+"<(>"
+	"(" PUNCT LEFT #9->10
+"<GDPR>"
+	"GDPR" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @<SPRED #10->0
+"<)>"
+	")" PUNCT RIGHT #11->10
+"<.>"
+	"." CLB #12->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tuotantoinformasuuni>"
+	"informasuuni" N Sg Nom @HNOUN #1->0
+		"tuotanto" N Nom Cmp #1->0
+: 
+"<vaksiinistä>"
+	"vaksiinistä" ? @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<löyät>"
+	"löytää" V Act Ind Prs Sg2 @FMV #2->0
+: 
+"<aktyellin>"
+	"aktyelli" A Sg Gen @>N #3->4
+: 
+"<informasuunin>"
+	"informasuuni" N Sg Gen @<OBJ #4->2
+: 
+"<vaksiinistä>"
+	"vaksiinistä" ? @X #5->0
+: 
+"<jonka>"
+	"joka" Pron Rel Sg Gen @<OBJ #6->2
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #7->8
+: 
+"<saat>"
+	"saaja" V Act Ind Prs Pl3 @FS-N< #8->4
+	"saaja" V Act Ind Prs Sg2 @FS-N< #8->4
+	"saa’a" V Act Ind Prs Pl3 @FS-N< #8->4
+	"saa’a" V Act Ind Prs Sg2 @FS-N< #8->4
+: 
+"<tikitaalissa>"
+	"tikitaali" A Sg Ine @<ADVL #9->8
+: 
+"<muotossa>"
+	"muotossa" ? @X #10->0
+: 
+"<Lääkheenviraston>"
+	"Lääkheenviraston" ? @X #11->0
+"</>"
+	"/" PUNCT MIDDLE #12->13
+: 
+"<Läkemedelsverkets>"
+	"Läkemedelsverkets" ? @X #13->0
+: 
+"<vebbipaikalta>"
+	"vebbipaikalta" ? @X #14->0
+"<.>"
+	"." CLB #15->2
+: 
+"<Sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<saatat>"
+	"saattaa" V Act Ind Prs Sg2 @FMV #2->0
+: 
+"<kirjottaa>"
+	"kirjottaa" V Inf @X #3->0
+: 
+"<ulos>"
+	"ulos" Adv @ADVL #4->3
+: 
+"<informasuunin>"
+	"informasuuni" N Sg Gen @<OBJ #5->2
+: 
+"<elikkä>"
+	"elikkä" CC @X #6->0
+: 
+"<lukea>"
+	"lukea" V Inf @X #7->0
+: 
+"<suohraan>"
+	"suora" A Sg Ill @<SPRED #8->2
+	"suora" A Sg Nom Foc/haan @<SPRED #8->2
+: 
+"<vebbipaikala>"
+	"vebbipaikala" ? @X #9->0
+"<.>"
+	"." CLB #10->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lissää>"
+	"lisätä" V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<informasuunia>"
+	"informasuuni" N Sg Par @<OBJ #2->1
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<kontaktitietoja>"
+	"tieto" N Pl Par @<OBJ #4->2
+		"kontakti" N Nom Cmp #4->2
+:  
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Informasuunia>"
+	"informasuuni" N Sg Par @X #1->0
+: 
+"<mikä>"
+	"Mikä" N Prop Sem/Mal Sg Nom @SUBJ> #2->3
+: 
+"<jällaa>"
+	"jällata" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<sinua>"
+	"sie" Pron Pers Sg Par @<OBJ #4->3
+"<,>"
+	"," CLB #5->6
+: 
+"<missä>"
+	"mikä" Pron Rel Pl Ine @<ADVL #6->3
+	"mikä" Pron Rel Sg Ine @<ADVL #6->3
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #7->8
+: 
+"<asut>"
+	"asua" V Act Ind Prs Sg2 @FS-N< #8->4
+"<:>"
+	":" CLB #9->3
+: 
+"<¶>"
+	"¶" CLB #10->3
+:\n
+"<1177>"
+	"1177" Num Arab Sem/Year Sg Nom @HNOUN #1->0
+	 Use/Circ Use/Circ"1177" Num Arab Sg Nom
+	 Use/Circ"1177" Num Arab Sem/ID
+	 Use/Circ"1177" Num Arab Sem/Year Sg Nom
+	 Use/Circ"1177" Num Arab Sg Nom
+: 
+"<Hoito-opas>"
+	"opas" N Sg Nom @NUM< #2->2
+		"hoito" N Nom Cmp #2->2
+: 
+"<– 1177>"
+	 Use/Circ"– 1177" Num Arab Sem/ID
+"<.>"
+	"." CLB #4->1
+"<se>"
+	"se" Pron Pers Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Rekomentasuunia>"
+	"Rekomentasuunia" ? @X #1->0
+: 
+"<vaksinasuunile>"
+	"vaksinasuunile" ? @X #2->0
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<ette>"
+	"ette" CS @CVP #4->5
+: 
+"<välttää>"
+	"välttää" V Act Ind Prs Sg3 @FMV #5->0
+:   
+"<tartunan>"
+	"tartunta" N Sg Gen @<OBJ #6->5
+: 
+"<leviämistä>"
+	"leviämistä" ? @X #7->0
+"<:>"
+	":" CLB #8->5
+: 
+"<¶>"
+	"¶" CLB #9->5
+:\n
+"<Vaksiini>"
+	"Vaksiini" ? @X #1->0
+: 
+"<covid-19>"
+	"covid-19" N @X #2->0
+: 
+"<vasten>"
+	"vasten" Adv @ADVL #3->2
+"<:>"
+	":" CLB #4->3
+: 
+"<¶>"
+	"¶" CLB #5->3
+:\n
+"<Lääkheentieto>"
+	"Lääkheentieto" ? @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<tel>"
+	"Tel" N Prop Sem/Sur Sg Nom @HNOUN #3->0
+: 
+"<0771-46>"
+	"0771-46" Num Arab Sem/ID @N< #4->3
+	 Use/Circ"0771-46" Num Arab Sem/ID
+: 
+"<70>"
+	"70" Num Arab Sem/ID @X #5->0
+	 Use/Circ Use/Circ"70" Num Arab Sg Nom
+	 Use/Circ"70" A Arab Ord Attr CLBfinal
+	 Use/Circ"70" Num Arab Sem/ID
+	 Use/Circ"70" Num Arab Sg Nom
+: 
+"<10>"
+	"10" Num Arab Sem/Time-clock Sg Nom @HNOUN #6->3
+	 Use/Circ Use/Circ"10" Num Arab Sg Nom
+	 Use/Circ"10" A Arab Ord Attr CLBfinal
+	 Use/Circ"10" Num Arab Sem/ID
+	 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"10" Num Arab Sg Nom
+: 
+"<¶>"
+	"¶" CLB #7->3
+:\n
+"<Vastauksia>"
+	"vastaus" N Pl Par @X #1->0
+: 
+"<ylheishiin>"
+	"ylheinen" A Pl Ill @>N #2->3
+: 
+"<kysymykshiin>"
+	"kysymys" N Pl Ill @HNOUN #3->1
+: 
+"<covid-19>"
+	"covid-19" N @X #4->0
+"<:>"
+	":" CLB #5->5
+"<sta>"
+	"sta" ? @X #6->0
+:  
+"<asukhaile>"
+	"asukas" N Pl All @X #7->0
+"<:>"
+	":" CLB #8->8
+: 
+"<¶>"
+	"¶" CLB #9->9
+:\n
+"<113>"
+	"113" Num Arab Sem/ID @X #1->0
+	 Use/Circ Use/Circ"113" Num Arab Sg Nom
+	 Use/Circ"113" Num Arab Sem/ID
+	 Use/Circ"113" Num Arab Sg Nom
+: 
+"<13>"
+	"13" Num Arab Sem/Time-clock Sg Nom @HNOUN #2->0
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom
+	 Use/Circ"13" A Arab Ord Attr CLBfinal
+	 Use/Circ"13" Num Arab Sem/ID
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"13" Num Arab Sg Nom
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<kansalinen>"
+	"kansalinen" A Sg Nom @>N #4->5
+: 
+"<informasuuninumero>"
+	"numero" N Sg Nom @<SPRED #5->2
+		"informasuuni" N Nom Cmp #5->2
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<FO>"
+	"FO" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #1->2
+	"FO" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #1->2
+: 
+"<LK>"
+	"LK" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<YN>"
+	"YN" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<ART>"
+	"ART" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #1->2
+	"Art" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #1->2
+: 
+"<IK>"
+	"IK" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<KI>"
+	"KI" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Jatka>"
+	"jatkaa" V Act Imprt Sg2 @X #1->0
+: 
+"<suojaamasta>"
+	"suojata" V InfMa Ela @IMV #2->1
+: 
+"<itteä>"
+	"itte" Pron Refl Par @<OBJ #3->2
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<muita>"
+	"muu" Pron Indef Pl Par @<OBJ #5->3
+:  
+"<¶>"
+	"¶" CLB #6->6
+:\n
+"<Sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #1->3
+: 
+"<joka>"
+	"joka" Pr @X #2->0
+	"jokata" V Act Imprt Sg2 @X #2->0
+: 
+"<olet>"
+	"olla" V Act Ind Prs Sg2 @FAUX #3->0
+: 
+"<saanu>"
+	"saaja" V Act PrfPrc Sg Nom @SUBJ> #4->9
+	"saa’a" V Act PrfPrc Sg Nom @SUBJ> #4->9
+: 
+"<vaksiinin>"
+	"vaksiinin" ? @X #5->0
+: 
+"<tarttet>"
+	"tarttea" V Act Ind Prs Sg2 @X #6->0
+: 
+"<kuitenki>"
+	"kuiten" Adv Foc/kin @ADVL #7->6
+	"kuitenki" Adv @ADVL #7->6
+: 
+"<jatkaa>"
+	"jatkaa" V Act Ind Prs Sg3 @X #8->0
+: 
+"<seuraahmaan>"
+	"seurata" V Act Ind Prs Pl1 Foc/han @IMV #9->3
+	"seurata" V AgPrc Foc/han @FMV #9->3
+	"seurata" V InfMa Ill @IMV #9->3
+: 
+"<rekomentasuunia>"
+	"rekomentasuunia" ? @X #10->0
+: 
+"<ette>"
+	"ette" CS @CVP #11->12
+: 
+"<topata>"
+	"topata" V Inf @X #12->0
+: 
+"<tartunanleviämistä>"
+	"tartunanleviämistä" ? @X #13->0
+"<.>"
+	"." CLB #14->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Seuraa>"
+	"seurata" V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<kehitystä>"
+	"kehitys" N Sg Par @<OBJ #2->1
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<jatka>"
+	"jatkaa" V Act Imprt Sg2 @FMV #4->1
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<jäähmään>"
+	"jääjä" V Act Ind Prs Pl1 Foc/han @FMV #1->0
+: 
+"<kotia>"
+	"kotia" Adv @ADVL #2->0
+: 
+"<jos>"
+	"jos" CS @CVP #3->5
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #4->5
+: 
+"<olet>"
+	"olla" V Act Ind Prs Sg2 @FS-<ADVL #5->1
+: 
+"<sairas>"
+	"sairas" A Sg Nom @<SPRED #6->5
+: 
+"<¶>"
+	"¶" CLB #7->1
+:\n
+"<pitähmään>"
+	"pittää" V InfMa Ill @IMV #1->0
+: 
+"<väliä>"
+	"väli" N Sg Par @<OBJ #2->1
+: 
+"<muihiin>"
+	"muihiin" ? @X #3->0
+: 
+"<ihmishiin>"
+	"ihminen" N Pl Ill @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<pesehmään>"
+	"pestä" V InfMa Ill @IMV #1->0
+: 
+"<käsiä>"
+	"käsi" N Pl Par @<OBJ #2->1
+: 
+"<useasti>"
+	"useasti" Adv @ADVL #3->0
+"<.>"
+	"." CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

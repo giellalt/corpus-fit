@@ -1,0 +1,2363 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Met Avisi</title><genre code="news"/><author><unknown/></author><year>2019</year><wordcount>645</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="swe"/></multilingual><origFileName>https://www.str-t.com/meki/eetu-tutkii-ruottalaisia-piirtheita-meankielessa/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Liitosta>"
+	"liitos" N Sg Par @X #1->0
+	"liitto" N Sg Ela @X #1->0
+: 
+"<Liiton>"
+	"liitto" N Sg Gen @X #2->0
+: 
+"<johtokunta>"
+	"kunta" N Sg Nom @>N #3->4
+		"johto" N Nom Cmp #3->4
+:\n
+"<Toimintaplaani>"
+	"plaani" N Sg Nom @OBJ> #4->4
+		"toiminta" N Nom Cmp #4->4
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<säänöt>"
+	"sääntö" N Pl Nom @SUBJ> #6->0
+	"säänö" N Pl Nom @SUBJ> #6->0
+:\n
+"<Ajankohtaset>"
+	"Ajankohtaset" ? @X #7->0
+: 
+"<prujektit>"
+	"prujekti" N Pl Nom @OBJ> #8->8
+:\n
+"<Päätetyt>"
+	"päättää" V Pass PrfPrc Pl Nom @>N #9->10
+: 
+"<prujektit>"
+	"prujekti" N Pl Nom @>N #10->11
+:\n
+"<Histuuriaa>"
+	"histuuria" N Sg Par @<OBJ #11->11
+:\n
+"<Ala>"
+	"Ala" N Prop Sem/Plc Sg Nom @>N #12->13
+: 
+"<jäseneksi>"
+	"jäsen" N Sg Tra @X #13->0
+:\n
+"<Kaamos>"
+	"kaamos" N Sg Nom @>N #14->15
+: 
+"<Förlaaki>"
+	"förlaaki" N Sg Nom @<OBJ #15->15
+:\n
+: 
+"<¶>"
+	"¶" CLB #16->6
+:\n
+"<Liiton>"
+	"liitto" N Sg Gen @X #1->0
+: 
+"<johtokunta>"
+	"kunta" N Sg Nom @HNOUN #2->1
+		"johto" N Nom Cmp #2->1
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Toimintaplaani>"
+	"plaani" N Sg Nom @HNOUN #1->0
+		"toiminta" N Nom Cmp #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<säänöt>"
+	"sääntö" N Pl Nom @SUBJ> #3->0
+	"säänö" N Pl Nom @SUBJ> #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Ajankohtaset>"
+	"Ajankohtaset" ? @X #1->0
+: 
+"<prujektit>"
+	"prujekti" N Pl Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Päätetyt>"
+	"päättää" V Pass PrfPrc Pl Nom @>N #1->2
+: 
+"<prujektit>"
+	"prujekti" N Pl Nom @<OBJ #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Histuuriaa>"
+	"histuuria" N Sg Par @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Ala>"
+	"Ala" N Prop Sem/Plc Sg Nom @>N #1->2
+: 
+"<jäseneksi>"
+	"jäsen" N Sg Tra @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Kaamos>"
+	"kaamos" N Sg Nom @>N #1->2
+: 
+"<Förlaaki>"
+	"förlaaki" N Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Paikalisosastot>"
+	"osasto" N Pl Nom @HNOUN #1->0
+		"paikalinen" A Nom Cmp #1->0
+: 
+"<Met>"
+	"met" Pron Pers Pl Nom @>N #2->3
+: 
+"<Nuoret>"
+	"nuoret" N Pl Nom @HNOUN #3->1
+	"nuori" A Pl Nom @>N #3->1
+:\n
+"<Tornionlaaksolaiset>"
+	"tornionlaaksolainen" A Pl Nom @>N #4->5
+: 
+"<Jellivaarassa>"
+	"Jellivaara" N Prop Sem/Plc Sg Ine @N< #5->1
+:\n
+"<Meän>"
+	"met" Pron Pers Pl Gen @>N #6->7
+: 
+"<Kulttuurikehto>"
+	"kehto" N Sg Nom @>N #7->8
+		"kulttuuri" N Nom Cmp #7->8
+: 
+"<Kaihnuussa>"
+	"Kaihnuu" N Prop Sem/Plc Sg Ine @N< #8->5
+:\n
+"<Tornionlaaksolaiset>"
+	"tornionlaaksolainen" A Pl Nom @<SPRED #9->3
+: 
+"<Matarinkissä>"
+	"Matarinki" N Prop Sem/Plc Sg Ine @N< #10->8
+:\n
+"<Stockholmissa>"
+	"Stockholm" N Prop Sem/Plc Sg Ine @N< #11->10
+:\n
+:\n
+"<Umeåssa>"
+	"Umeå" N Prop Sem/Plc Sg Ine @N< #12->11
+:\n
+"<Uppsalassa>"
+	"Uppsala" N Prop Sem/Plc Sg Ine @N< #13->12
+:\n
+: 
+"<¶>"
+	"¶" CLB #14->1
+:\n
+"<Met>"
+	"met" Pron Pers Pl Nom @>N #1->2
+: 
+"<Nuoret>"
+	"nuoret" N Pl Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Tornionlaaksolaiset>"
+	"tornionlaaksolainen" A Pl Nom @SPRED> #1->2
+: 
+"<Jellivaarassa>"
+	"Jellivaara" N Prop Sem/Plc Sg Ine @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Meän>"
+	"met" Pron Pers Pl Gen @>N #1->2
+: 
+"<Kulttuurikehto>"
+	"kehto" N Sg Nom @>N #2->3
+		"kulttuuri" N Nom Cmp #2->3
+: 
+"<Kaihnuussa>"
+	"Kaihnuu" N Prop Sem/Plc Sg Ine @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB #4->3
+:\n
+"<Tornionlaaksolaiset>"
+	"tornionlaaksolainen" A Pl Nom @SPRED> #1->2
+: 
+"<Matarinkissä>"
+	"Matarinki" N Prop Sem/Plc Sg Ine @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Stockholmissa>"
+	"Stockholm" N Prop Sem/Plc Sg Ine @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Umeåssa>"
+	"Umeå" N Prop Sem/Plc Sg Ine @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Uppsalassa>"
+	"Uppsala" N Prop Sem/Plc Sg Ine @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Muut>"
+	"muu" A Pl Nom @>N #1->2
+: 
+"<minuriteetit>"
+	"minuriteetti" N Pl Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Toiminta>"
+	"toiminta" N Sg Nom @>N #1->2
+: 
+"<Lausunon>"
+	"lausunto" N Sg Gen @X #2->0
+"<->"
+	"-" PUNCT MIDDLE #3->3
+"</>"
+	"/" PUNCT MIDDLE #4->5
+"<remissivastaukset>"
+	"vastaus" N Pl Nom @HNOUN #5->2
+		"remissi" N Nom Cmp #5->2
+:\n
+"<Komenthaarit>"
+	"Komenthaarit" ? @X #6->0
+:\n
+: 
+"<¶>"
+	"¶" CLB #7->7
+:\n
+"<Lausunon>"
+	"lausunto" N Sg Gen @X #1->0
+"<->"
+	"-" PUNCT MIDDLE #2->2
+"</>"
+	"/" PUNCT MIDDLE #3->4
+"<remissivastaukset>"
+	"vastaus" N Pl Nom @HNOUN #4->1
+		"remissi" N Nom Cmp #4->1
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Komenthaarit>"
+	"Komenthaarit" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Yhtheys>"
+	"yhtheys" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Eetu>"
+	"Eetu" ? @X #1->0
+: 
+"<tutkii>"
+	"tutkia" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ruottalaisia>"
+	"ruottalainen" A Pl Par @<OBJ #3->2
+	"ruottalainen" N Pl Par @<OBJ #3->2
+: 
+"<piirtheitä>"
+	"piirtheitä" ? @X #4->0
+: 
+"<meänkielessä>"
+	"meänkieli" N Sg Ine @<ADVL #5->2
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<Eetu>"
+	"Eetu" ? @X #1->0
+: 
+"<opiskellee>"
+	"opiskella" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<Jyväskylän>"
+	"Jyväskylä" N Prop Sem/Plc Sg Gen @<OBJ #3->2
+: 
+"<yliopistossa>"
+	"yliopisto" N Sg Ine @<ADVL #4->2
+"<.>"
+	"." CLB #5->2
+: 
+"<Kuva>"
+	"Kuva" N Prop Sem/Plc Sg Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<Jyväskylän>"
+	"Jyväskylä" N Prop Sem/Plc Sg Gen @X #3->0
+: 
+"<opisto>"
+	"opisto" N Sg Nom @HNOUN #4->3
+:  
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Meänkielessä>"
+	"meänkieli" N Sg Ine @ADVL> #1->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<paljon>"
+	"paljon" Adv @ADVL #3->5
+: 
+"<ruottalaisia>"
+	"ruottalainen" N Pl Par @<SUBJ #4->2
+: 
+"<piirtheitä>"
+	"piirtheitä" ? @X #5->0
+: 
+"<lausumisessa>"
+	"lausua" V Der/minen N Sg Ine @<ADVL #6->2
+"<.>"
+	"." CLB #7->2
+: 
+"<Kunka>"
+	"kunka" Adv @ADVL #1->2
+: 
+"<monta>"
+	"moni" A Sg Par @X #2->0
+	"monta" Pr @X #2->0
+"<,>"
+	"," CLB #3->2
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @HNOUN #4->0
+: 
+"<kiinostaa>"
+	"kiinostaa" ? @X #5->0
+: 
+"<24-vuotiasta>"
+	"24-vuotiasta" ? @X #6->0
+: 
+"<Eetu>"
+	"Eetu" ? @X #7->0
+: 
+"<Kouvoa>"
+	"Kouvo" N Prop Sem/Sur Sg Par @<P #8->8
+: 
+"<Jyväskylän>"
+	"Jyväskylä" N Prop Sem/Plc Sg Gen @<P #9->9
+: 
+"<yliopistossa>"
+	"yliopisto" N Sg Ine @<ADVL #10->4
+"<.>"
+	"." CLB #11->1
+: 
+"<Raatioohjelman>"
+	"ohjelma" N Sg Gen @>N #1->2
+		"raatio" N Nom Cmp #1->2
+: 
+"<Meänkielen>"
+	"meänkieli" N Sg Gen @>N #2->3
+: 
+"<kursin>"
+	"kursi" N Sg Gen @>N #3->5
+: 
+"<27>"
+	"27" Num Arab Sem/Time-clock Sg Nom @N< #4->3
+	"27" Num Arab Sem/ID @N< #4->3
+	 Use/Circ Use/Circ"27" Num Arab Sg Nom
+	 Use/Circ"27" A Arab Ord Attr CLBfinal
+	 Use/Circ"27" Num Arab Sem/ID
+	 Use/Circ"27" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"27" Num Arab Sg Nom
+: 
+"<osan>"
+	"osa" N Sg Gen @NUM< #5->5
+: 
+"<ansiosta>"
+	"Ansio" N Prop Sem/Sur Sg Ela @ADVL> #6->8
+: 
+"<hällä>"
+	"hään" Pron Pers Sg Ade @HAB #7->7
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #8->0
+: 
+"<pohja>"
+	"Pohja" N Prop Sem/Plc Sg Nom @<SPRED #9->8
+: 
+"<tutkimukselle>"
+	"tutkimukselle" ? @X #10->0
+"<.>"
+	"." CLB #11->8
+: 
+"<Tulos>"
+	"tulos" N Sg Nom @SUBJ> #1->2
+: 
+"<esitethään>"
+	"esittää" V Pass Ind Prs @FMV #2->0
+: 
+"<C-yppsatsissa>"
+	"C-yppsatsissa" ? @X #3->0
+: 
+"<kevväilä>"
+	"kevväilä" Adv @ADVL #4->3
+"<.>"
+	"." CLB #5->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eetu>"
+	"Eetu" ? @X #1->0
+: 
+"<Kouvo>"
+	"Kouvo" N Prop Sem/Sur Sg Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<lähtösin>"
+	"lähtösin" Adv @ADVL #4->1
+: 
+"<Savitaipalheesta>"
+	"Savitaipalheesta" ? @X #5->0
+: 
+"<itäetehläisestä>"
+	"itäetehläisestä" ? @X #6->0
+: 
+"<Suomesta>"
+	"suomi" N Sg Ela @<ADVL #7->3
+"<.>"
+	"." CLB #8->3
+: 
+"<Hään>"
+	"hään" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<käypi>"
+	"käyä" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<Kielitieteohjelmaa>"
+	"ohjelma" N Sg Par @<OBJ #3->2
+		"tiete" N Nom Cmp #3->2
+			"kieli" N Nom Cmp #3->2
+: 
+"<Kieli>"
+	"kieli" N Sg Nom @X #4->0
+"<->"
+	"-" PUNCT MIDDLE #5->6
+: 
+"<ja>"
+	"ja" CC @CNP #6->4
+: 
+"<viestintätieteiden>"
+	"viestintätieteiden" ? @X #7->0
+: 
+"<laitoksessa>"
+	"laitos" N Sg Ine @<ADVL #8->2
+: 
+"<Jyväskylän>"
+	"Jyväskylä" N Prop Sem/Plc Sg Gen @<OBJ #9->9
+: 
+"<yliopistossa>"
+	"yliopisto" N Sg Ine @<ADVL #10->2
+"<.>"
+	"." CLB #11->2
+: 
+"<Tänä>"
+	"tämä" Pron Dem Sg Ess @>N #1->2
+: 
+"<kevväinä>"
+	"kevät" N Pl Ess @X #2->0
+: 
+"<hään>"
+	"hään" Pron Pers Sg Nom @SUBJ> #3->4
+: 
+"<kirjottaa>"
+	"kirjottaa" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<kantitaattiyppsatsia>"
+	"kantitaattiyppsatsia" ? @X #5->0
+: 
+"<missä>"
+	"mikä" Pron Rel Pl Ine @>N #6->11
+	"mikä" Pron Rel Sg Ine @>N #6->11
+: 
+"<hään>"
+	"hään" Pron Pers Sg Nom @SUBJ> #7->8
+: 
+"<tutkii>"
+	"tutkia" V Act Ind Prs Sg3 @FS-N< #8->4
+: 
+"<kunka>"
+	"kunka" Adv @ADVL #9->5
+: 
+"<paljon>"
+	"paljon" Adv @ADVL #10->5
+: 
+"<ruottalaisia>"
+	"ruottalainen" A Pl Par @<OBJ #11->8
+	"ruottalainen" N Pl Par @<OBJ #11->8
+: 
+"<piirtheitä>"
+	"piirtheitä" ? @X #12->0
+: 
+"<meänkielessä>"
+	"meänkieli" N Sg Ine @<ADVL #13->8
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #14->4
+"<.>"
+	"." CLB #15->4
+: 
+"<Ittelä>"
+	"itte" Pron Refl Ade @ADVL> #1->4
+: 
+"<hällä>"
+	"hään" Pron Pers Sg Ade @ADVL> #2->4
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FAUX #3->0
+: 
+"<ole>"
+	"olla" V Act Ind Prs ConNeg @FMV #4->3
+: 
+"<suoraa>"
+	"suora" A Sg Par @>N #5->6
+: 
+"<yhtheyttä>"
+	"yhtheys" N Sg Par @<SUBJ #6->4
+: 
+"<Tornionlaaksoon>"
+	"Tornionlaaksoon" ? @X #7->0
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FAUX #8->4
+: 
+"<jeokraaffisesti>"
+	"jeokraaffisesti" ? @X #9->0
+: 
+"<eikä>"
+	"ei" V Neg Act Prs Sg3 Foc/ka @FAUX #10->8
+: 
+"<sukulaisuuela>"
+	"sukulainen" N Der/suus N Sg Ade @<ADVL #11->10
+	"sukulaisuus" N Sg Ade @<ADVL #11->10
+"<.>"
+	"." CLB #12->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<–>"
+	"–" PUNCT MIDDLE #1->2
+: 
+"<Yheksänessä>"
+	"Yheksänessä" ? @X #2->0
+: 
+"<luokassa>"
+	"luokka" N Sg Ine @ADVL> #3->5
+: 
+"<met>"
+	"met" Pron Pers Pl Nom @SUBJ> #4->5
+: 
+"<luima>"
+	"lukea" V Act Ind Prt Pl1 @FMV #5->0
+	"lukia" V Act Ind Prs Pl1 @FMV #5->0
+	"lukia" V Act Ind Prt Pl1 @FMV #5->0
+: 
+"<suomen-uukrilaisista>"
+	"suomen-uukrilaisista" ? @X #6->0
+: 
+"<kielistä>"
+	"Kielinen" N Prop Sem/Sur Sg Par @<OBJ #7->5
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<kirjassa>"
+	"kirja" N Sg Ine @<ADVL #9->5
+: 
+"<oli>"
+	"olla" V Act Ind Prt Sg3 @FMV #10->5
+: 
+"<kieliesimerkkiä>"
+	"merkki" N Pl Par @<SUBJ #11->10
+		"liesi" N Nom Cmp #11->10
+			"kie" N Nom Cmp #11->10
+	"merkki" N Sg Par @<SUBJ #11->10
+		"liesi" N Nom Cmp #11->10
+			"kie" N Nom Cmp #11->10
+	"esimerkki" N Pl Par @<SUBJ #11->10
+		"kieli" N Nom Cmp #11->10
+	"esimerkki" N Sg Par @<SUBJ #11->10
+		"kieli" N Nom Cmp #11->10
+: 
+"<meänkielelä>"
+	"meänkieli" N Sg Ade @<ADVL #12->10
+"<.>"
+	"." CLB #13->5
+: 
+"<Sen>"
+	"se" Pron Dem Sg Gen @>N #1->2
+	"se" Pron Pers Sg Gen @>N #1->2
+: 
+"<jälkhiin>"
+	"jälkhiin" Adv @ADVL #2->3
+	"jälki" N Pl Ill @ADVL> #2->3
+: 
+"<mie>"
+	"mie" Pron Pers Sg Nom @X #3->0
+: 
+"<alon>"
+	"Alko" N Prop Sem/Org Sg Gen @X #4->0
+: 
+"<hakheen>"
+	"hakea" V InfMa Ill @IMV #5->0
+: 
+"<tekstiä>"
+	"teksti" N Pl Par @<OBJ #6->5
+	"teksti" N Sg Par @<OBJ #6->5
+: 
+"<netiltä>"
+	"netiltä" ? @X #7->0
+"<,>"
+	"," CLB #8->9
+: 
+"<ja>"
+	"ja" CC @CNP #9->7
+: 
+"<jälemiten>"
+	"jälemiten" ? @X #10->0
+: 
+"<mie>"
+	"mie" Pron Pers Sg Nom @SUBJ> #11->12
+: 
+"<löysin>"
+	"löysi" A Sg Gen @>N #12->13
+	"löysä" A Superl Sg Nom @>N #12->13
+	"löytää" V Act Ind Prt Sg1 @FMV #12->13
+: 
+"<Ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @>N #13->14
+: 
+"<Raation>"
+	"raatio" N Sg Gen @>N #14->15
+: 
+"<ohjelman>"
+	"ohjelma" N Sg Gen @<OBJ #15->5
+: 
+"<meänkielelä>"
+	"meänkieli" N Sg Ade @<ADVL #16->12
+: 
+"<jota>"
+	"joka" Pron Rel Sg Par @<OBJ #17->12
+: 
+"<mie>"
+	"mie" Pron Pers Sg Nom @SUBJ> #18->20
+: 
+"<vieläki>"
+	"Vie" N Prop Sem/Sur Sg Ade Foc/kin @<ADVL #19->12
+	"Vike" N Prop Sem/Sur Sg Ade Foc/kin @<ADVL #19->12
+: 
+"<kuuntelen>"
+	"kuunela" V Act Ind Prs Sg1 @FS-N< #20->16
+"<.>"
+	"." CLB #21->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eetula>"
+	"Eetula" ? @X #1->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ylipäätänsä>"
+	"ylipää" N Sg Par PxSg3 @<SUBJ #3->2
+: 
+"<suuri>"
+	"suuri" A Sg Nom @>N #4->5
+: 
+"<kiinostus>"
+	"kiinostus" N Sg Nom @>N #5->6
+: 
+"<kielile>"
+	"Kiel" N Prop Sem/Plc Sg All @<ADVL #6->2
+"<.>"
+	"." CLB #7->2
+: 
+"<Hään>"
+	"häkä" N Sg Gen @>N #1->2
+	"hätä" N Sg Gen @>N #1->2
+	"hään" Pron Pers Sg Nom @>N #1->2
+: 
+"<on>"
+	"On" N Prop Sg Nom @HNOUN #2->0
+: 
+"<esimerkiksi>"
+	"esimerkiksi" Adv @ADVL #3->10
+: 
+"<kiinostunnu>"
+	"kiinostunnu" A Sg Nom @<SPRED #4->2
+: 
+"<suomalaisista>"
+	"Suomalainen" N Prop Sem/Sur Pl Ela @N< #5->2
+"<,>"
+	"," CLB #6->5
+: 
+"<ruottalaisista>"
+	"ruottalainen" A Pl Ela @>N #7->10
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<saksalaisista>"
+	"saksalainen" A Pl Ela @>N #9->7
+: 
+"<murtheista>"
+	"murre" N Pl Ela @X #10->0
+"<.>"
+	"." CLB #11->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<–>"
+	"–" PUNCT MIDDLE #1->2
+: 
+"<Mie>"
+	"mie" Pron Pers Sg Nom @>N #2->3
+: 
+"<olen>"
+	"Ole" N Prop Sem/Mal Sg Gen @>P #3->12
+	"Olen" N Prop Sem/Plc Sg Nom @SUBJ> #3->12
+: 
+"<kans>"
+	"kans" Po @ADVL #4->10
+: 
+"<tutustunnu>"
+	"tutustua" V Act PrfPrc Sg Nom @>N #5->6
+: 
+"<eestin>"
+	"eesti" N Sg Gen @<OBJ #6->6
+"<,>"
+	"," CLB #7->6
+: 
+"<venäjän>"
+	"Venäjä" N Prop Sem/Plc Sg Gen @<OBJ #8->6
+"<,>"
+	"," CLB #9->8
+: 
+"<slovakkian>"
+	"slovakkian" ? @X #10->0
+"<,>"
+	"," CLB #11->10
+: 
+"<puolan>"
+	"puola" N Sg Gen @<OBJ #12->6
+	"puoltaa" V Act Ind Prs Sg1 @FMV #12->6
+"<,>"
+	"," CLB #13->12
+: 
+"<korean>"
+	"Korean" N Prop Sem/Org Sg Nom @X #14->0
+: 
+"<ja>"
+	"ja" CC @CNP #15->14
+: 
+"<karjalan>"
+	"Karjala" N Prop Sem/Plc Sg Gen @<OBJ #16->12
+: 
+"<kiehliin>"
+	"Kiel" N Prop Sem/Plc Sg Ill @<ADVL #17->12
+"<.>"
+	"." CLB #18->4
+: 
+"<Se>"
+	"se" Pron Dem Sg Nom @>N #1->2
+: 
+"<mikä>"
+	"Mikä" N Prop Sem/Mal Sg Nom @SUBJ> #2->6
+: 
+"<minua>"
+	"mie" Pron Pers Sg Par @X #3->0
+: 
+"<enniiten>"
+	"enniiten" Adv @ADVL #4->3
+: 
+"<kiinostaa>"
+	"kiinostaa" ? @X #5->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<miltä>"
+	"mikä" Pron Interr Pl Abl @<ADVL #7->6
+	"mikä" Pron Interr Sg Abl @<ADVL #7->6
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #8->9
+: 
+"<kuuluu>"
+	"kuulua" V Act Ind Prs Sg3 @FMV #9->6
+"<,>"
+	"," CLB #10->9
+: 
+"<sen>"
+	"se" Pron Pers Sg Gen @<OBJ #11->9
+: 
+"<vuoksi>"
+	"vuoksi" Po @ADVL #12->5
+: 
+"<mie>"
+	"mie" Pron Pers Sg Nom @SUBJ> #13->14
+: 
+"<kuuntelen>"
+	"kuunela" V Act Ind Prs Sg1 @FMV #14->9
+: 
+"<raatioasemia>"
+	"asema" N Pl Par @<OBJ #15->14
+		"raatio" N Nom Cmp #15->14
+: 
+"<monesta>"
+	"Mone" N Prop Sem/Fem Sg Ela @<ADVL #16->14
+: 
+"<maasta>"
+	"Maas" N Prop Sem/Sur Sg Par @<OBJ #17->14
+"<.>"
+	"." CLB #18->4
+: 
+"<Intternetti>"
+	"intternetti" N Sg Nom @SUBJ> #1->2
+: 
+"<tekkee>"
+	"tehhä" V Act Ind Prs Sg3 @FMV #2->0
+	"tehjä" V Act Ind Prs Sg3 @FMV #2->0
+	"tehä" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<sen>"
+	"se" Pron Pers Sg Gen @<OBJ #3->2
+: 
+"<helpoksi>"
+	"helppo" A Sg Tra @X #4->0
+"<.>"
+	"." CLB #5->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Hään>"
+	"hään" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<löysi>"
+	"löysi" A Sg Nom @>N #2->3
+	"löytää" V Act Ind Prt Sg3 @FMV #2->3
+: 
+"<SR>"
+	"SR" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #3->6
+	"SR" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #3->6
+: 
+"<Meänraation>"
+	"Meänraation" ? @X #4->0
+: 
+"<(>"
+	"(" PUNCT LEFT #5->6
+"<Ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @>N #6->7
+: 
+"<raation>"
+	"raatio" N Sg Gen @>N #7->8
+: 
+"<meänkielen>"
+	"meänkieli" N Sg Gen @>N #8->11
+: 
+"<retaksjuuni>"
+	"retaksjuuni" ? @X #9->0
+"<)>"
+	")" PUNCT RIGHT #10->11
+"<ohjelman>"
+	"ohjelma" N Sg Gen @<OBJ #11->11
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #13->2
+: 
+"<tänäpäivänä>"
+	"tänäpäivänä" Adv @ADVL #14->9
+: 
+"<päässy>"
+	"päästä" V Act PrfPrc Sg Nom @SUBJ> #15->20
+: 
+"<niin>"
+	"niin" Adv @ADVL #16->9
+: 
+"<kauas>"
+	"kauas" Adv @ADVL #17->9
+: 
+"<ette>"
+	"ette" CS @CVP #18->20
+: 
+"<hään>"
+	"hään" Pron Pers Sg Nom @SUBJ> #19->20
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FS-<ADVL #20->2
+: 
+"<praatia>"
+	"praatia" V Inf @X #21->0
+: 
+"<ja>"
+	"ja" CC @CNP #22->21
+: 
+"<kirjottaa>"
+	"kirjottaa" V Act Ind Prs Sg3 @FS-<ADVL #23->20
+: 
+"<vähän>"
+	"vähän" Adv @ADVL #24->21
+: 
+"<minuriteettikielelä>"
+	"minuriteettikieli" N Sg Ade @<ADVL #25->23
+"<.>"
+	"." CLB #26->14
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<27>"
+	"27" Num Arab Sem/Time-clock Sg Nom @SUBJ> #1->0
+	 Use/Circ Use/Circ"27" Num Arab Sg Nom
+	 Use/Circ"27" A Arab Ord Attr CLBfinal
+	 Use/Circ"27" Num Arab Sem/ID
+	 Use/Circ"27" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"27" Num Arab Sg Nom
+: 
+"<ossaa>"
+	"osa" N Sg Par @NUM< #2->2
+: 
+"<analyseerathaan>"
+	"analyseerata" V Pass Ind Prs @X #3->0
+:  
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Ajatus>"
+	"ajatus" N Sg Nom @SUBJ> #1->3
+: 
+"<c-yppsatsila>"
+	"c-yppsatsila" ? @X #2->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<ette>"
+	"ette" CS @CVP #4->6
+: 
+"<tutkia>"
+	"tutkia" V Inf @X #5->0
+: 
+"<mitä>"
+	"mitä" Adv @ADVL #6->5
+: 
+"<ruottalaisia>"
+	"ruottalainen" A Pl Par @<OBJ #7->7
+	"ruottalainen" N Pl Par @<OBJ #7->7
+: 
+"<piirtheitä>"
+	"piirtheitä" ? @X #8->0
+: 
+"<löytyy>"
+	"löytyä" V Act Ind Prs Sg3 @X #9->0
+: 
+"<meänkielen>"
+	"meänkieli" N Sg Gen @>N #10->11
+: 
+"<lausumisessa>"
+	"lausua" V Der/minen N Sg Ine @<ADVL #11->3
+: 
+"<raatioohjelmassa>"
+	"ohjelma" N Sg Ine @<ADVL #12->3
+		"raatio" N Nom Cmp #12->3
+: 
+"<”>"
+	"”" PUNCT RIGHT #13->14
+"<Meänkielen>"
+	"meänkieli" N Sg Gen @<OBJ #14->14
+: 
+"<kuris>"
+	"kuris" ? @X #15->0
+"<:>"
+	":" CLB #16->3
+: 
+"<Opi>"
+	"oppia" V Act Imprt Sg2 @X #17->0
+: 
+"<kirjottamhaan>"
+	"kirjottaa" V InfMa Ill @IMV #18->17
+: 
+"<ja>"
+	"ja" CC @CNP #19->18
+: 
+"<lukheen>"
+	"lukea" V InfMa Ill @IMV #20->18
+: 
+"<meänkieltä>"
+	"meänkieli" N Sg Par @<OBJ #21->20
+"<”>"
+	"”" PUNCT RIGHT #22->23
+: 
+"<joka>"
+	"joka" Pr @X #23->0
+	"jokata" V Act Imprt Sg2 @X #23->0
+: 
+"<sisältää>"
+	"sisältää" V Act Ind Prs Sg3 @X #24->0
+	"sisältää" V Inf @X #24->0
+: 
+"<27>"
+	"27" Num Arab Sem/Time-clock Sg Nom @SUBJ> #25->0
+	 Use/Circ Use/Circ"27" Num Arab Sg Nom
+	 Use/Circ"27" A Arab Ord Attr CLBfinal
+	 Use/Circ"27" Num Arab Sem/ID
+	 Use/Circ"27" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"27" Num Arab Sg Nom
+: 
+"<ossaa>"
+	"osa" N Sg Par @NUM< #26->26
+: 
+"<(>"
+	"(" PUNCT LEFT #27->28
+"<4>"
+	"4" Num Arab Sem/Time-clock Sg Nom @X #28->0
+	"4" Num Arab Sem/ID @X #28->0
+	 Use/Circ Use/Circ"4" Num Arab Sg Nom
+	 Use/Circ"4" A Arab Ord Attr CLBfinal
+	 Use/Circ"4" Num Arab Sem/ID
+	 Use/Circ"4" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"4" Num Arab Sg Nom
+: 
+"<tiimaa>"
+	"tiima" N Sg Par @NUM< #29->29
+: 
+"<kaikkihaan>"
+	"kaikki" Pr Foc/haan @X #30->0
+	"kaikki" Pron Qu Sg Nom Foc/haan @X #30->0
+"<)>"
+	")" PUNCT RIGHT #31->30
+"<.>"
+	"." CLB #32->3
+: 
+"<Ruottalaisila>"
+	"ruottalainen" A Pl Ade @ADVL> #1->4
+	"ruottalainen" N Pl Ade @ADVL> #1->4
+: 
+"<piirtheilä>"
+	"piirtheilä" ? @X #2->0
+: 
+"<hään>"
+	"hään" Pron Pers Sg Nom @SUBJ> #3->4
+: 
+"<meinaa>"
+	"meinata" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<aspiraatio>"
+	"aspiraatio" N Sg Nom @X #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<syprentaliseerinki>"
+	"syprentaliseerinki" ? @X #7->0
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<lausuminen>"
+	"lausua" V Der/minen N Sg Nom @X #9->0
+: 
+"</>"
+	"/" PUNCT MIDDLE @CNP #10->11
+"<o>"
+	"o" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #11->0
+"</>"
+	"/" PUNCT MIDDLE #12->13
+: 
+"<ja>"
+	"ja" CC @CNP #13->11
+: 
+"</>"
+	"/" PUNCT MIDDLE #14->15
+"<u>"
+	"u" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @X #15->0
+"</>"
+	"/" PUNCT MIDDLE #16->15
+"<.>"
+	"." CLB #17->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<–>"
+	"–" PUNCT MIDDLE #1->2
+: 
+"<Nämät>"
+	"nämä" Pron Dem Pl Nom @SUBJ> #2->4
+: 
+"<kolme>"
+	"kolme" Num Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<jokku>"
+	"joku" Pron Pl Nom @>N #5->6
+: 
+"<niistä>"
+	"Niki" N Prop Sem/Mal Sg Ela @<ADVL #6->4
+: 
+"<kaikista>"
+	"kaikki" Pron Qu Pl Ela @<ADVL #7->4
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #8->9
+: 
+"<erottava>"
+	"erottaa" V Act Ind Prs Pl3 @FS-N< #9->4
+	"erottaa" V Act PrsPrc Sg Nom @>N #9->4
+: 
+"<ruottalaisen>"
+	"ruottalainen" A Sg Gen @>N #10->11
+: 
+"<lausumisen>"
+	"lausua" V Der/minen N Sg Gen @<OBJ #11->9
+: 
+"<suomalaisesta>"
+	"Suomalainen" N Prop Sem/Sur Sg Ela @<ADVL #12->9
+"<.>"
+	"." CLB #13->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Päämäära>"
+	"Päämäära" ? @X #1->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ette>"
+	"ette" CS @CVP #3->8
+: 
+"<analyseraata>"
+	"analyseraata" ? @X #4->0
+: 
+"<jokhaisen>"
+	"jokhainen" Pron Qu Gen @>N #5->6
+: 
+"<ohjelman>"
+	"ohjelma" N Sg Gen @X #6->0
+: 
+"<pari>"
+	"pari" N Sg Nom @SUBJ> #7->8
+: 
+"<kertaa>"
+	"kerrata" V Act Ind Prs Sg3 @FS-<ADVL #8->2
+"<.>"
+	"." CLB #9->2
+: 
+"<Tähän>"
+	"täi" N Sg Nom Foc/han @SUBJ> #1->4
+: 
+"<saakka>"
+	"saakka" Po @ADVL #2->0
+: 
+"<hään>"
+	"hään" Pron Pers Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #4->0
+: 
+"<analyseeranu>"
+	"analyseerata" V Act PrfPrc Sg Nom @>N #5->6
+: 
+"<materiaalin>"
+	"materiaali" N Sg Gen @>N #6->7
+: 
+"<kerran>"
+	"kerta" N Sg Gen @<OBJ #7->7
+"<.>"
+	"." CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<–>"
+	"–" PUNCT MIDDLE #1->2
+: 
+"<Mie>"
+	"mie" Pron Pers Sg Nom @HNOUN #2->0
+: 
+"<transkripeeraan>"
+	"transkripeeraan" ? @X #3->0
+: 
+"<net>"
+	"net" Pron Pers Pl Nom @>N #4->6
+: 
+"<asihaankuuluvat>"
+	"asihaankuuluvat" ? @X #5->0
+: 
+"<paikat>"
+	"paikat" N Pl Nom @>N #6->7
+	"paikka" N Pl Nom @>N #6->7
+: 
+"<ohjelmissa>"
+	"ohjelma" N Pl Ine @<ADVL #7->2
+"<.>"
+	"." CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eetu>"
+	"Eetu" ? @X #1->0
+: 
+"<ottaa>"
+	"Otta" N Prop Sem/Plc Sg Par @X #2->0
+: 
+"<ylös>"
+	"ylös" Adv @ADVL #3->2
+: 
+"<niitä>"
+	"net" Pron Pers Pl Par @>N #4->5
+	"niittää" V Act Imprt Sg2 @FMV #4->5
+: 
+"<ruottalaisia>"
+	"ruottalainen" A Pl Par @<OBJ #5->5
+	"ruottalainen" N Pl Par @<OBJ #5->5
+: 
+"<piirtheitä>"
+	"piirtheitä" ? @X #6->0
+: 
+"<joita>"
+	"joka" Pron Rel Pl Par @<OBJ #7->4
+: 
+"<tullee>"
+	"tulla" V Act Ind Prs Sg3 @FS-N< #8->5
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<kunka>"
+	"kunka" Adv @ADVL #10->6
+: 
+"<paljon>"
+	"paljon" Adv @ADVL #11->6
+: 
+"<ruotti>"
+	"Ruotti" N Prop Sem/Plc Sg Nom @SUBJ> #12->13
+: 
+"<vaikuttaa>"
+	"vaikuttaa" V Act Ind Prs Sg3 @FMV #13->4
+: 
+"<meänkiehleen>"
+	"meänkieli" N Sg Ill @<ADVL #14->13
+"<.>"
+	"." CLB #15->3
+: 
+"<Pohjamateriaalissa>"
+	"materiaali" N Sg Ine @ADVL> #1->2
+		"pohja" N Nom Cmp #1->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ainuasthaan>"
+	"ainuasthaan" Adv @ADVL #3->16
+: 
+"<ihmisiä>"
+	"ihminen" N Pl Par @<SUBJ #4->2
+"</>"
+	"/" PUNCT MIDDLE @CNP #5->6
+"<informanttia>"
+	"informantti" N Sg Par @<SUBJ #6->4
+: 
+"<joila>"
+	"Joki" N Prop Sem/Sur Sg Ade @<ADVL #7->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #8->2
+: 
+"<meänkieli>"
+	"meänkieli" N Sg Nom @SUBJ> #9->17
+: 
+"<ensimäinen>"
+	"ensimäinen" A Ord Sg Nom @>N #10->11
+: 
+"<kieli>"
+	"kieli" N Sg Nom @SUBJ> #11->17
+"<,>"
+	"," CLB #12->11
+: 
+"<esimerkiksi>"
+	"esimerkiksi" Adv @ADVL #13->16
+: 
+"<Bengt>"
+	"Bengt" N Prop Sem/Mal Sg Nom @>N #14->15
+: 
+"<Pohjanen>"
+	"Pohjanen" N Prop Sem/Sur Sg Nom @SUBJ> #15->17
+: 
+"<joka>"
+	"joka" Pr @X #16->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #17->8
+: 
+"<ohjelmaitean>"
+	"itea" N Sg Gen @<OBJ #18->17
+		"ohjelma" N Nom Cmp #18->17
+: 
+"<takana>"
+	"takana" Adv @ADVL #19->16
+"<.>"
+	"." CLB #20->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Meänraation>"
+	"Meänraation" ? @X #1->0
+: 
+"<27>"
+	"27" Num Arab Sem/Time-clock Sg Nom @SUBJ> #2->8
+	 Use/Circ Use/Circ"27" Num Arab Sg Nom
+	 Use/Circ"27" A Arab Ord Attr CLBfinal
+	 Use/Circ"27" Num Arab Sem/ID
+	 Use/Circ"27" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"27" Num Arab Sg Nom
+: 
+"<kieliohjelmaa>"
+	"ohjelma" N Sg Par @NUM< #3->3
+		"kieli" N Nom Cmp #3->3
+: 
+"<meänkielelä>"
+	"meänkieli" N Sg Ade @ADVL> #4->8
+: 
+"<Bengt>"
+	"Bengt" N Prop Sem/Mal Sg Nom @>N #5->6
+: 
+"<Pohjasen>"
+	"Pohjanen" N Prop Sem/Sur Sg Gen @X #6->0
+: 
+"<tekemiä>"
+	"tekemä" N Pl Par @X #7->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #8->0
+: 
+"<pohja>"
+	"Pohja" N Prop Sem/Plc Sg Nom @>N #9->10
+: 
+"<materiaali>"
+	"materiaali" N Sg Nom @<SPRED #10->8
+: 
+"<Eetun>"
+	"Eetun" ? @X #11->0
+: 
+"<yppsatsile>"
+	"yppsatsile" ? @X #12->0
+"<.>"
+	"." CLB #13->8
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eetu>"
+	"Eetu" ? @X #1->0
+: 
+"<selvittää>"
+	"selvittää" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<net>"
+	"net" Pron Pers Pl Nom @>N #3->5
+: 
+"<fonettiset>"
+	"fonettiset" ? @X #4->0
+: 
+"<erot>"
+	"ero" N Pl Nom @<OBJ #5->2
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @>N #6->8
+: 
+"<kiinostava>"
+	"kiinostava" ? @X #7->0
+: 
+"<häntä>"
+	"häntä" N Sg Nom @X #8->0
+	"hään" Pron Pers Sg Par @X #8->0
+"<:>"
+	":" CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #10->2
+:\n
+"<Aspiraatio>"
+	"aspiraatio" N Sg Nom @HNOUN #1->0
+"<.>"
+	"." CLB #2->1
+: 
+"<K>"
+	"k" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #1->6
+"<,>"
+	"," CLB #2->1
+"<p>"
+	"p" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #3->1
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<t>"
+	"t" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #5->1
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<äänettömät>"
+	"äänetön" A Pl Nom @>N #7->8
+: 
+"<konsonantit>"
+	"konsonantti" N Pl Nom @<SPRED #8->6
+"<,>"
+	"," CLB #9->8
+: 
+"<b>"
+	"b" ? @X #10->0
+"<,>"
+	"," CLB #11->10
+"<d>"
+	"d" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #12->1
+: 
+"<ja>"
+	"ja" CC @CNP #13->12
+: 
+"<g>"
+	"g" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #14->12
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #15->6
+: 
+"<ääniset>"
+	"ääniset" ? @X #16->0
+"<.>"
+	"." CLB #17->6
+: 
+"<Suomenkielessä>"
+	"kieli" N Sg Ine @ADVL> #1->7
+		"suomi" N Sg Gen Cmp #1->7
+: 
+"<k>"
+	"k" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #2->7
+"<,>"
+	"," CLB #3->2
+"<p>"
+	"p" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #4->2
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<t>"
+	"t" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #6->2
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FMV #7->0
+: 
+"<ole>"
+	"Ole" N Prop Sem/Mal Sg Nom @X #8->0
+: 
+"<aspireerattu>"
+	"aspireerattu" ? @X #9->0
+: 
+"<(>"
+	"(" PUNCT LEFT #10->11
+"<ääniset>"
+	"ääniset" ? @X #11->0
+"<)>"
+	")" PUNCT RIGHT #12->11
+"<.>"
+	"." CLB #13->7
+: 
+"<Meänkielensanassa>"
+	"sana" N Sg Ine @ADVL> #1->9
+		"meänkieli" N Gen Cmp #1->9
+: 
+"<kysiini>"
+	"kysiini" N Sg Nom @SUBJ> #2->9
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+
+"<synonyymi>"
+	"synonyymi" N Sg Nom @>N #4->5
+: 
+"<nepokka-sanale>"
+	"sana" N Sg All @ADVL> #5->9
+		"nepokka" N Nom Cmp #5->9
+"<)>"
+	")" PUNCT RIGHT #6->5
+"<,>"
+	"," CLB #7->9
+: 
+"<k>"
+	"k" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #8->9
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #9->0
+: 
+"<aspireerattu>"
+	"aspireerattu" ? @X #10->0
+: 
+"<ja>"
+	"ja" CC @CNP #11->10
+: 
+"<taas>"
+	"taas" Adv @ADVL #12->10
+: 
+"<sana>"
+	"Sana" N Prop Sem/Plc Sg Nom @>N #13->14
+: 
+"<toortta>"
+	"toortta" N Sg Nom @SUBJ> #14->15
+: 
+"<sisältää>"
+	"sisältää" V Act Ind Prs Sg3 @FMV #15->9
+: 
+"<t>"
+	"t" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #16->18
+: 
+"<joka>"
+	"joka" Pr @X #17->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #18->9
+: 
+"<aspireerattu>"
+	"aspireerattu" ? @X #19->0
+"<.>"
+	"." CLB #20->9
+: 
+"<Molemissa>"
+	"Molemissa" ? @X #1->0
+: 
+"<ruottinkieli>"
+	"kieli" N Sg Nom @SUBJ> #2->3
+		"ruotti" N Sg Gen Cmp #2->3
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #3->0
+: 
+"<vaikuttannu>"
+	"vaikuttaa" V Act PrfPrc Sg Nom @FMV #4->3
+: 
+"<lausumisseen>"
+	"lausumisseen" ? @X #5->0
+"<.>"
+	"." CLB #6->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sypratentaliseerinki>"
+	"Sypratentaliseerinki" ? @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<Sypratentaliseerinki>"
+	"Sypratentaliseerinki" ? @X #1->0
+: 
+"<merkittee>"
+	"merkitä" V Ind Prs Sg3 @FMV #2->0
+: 
+"<ette>"
+	"ette" CS @CVP #3->9
+: 
+"<kaks>"
+	"kaksi" Num Sg Nom @SUBJ> #4->9
+: 
+"<ääntä>"
+	"ääni" N Sg Par @NUM< #5->5
+"<,>"
+	"," CLB #6->9
+: 
+"<joista>"
+	"Joki" N Prop Sem/Sur Sg Ela @<ADVL #7->2
+: 
+"<r>"
+	"r" Use/Circ N Sem/Sign ABBR Gram/TNumAbbr Sg Nom @SUBJ> #8->9
+	"r" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #8->9
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-<ADVL #9->2
+: 
+"<ensimäinen>"
+	"ensimäinen" A Ord Sg Nom @<SPRED #10->9
+"<,>"
+	"," CLB #11->3
+: 
+"<sulava>"
+	"sulava" ? @X #12->0
+: 
+"<yhtheen>"
+	"yhtheen" Adv @ADVL #13->12
+	"yksi" Num Sg Ill @<ADVL #13->12
+	"yksi" Pron Indef Ill @<ADVL #13->12
+"<,>"
+	"," CLB #14->3
+: 
+"<esimerkiksi>"
+	"esimerkiksi" Adv @ADVL #15->12
+: 
+"<ruottalaisissa>"
+	"ruottalainen" A Pl Ine @<ADVL #16->9
+	"ruottalainen" N Pl Ine @<ADVL #16->9
+: 
+"<”>"
+	"”" PUNCT RIGHT #17->18
+"<kurs>"
+	"kurs" ? @X #18->0
+"<”>"
+	"”" PUNCT RIGHT #19->20
+: 
+"<ja>"
+	"ja" CC @CNP #20->18
+: 
+"<”>"
+	"”" PUNCT RIGHT #21->22
+"<bord>"
+	"bord" ? @X #22->0
+"<”>"
+	"”" PUNCT RIGHT #23->22
+"<.>"
+	"." CLB #24->2
+: 
+"<Tätä>"
+	"tämä" Pron Dem Sg Par @SUBJ> #1->2
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FAUX #2->0
+: 
+"<ole>"
+	"olla" V Act Ind Prs ConNeg @FMV #3->2
+: 
+"<ollenkhaan>"
+	"ollenkhaan" Adv @ADVL #4->12
+: 
+"<suomenkielessä>"
+	"kieli" N Sg Ine @<ADVL #5->3
+		"suomi" N Sg Gen Cmp #5->3
+: 
+"<eli>"
+	"eli" CC @CNP #6->5
+: 
+"<suomenruottissa>"
+	"ruotti" N Sg Ine @<ADVL #7->5
+		"suomi" N Sg Gen Cmp #7->5
+: 
+"<(>"
+	"(" PUNCT LEFT #8->9
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FMV #9->3
+: 
+"<kuitenkhaan>"
+	"kuiten" Adv Foc/kaan @ADVL #10->12
+	"kuitenki" Adv Foc/haan @ADVL #10->12
+: 
+"<niin>"
+	"Niki" N Prop Sem/Mal Sg Gen @<OBJ #11->9
+: 
+"<sanotussa>"
+	"sanotussa" ? @X #12->0
+: 
+"<suomenruottalaisessa>"
+	"ruottalainen" N Sg Ine @<ADVL #13->9
+		"suomi" N Sg Gen Cmp #13->9
+: 
+"<stantartilausumisessa>"
+	"stantartilausumisessa" ? @X #14->0
+: 
+"<jota>"
+	"joka" Pron Rel Sg Par @<SUBJ #15->9
+: 
+"<käytethään>"
+	"käyttää" V Pass Ind Prs @FS-N< #16->13
+: 
+"<koulunopetuksessa>"
+	"opetus" N Sg Ine @<ADVL #17->16
+		"koulu" N Sg Gen Cmp #17->16
+"<)>"
+	")" PUNCT RIGHT #18->17
+"<.>"
+	"." CLB #19->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eroja>"
+	"ero" N Pl Par @X #1->0
+: 
+"<vukalissa>"
+	"vukalissa" ? @X #2->0
+"<.>"
+	"." CLB #3->3
+: 
+"<Duk>"
+	"Duk" ? @X #1->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<tuuki>"
+	"tuuki" N Sg Nom @>N #3->4
+: 
+"<meänkielelä>"
+	"meänkieli" N Sg Ade @<ADVL #4->2
+"<.>"
+	"." CLB #5->2
+: 
+"<Vanhoila>"
+	"vanha" A Pl Ade @>N #1->3
+	"vanhaa" A Pl Ade @>N #1->3
+: 
+"<ruottalaisila>"
+	"ruottalainen" A Pl Ade @>N #2->3
+: 
+"<lainasanoila>"
+	"noki" N Pl Ade @ADVL> #3->4
+		"nasa" N Nom Cmp #3->4
+			"lai" N Nom Cmp #3->4
+	"nota" N Pl Ade @ADVL> #3->4
+		"nasa" N Nom Cmp #3->4
+			"lai" N Nom Cmp #3->4
+	"oka" N Pl Ade @ADVL> #3->4
+		"nasa" N Sg Gen Cmp #3->4
+			"lai" N Nom Cmp #3->4
+	"sana" N Pl Ade @ADVL> #3->4
+		"laina" N Nom Cmp #3->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<sama>"
+	"sama" Pron Indef Sg Nom @>N #5->6
+: 
+"<lausuminen>"
+	"lausua" V Der/minen N Sg Nom @<SPRED #6->4
+: 
+"<niinku>"
+	"niinku" CC @CNP #7->6
+: 
+"<suomenkielessä>"
+	"kieli" N Sg Ine @<ADVL #8->4
+		"suomi" N Sg Gen Cmp #8->4
+"<.>"
+	"." CLB #9->4
+: 
+"<Siksi>"
+	"siksi" Adv @ADVL #1->10
+: 
+"<ko>"
+	"ko" CS @CVP #2->4
+: 
+"<tuuki>"
+	"tuuki" N Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-ADVL> #4->9
+: 
+"<vanha>"
+	"vanha" A Sg Nom @>N #5->6
+: 
+"<lainasana>"
+	"nasa" N Sg Ess @<SPRED #6->7
+		"lai" N Nom Cmp #6->7
+	"sana" N Sg Nom @>N #6->7
+		"laina" N Nom Cmp #6->7
+: 
+"<niin>"
+	"Niki" N Prop Sem/Mal Sg Gen @>N #7->8
+: 
+"<u>"
+	"u" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #8->9
+: 
+"<lausuthaan>"
+	"lausua" V Act Ind Prs Sg2 Foc/haan @FMV #9->0
+: 
+"<niinku>"
+	"niinku" CC @X #10->0
+: 
+"<ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @<OBJ #11->9
+: 
+"</>"
+	"/" PUNCT MIDDLE @CNP #12->13
+"<o>"
+	"o" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @<SPRED #13->9
+"</>"
+	"/" PUNCT MIDDLE #14->13
+"<.>"
+	"." CLB #15->1
+: 
+"<Esimerkki>"
+	"esimerkki" N Sg Nom @SUBJ> #1->4
+: 
+"<uuemista>"
+	"uuemista" ? @X #2->0
+: 
+"<lainasanoista>"
+	"noki" N Pl Ela @ADVL> #3->4
+		"nasa" N Nom Cmp #3->4
+			"lai" N Nom Cmp #3->4
+	"nota" N Pl Ela @ADVL> #3->4
+		"nasa" N Nom Cmp #3->4
+			"lai" N Nom Cmp #3->4
+	"oka" N Pl Ela @ADVL> #3->4
+		"nasa" N Sg Gen Cmp #3->4
+			"lai" N Nom Cmp #3->4
+	"sana" N Pl Ela @ADVL> #3->4
+		"laina" N Nom Cmp #3->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<styytiu>"
+	"styytiu" N Sg Nom @SUBJ> #5->0
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+"<studio>"
+	"studio" ? @X #7->0
+"<)>"
+	")" PUNCT RIGHT #8->9
+: 
+"<missä>"
+	"mikä" Pron Rel Pl Ine @>N #9->10
+	"mikä" Pron Rel Sg Ine @>N #9->10
+: 
+"<sana>"
+	"Sana" N Prop Sem/Plc Sg Nom @>N #10->11
+: 
+"<meänkieleksi>"
+	"meänkieli" N Sg Tra @X #11->0
+: 
+"<lausuthaan>"
+	"lausua" V Act Ind Prs Sg2 Foc/haan @FS-N< #12->5
+	"lausua" V Pass Ind Prs @FS-N< #12->5
+	"lausuta" V Pass Ind Prs @FS-N< #12->5
+: 
+"<samala>"
+	"sama" Pron Indef Sg Ade @>N #13->11
+	"samala" Adv @ADVL #13->11
+: 
+"<vukaaliäänilä>"
+	"vukaaliääni" N Pl Ade @<ADVL #14->12
+: 
+"<ko>"
+	"ko" CS @CVP #15->19
+: 
+"<ruottissa>"
+	"Ruotti" N Prop Sem/Plc Sg Ine @<ADVL #16->12
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @>N #17->18
+: 
+"<Suomessa>"
+	"suomi" N Sg Ine @<ADVL #18->12
+: 
+"<valithaan>"
+	"valita" V Pass Ind Prs @FS-<ADVL #19->12
+	"valittaa" V InfMa Ill @FS-IMV #19->12
+: 
+"<saman>"
+	"sama" Pron Indef Sg Gen @>N #20->24
+: 
+"<tavvauksen>"
+	"tavvauksen" ? @X #21->0
+: 
+"<ja>"
+	"ja" CC @CNP #22->21
+: 
+"<sillon>"
+	"sillon" Adv @ADVL #23->21
+: 
+"<vukaalit>"
+	"vukaali" N Pl Nom @<OBJ #24->19
+: 
+"<lausuthaan>"
+	"lausua" V Act Ind Prs Sg2 Foc/haan @FS-<ADVL #25->19
+	"lausua" V Pass Ind Prs @FS-<ADVL #25->19
+	"lausuta" V Pass Ind Prs @FS-<ADVL #25->19
+: 
+"<niinku>"
+	"niinku" CC @X #26->0
+: 
+"<ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @>N #27->28
+: 
+"<o>"
+	"o" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @<OBJ #28->25
+: 
+"<ja>"
+	"ja" CC @CNP #29->28
+: 
+"<å.>"
+	"å" Use/SpellNoSugg N Sem/Sign Use/NG ABBR Gram/TAbbr Sg Gen @<OBJ #30->28
+: 
+"<¶>"
+	"¶" CLB #31->4
+:\n
+"<–>"
+	"–" PUNCT MIDDLE #1->2
+: 
+"<Mie>"
+	"mie" Pron Pers Sg Nom @>N #2->5
+: 
+"<uskon>"
+	"uskoa" V Act Ind Prs Sg1 @FMV #3->0
+: 
+"<ette>"
+	"ette" CS @CVP #4->7
+: 
+"<niilä>"
+	"Niki" N Prop Sem/Mal Sg Ade @<ADVL #5->3
+: 
+"<joila>"
+	"Joki" N Prop Sem/Sur Sg Ade @<ADVL #6->3
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-<ADVL #7->3
+: 
+"<meänkieli>"
+	"meänkieli" N Sg Nom @SUBJ> #8->14
+: 
+"<toisenakielinä>"
+	"toisenakielinä" ? @X #9->0
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<puhuva>"
+	"puhua" V Act PrsPrc Sg Nom @>N #11->14
+	"puhuva" A Sg Nom @SUBJ> #11->14
+: 
+"<paljon>"
+	"paljon" Adv @ADVL #12->9
+: 
+"<ruottia>"
+	"Ruotti" N Prop Sem/Plc Sg Par @<SUBJ #13->7
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #14->3
+: 
+"<enämpi>"
+	"enämpi" Adv @ADVL #15->9
+: 
+"<ruottalaisia>"
+	"ruottalainen" A Pl Par @<SUBJ #16->14
+	"ruottalainen" N Pl Par @<SUBJ #16->14
+: 
+"<piirtheitä>"
+	"piirtheitä" ? @X #17->0
+: 
+"<lausumisessa>"
+	"lausua" V Der/minen N Sg Ine @<ADVL #18->7
+"<.>"
+	"." CLB #19->3
+: 
+"<Mutta>"
+	"mutta" CS @CVP #1->2
+: 
+"<piiain>"
+	"piiain" Adv @ADVL #2->5
+: 
+"<mulla>"
+	"mie" Pron Pers Sg Ade @ADVL> #3->4
+: 
+"<tullee>"
+	"tulla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<maholisuus>"
+	"maholinen" A Der/suus N Sg Nom @X #5->0
+	"maholisuus" N Sg Nom @X #5->0
+: 
+"<tutkia>"
+	"tutkia" V Inf @X #6->0
+: 
+"<syvemästi>"
+	"syvemästi" ? @X #7->0
+: 
+"<tulevaisuuessa>"
+	"tulevaisuus" N Sg Ine @<ADVL #8->4
+"<?>"
+	"?" CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eetu>"
+	"Eetu" ? @X #1->0
+: 
+"<toivoo>"
+	"toivoa" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ette>"
+	"ette" CS @CVP #3->9
+: 
+"<hään>"
+	"häkä" N Sg Gen @<OBJ #4->4
+	"hätä" N Sg Gen @<OBJ #4->4
+"<,>"
+	"," CLB #5->9
+: 
+"<tällä>"
+	"tämä" Pron Dem Sg Ade @<ADVL #6->2
+: 
+"<yppsatsila>"
+	"yppsatsila" ? @X #7->0
+"<,>"
+	"," CLB #8->9
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FS-<ADVL #9->2
+: 
+"<tua>"
+	"tua" V Inf @X #10->0
+: 
+"<jotaki>"
+	"joka" Pron Interr Sg Par Foc/kin @>N #11->12
+	"joku" Pron Sg Par @>N #11->12
+: 
+"<uutta>"
+	"uusi" N Sg Par @SUBJ> #12->0
+: 
+"<tälle>"
+	"tämä" Pron Dem Sg All @<ADVL #13->9
+: 
+"<tutkimusalueele>"
+	"tutkimusalueele" ? @X #14->0
+"<.>"
+	"." CLB #15->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<–>"
+	"–" PUNCT MIDDLE #1->2
+: 
+"<Ruottalaisista>"
+	"ruottalainen" A Pl Ela @ADVL> #2->2
+	"ruottalainen" N Pl Ela @ADVL> #2->2
+: 
+"<piirtheistä>"
+	"piirtheistä" ? @X #3->0
+: 
+"<meänkielenlausumisessa>"
+	"meänkielenlausumisessa" ? @X #4->0
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FAUX #5->0
+: 
+"<ole>"
+	"Ole" N Prop Sem/Mal Sg Nom @OBJ> #6->6
+: 
+"<tutkittu>"
+	"tutkia" V Pass PrfPrc Sg Nom @>N #7->11
+: 
+"<erittäin>"
+	"erittäin" Adv @ADVL #8->4
+: 
+"<paljon>"
+	"paljon" Adv @ADVL #9->4
+: 
+"<viimi>"
+	"viimi" A Sg Nom @<OBJ #10->10
+: 
+"<aikoina>"
+	"aika" N Pl Ess @<SPRED #11->0
+"<.>"
+	"." CLB #12->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Hällä>"
+	"hään" Pron Pers Sg Ade @HAB #1->1
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #2->0
+: 
+"<meininki>"
+	"meininki" N Sg Nom @SUBJ> #3->10
+: 
+"<jatkaa>"
+	"jatkaa" V Act Ind Prs Sg3 @X #4->0
+: 
+"<meänkielen>"
+	"meänkieli" N Sg Gen @>N #5->6
+: 
+"<tutkimista>"
+	"tutkia" V Der/minen N Sg Par @<SUBJ #6->2
+: 
+"<ko>"
+	"ko" CS @CVP #7->10
+: 
+"<hänen>"
+	"hään" Pron Pers Sg Gen @X #8->0
+: 
+"<kantitaattiyppsatsi>"
+	"kantitaattiyppsatsi" ? @X #9->0
+: 
+"<valmistuu>"
+	"valmistua" V Act Ind Prs Sg3 @FS-<ADVL #10->2
+"<.>"
+	"." CLB #11->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<–>"
+	"–" PUNCT MIDDLE #1->2
+: 
+"<Piiain>"
+	"piiain" Adv @ADVL #2->5
+: 
+"<minusta>"
+	"mie" Pron Pers Sg Ela @ADVL> #3->4
+: 
+"<tullee>"
+	"tulla" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<lausumistutkia>"
+	"lausumistutkia" ? @X #5->0
+: 
+"<fonetiikissä>"
+	"fonetiikissä" ? @X #6->0
+"<?>"
+	"?" CLB #7->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Nootti>"
+	"Nootti" ? @X #1->0
+"<:>"
+	":" CLB #2->5
+: 
+"<Eetun>"
+	"Eetun" ? @X #3->0
+: 
+"<yppsatsi>"
+	"yppsatsi" ? @X #4->0
+: 
+"<löytyy>"
+	"löytyä" V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<netistä>"
+	"netistä" ? @X #6->0
+: 
+"<toukokuusta>"
+	"toukokuu" N Sg Ela @<ADVL #7->5
+: 
+"<2019>"
+	"2019" Num Arab Sem/Year Sg Nom @N< #8->7
+	"2019" Num Arab Sem/ID @N< #8->7
+	 Use/Circ Use/Circ"2019" Num Arab Sg Nom
+	 Use/Circ"2019" Num Arab Sem/ID
+	 Use/Circ"2019" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2019" Num Arab Sg Nom
+: 
+"<alkaen>"
+	"alkaa" V InfE Ins @IMV #9->5
+"<.>"
+	"." CLB #10->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lisää>"
+	"Lisää" ? @X #1->0
+: 
+"<uutisia>"
+	"Uutinen" N Prop Sem/Sur Pl Par @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<28>"
+	"28" Num Arab Sem/Time-clock Sg Nom @HNOUN #1->0
+	 Use/Circ Use/Circ"28" Num Arab Sg Nom
+	 Use/Circ"28" A Arab Ord Attr CLBfinal
+	 Use/Circ"28" Num Arab Sem/ID
+	 Use/Circ"28" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"28" Num Arab Sg Nom
+: 
+"<joulukuu>"
+	"joulukuu" N Sg Nom @NUM< #2->2
+"<,>"
+	"," CLB #3->2
+: 
+"<2018>"
+	"2018" Num Arab Sem/Year Sg Nom @HNOUN #4->2
+	 Use/Circ Use/Circ"2018" Num Arab Sg Nom
+	 Use/Circ"2018" Num Arab Sem/ID
+	 Use/Circ"2018" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2018" Num Arab Sg Nom
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Rappari>"
+	"Rappari" ? @X #1->0
+: 
+"<ylistää>"
+	"ylistää" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<Tornionlaaksoa>"
+	"Tornionlaakso" N Prop Sem/Plc Sg Par @<OBJ #3->2
+: 
+"<Spottifai-listala>"
+	"Spottifai-listala" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->2
+:\n
+"<28>"
+	"28" Num Arab Sem/Time-clock Sg Nom @HNOUN #1->0
+	 Use/Circ Use/Circ"28" Num Arab Sg Nom
+	 Use/Circ"28" A Arab Ord Attr CLBfinal
+	 Use/Circ"28" Num Arab Sem/ID
+	 Use/Circ"28" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"28" Num Arab Sg Nom
+: 
+"<marraskuu>"
+	"marraskuu" N Sg Nom @NUM< #2->2
+"<,>"
+	"," CLB #3->2
+: 
+"<2018>"
+	"2018" Num Arab Sem/Year Sg Nom @HNOUN #4->2
+	 Use/Circ Use/Circ"2018" Num Arab Sg Nom
+	 Use/Circ"2018" Num Arab Sem/ID
+	 Use/Circ"2018" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2018" Num Arab Sg Nom
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Kielentutkija>"
+	"tutkija" N Sg Nom @SUBJ> #1->0
+		"kieli" N Gen Cmp #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<”>"
+	"”" PUNCT RIGHT #3->4
+"<Meänkieli>"
+	"meänkieli" N Sg Nom @SUBJ> #4->9
+: 
+"<tullee>"
+	"tulla" V Act Ind Prs Sg3 @X #5->0
+: 
+"<elähmään>"
+	"ellää" V InfMa Ill @IMV #6->4
+	"elämä" N Sg Ill @<ADVL #6->4
+"<,>"
+	"," CLB #7->6
+: 
+"<siihen>"
+	"se" Pron Pers Sg Ill @<ADVL #8->6
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #9->0
+: 
+"<suuri>"
+	"suuri" A Sg Nom @>N #10->11
+: 
+"<kiinostus>"
+	"kiinostus" N Sg Nom @<SPRED #11->6
+"<”>"
+	"”" PUNCT RIGHT #12->11
+: 
+"<¶>"
+	"¶" CLB #13->1
+:\n
+"<26>"
+	"26" Num Arab Sem/Time-clock Sg Nom @HNOUN #1->0
+	 Use/Circ Use/Circ"26" Num Arab Sg Nom
+	 Use/Circ"26" A Arab Ord Attr CLBfinal
+	 Use/Circ"26" Num Arab Sem/ID
+	 Use/Circ"26" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"26" Num Arab Sg Nom
+: 
+"<lokakuu>"
+	"lokakuu" N Sg Nom @NUM< #2->2
+"<,>"
+	"," CLB #3->2
+: 
+"<2018>"
+	"2018" Num Arab Sem/Year Sg Nom @HNOUN #4->2
+	 Use/Circ Use/Circ"2018" Num Arab Sg Nom
+	 Use/Circ"2018" Num Arab Sem/ID
+	 Use/Circ"2018" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2018" Num Arab Sg Nom
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Mattias>"
+	"Mattias" N Prop Sem/Mal Sg Nom @SUBJ> #1->0
+: 
+"<kantaa>"
+	"kantaa" V Act Ind Prs Sg3 @X #2->0
+: 
+"<Meänflakua>"
+	"Meänflakua" ? @X #3->0
+: 
+"<joka>"
+	"joka" Pr @X #4->0
+	"jokata" V Act Imprt Sg2 @X #4->0
+: 
+"<päivä>"
+	"päivä" N Sg Nom @X #5->0
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="facta"/><author><unknown/></author><wordcount>787</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://www.1177.se/fit/other-languages/other-languages/regler-och-rattigheter---andra-sprak/patientlagen---andra-sprak/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<koska>"
+	"koska" Adv @ADVL #1->4
+	"koska" CS @CVP #1->4
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #2->3
+: 
+"<saatat>"
+	"saattaa" V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<oottaa>"
+	"oottaa" V Inf @X #4->0
+: 
+"<saavan>"
+	"Saavan" N Prop Sem/Plc Sg Nom @>N #5->6
+: 
+"<hoitoa>"
+	"hoito" N Sg Par @<SUBJ #6->3
+: 
+"<¶>"
+	"¶" CLB #7->3
+:\n
+"<mitä>"
+	"mitä" Adv @ADVL #1->7
+: 
+"<tuloksia>"
+	"tulos" N Pl Par @SUBJ> #2->6
+: 
+"<hoijosta>"
+	"hoito" N Sg Ela @ADVL> #3->6
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<huolosta>"
+	"huolto" N Sg Ela @ADVL> #5->3
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<oottaa>"
+	"oottaa" V Inf @X #7->0
+: 
+"<¶>"
+	"¶" CLB #8->1
+:\n
+
+]]></dependency></body></document>

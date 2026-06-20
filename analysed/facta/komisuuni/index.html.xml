@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Komisuunista - Komisuuni.se</title><genre code="facta"/><author><unknown/></author><wordcount>125</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><origFileName>https://komisuuni.se/fit/komisuunista/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA[: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Komisuunista>"
+	"komisuuni" N Sg Ela @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tottuus>"
+	"tottuus" N Sg Nom @HNOUN #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<sovintokomisuunista>"
+	"komisuuni" N Sg Ela @HNOUN #3->1
+		"sovinto" N Nom Cmp #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Puhheenjohtaja>"
+	"puhheenjohtaja" N Sg Nom @HNOUN #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<jäsenet>"
+	"jäsen" N Pl Nom @SUBJ> #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Sihteerit>"
+	"sihteeri" N Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Aktyälliä>"
+	"Aktyälliä" ? @X #1->0
+: 
+"<komisuunilta>"
+	"komisuuni" N Sg Abl @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Almunakka>"
+	"almunakka" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Hem>"
+	"Hem" N Prop Sem/Sur Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Komisuunista>"
+	"komisuuni" N Sg Ela @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Kengis>"
+	"Kengis" ? @X #1->0
+: 
+"<fors>"
+	"Fors" N Prop Sem/Plc Sg Nom @HNOUN #2->0
+"<.>"
+	"." CLB #3->2
+: 
+"<Foto>"
+	"Foto" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<Martina>"
+	"Martina" ? @X #3->0
+: 
+"<Huber>"
+	"Huber" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Komisuunista>"
+	"komisuuni" N Sg Ela @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tottuus>"
+	"tottuus" N Sg Nom @SUBJ> #1->0
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<ja>"
+	"ja" CC @CNP #3->1
+: 
+"<sovintokomisuuni>"
+	"komisuuni" N Sg Nom @SUBJ> #4->10
+		"sovinto" N Nom Cmp #4->10
+: 
+"<tornionlaaksolaisile>"
+	"tornionlaaksolainen" A Pl All @ADVL> #5->10
+"<,>"
+	"," CLB #6->5
+: 
+"<kväänile>"
+	"kvääni" N Sg All @ADVL> #7->10
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<lantalaisile>"
+	"lantalainen" N Pl All @ADVL> #9->10
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #10->0
+: 
+"<valtiolinen>"
+	"valtiolinen" A Sg Nom @>N #11->12
+: 
+"<tutkimus>"
+	"tutkimus" N Sg Nom @SUBJ> #12->17
+: 
+"<jonka>"
+	"joka" Pron Rel Sg Gen @>N #13->14
+: 
+"<Ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @X #14->0
+: 
+"<hallitus>"
+	"Hallitus" N Prop Sem/Org Sg Nom @SUBJ> #15->16
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-N< #16->12
+: 
+"<laittanu>"
+	"laittaa" V Act PrfPrc Sg Nom @FMV #17->10
+"<.>"
+	"." CLB #18->1
+: 
+"<Alote>"
+	"alote" N Sg Nom @SUBJ> #1->5
+: 
+"<ette>"
+	"ette" CS @CVP #2->3
+: 
+"<laittaa>"
+	"laittaa" V Act Ind Prs Sg3 @X #3->0
+	"laittaa" V Inf @X #3->0
+: 
+"<komisuunin>"
+	"komisuuni" N Sg Gen @SUBJ> #4->5
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-VFIN< #5->3
+: 
+"<tullu>"
+	"tulla" V Act PrfPrc Sg Nom @>N #6->7
+: 
+"<minuriteetiltä>"
+	"minuriteetti" N Sg Abl @<ADVL #7->4
+"<.>"
+	"." CLB #8->8
+: 
+"<Komisuuni>"
+	"komisuuni" N Sg Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #2->0
+: 
+"<riippumaton>"
+	"riippumatto" N Sg Gen @<OBJ #3->3
+: 
+"<orgaani>"
+	"orgaani" ? @X #4->0
+: 
+"<joka>"
+	"joka" Pr @X #5->0
+	"jokata" V Act Imprt Sg2 @X #5->0
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @X #6->0
+	"pittää" V Inf @X #6->0
+: 
+"<tulkita>"
+	"tulkita" ? @X #7->0
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<tehhä>"
+	"tehhä" V Inf @X #9->0
+	"tehjä" V Inf @X #9->0
+	"tehä" V Inf @X #9->0
+: 
+"<sen>"
+	"se" Pron Dem Sg Gen @>N #10->15
+	"se" Pron Pers Sg Gen @>N #10->15
+: 
+"<tehtävän>"
+	"tehhä" V Pass PrsPrc Sg Gen @FMV #11->2
+	"tehjä" V Pass PrsPrc Sg Gen @FMV #11->2
+	"tehä" V Pass PrsPrc Sg Gen @FMV #11->2
+: 
+"<joka>"
+	"joka" Pr @X #12->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #13->2
+: 
+"<ohjeissa>"
+	"ohjeissa" ? @X #14->0
+: 
+"<hallinolta>"
+	"hallinto" N Sg Abl @<ADVL #15->13
+"<.>"
+	"." CLB #16->2
+: 
+"<Tehtävhään>"
+	"tehtävä" N Sg Nom Foc/haan @SUBJ> #1->2
+: 
+"<kuuluu>"
+	"kuulua" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ette>"
+	"ette" CS @CVP #3->4
+: 
+"<tarkastaa>"
+	"tarkastaa" V Act Ind Prs Sg3 @FS-<ADVL #4->2
+: 
+"<tapahtumia>"
+	"tapahtuma" N Pl Par @<OBJ #5->4
+: 
+"<1800->"
+	"1800" Num Arab Sem/Year Cmp/SplitR @N< #6->5
+	 Use/Circ"1800" Num Arab Sem/Year Cmp/SplitR
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<1900-luvuila>"
+	"luku" N Pl Ade @<ADVL #8->4
+		 Use/Circ Use/Circ"1900" Num Arab Use/NG Cmp/Hyph
+		 Use/Circ"1900" Num Arab Use/Circ Cmp/Hyph
+		 Use/Circ"1900" Num Arab Use/NG Cmp/Hyph
+"<.>"
+	"." CLB #9->2
+: 
+"<Komisuuni>"
+	"komisuuni" N Sg Nom @SUBJ> #1->2
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ottaa>"
+	"ottaa" V Inf @X #3->0
+: 
+"<selvää>"
+	"selvä" A Sg Par @X #4->0
+: 
+"<mitä>"
+	"mikä" Pron Rel Sg Par @<OBJ #5->2
+: 
+"<tapahtu>"
+	"tapahtua" V Act Ind Prt Sg3 @FS-N< #6->4
+"<,>"
+	"," CLB #7->18
+: 
+"<miksi>"
+	"miksi" Adv @ADVL #8->4
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #9->10
+: 
+"<saatto>"
+	"saattaa" V Act Ind Prt Sg3 @FMV #10->2
+: 
+"<tapahtua>"
+	"tapahtua" V Inf @X #11->0
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<kuka>"
+	"kuka" Pron Prel Sg Nom @SUBJ> #13->14
+: 
+"<oli>"
+	"olla" V Act Ind Prt Sg3 @FMV #14->2
+: 
+"<vastuulinen>"
+	"vastuulinen" ? @X #15->0
+: 
+"<ette>"
+	"ette" CS @CVP #16->18
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #17->18
+: 
+"<saatto>"
+	"saattaa" V Act Ind Prt Sg3 @FS-<ADVL #18->14
+: 
+"<tapahtua>"
+	"tapahtua" V Inf @X #19->0
+"<.>"
+	"." CLB #20->2
+: 
+"<Tarkastuksen>"
+	"tarkastus" N Sg Gen @>N #1->2
+: 
+"<tuloksen>"
+	"tulos" N Sg Gen @X #2->0
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @X #3->0
+: 
+"<käyttää>"
+	"käyttää" V Inf @X #4->0
+: 
+"<ette>"
+	"ette" CC @CNP #5->4
+: 
+"<kehittää>"
+	"kehittää" V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<ruottalaista>"
+	"ruottalainen" A Sg Par @>N #7->8
+: 
+"<minuriteettipolitiikkaa>"
+	"pulitiikka" Err/Orth N Sg Par @<OBJ #8->6
+		"minuriteetti" N Nom Cmp #8->6
+"<.>"
+	"." CLB #9->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Komisuuhniin>"
+	"komisuuni" N Sg Ill @ADVL> #1->2
+: 
+"<kuuluu>"
+	"kuulua" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<yks>"
+	"yksi" Num Sg Nom @X #3->0
+: 
+"<puhheenjohtaja>"
+	"puhheenjohtaja" N Sg Nom @NUM< #4->4
+"<,>"
+	"," CLB #5->4
+: 
+"<seittemän>"
+	"seittemän" Num Sg Gen @<OBJ #6->2
+: 
+"<jäsenettä>"
+	"jäsen" N Sg Abe @NUM< #7->7
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<yks>"
+	"yksi" Num Sg Nom @X #9->0
+: 
+"<kanslia>"
+	"kanslia" N Sg Nom @NUM< #10->10
+"<.>"
+	"." CLB #11->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Norjan>"
+	"Norja" N Prop Sem/Plc Sg Gen @X #1->0
+: 
+"<tottuuskomisuuni>"
+	"komisuuni" N Sg Nom @HNOUN #2->1
+		"tottuus" N Sg Nom Cmp #2->1
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<https://www.uit.no/kommisjonen>"
+	"https://www.uit.no/kommisjonen" URL #1->1
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Dela>"
+	"Dela" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Twitter>"
+	"Twitter" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Facebook>"
+	"Facebook" N Prop Sem/Org Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Kengis>"
+	"Kengis" ? @X #1->0
+: 
+"<fors>"
+	"Fors" N Prop Sem/Plc Sg Nom @HNOUN #2->0
+"<.>"
+	"." CLB #3->2
+: 
+"<Foto>"
+	"Foto" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<Martina>"
+	"Martina" ? @X #3->0
+: 
+"<Huber>"
+	"Huber" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Komisuunista>"
+	"komisuuni" N Sg Ela @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tottuus>"
+	"tottuus" N Sg Nom @HNOUN #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<sovintokomisuunista>"
+	"komisuuni" N Sg Ela @HNOUN #3->1
+		"sovinto" N Nom Cmp #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Puhheenjohtaja>"
+	"puhheenjohtaja" N Sg Nom @HNOUN #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<jäsenet>"
+	"jäsen" N Pl Nom @SUBJ> #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Sihteerit>"
+	"sihteeri" N Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Aktyälliä>"
+	"Aktyälliä" ? @X #1->0
+: 
+"<komisuunilta>"
+	"komisuuni" N Sg Abl @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Almunakka>"
+	"almunakka" N Sg Nom @SUBJ> #1->0
+: 
+"<Vasta>"
+	"vasta" Adv @ADVL #2->0
+: 
+"<tapahtunnu>"
+	"tapahtua" V Act PrfPrc Sg Nom @HNOUN #3->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Vasta>"
+	"vasta" Adv @ADVL #1->2
+: 
+"<tapahtunnu>"
+	"tapahtua" V Act PrfPrc Sg Nom @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+
+]]></dependency></body></document>

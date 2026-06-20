@@ -1,0 +1,1049 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Aijankohtasta</title><genre code="facta"/><author><unknown/></author><translator><person firstname="Bengt" lastname="Pohjanen" sex="m" born="" nationality=""/></translator><translated_from xml:lang="sv"/><wordcount>272</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><origFileName>Kalastus      meänkieli 5.pdf</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<(>"
+	"(" PUNCT LEFT #1->2
+"<LOGGA>"
+	"LOGGA" ? @X #2->0
+"<)>"
+	")" PUNCT RIGHT #3->4
+: 
+"<SUOMALAIS-RUOTTALAINEN>"
+	"ruottalainen" N Sg Nom @HNOUN #4->0
+		"suomalainen" A Nom Cmp #4->0
+	"ruottalainen" N Sg Nom @HNOUN #4->0
+		"suomalainen" N Nom Cmp #4->0
+: 
+"<¶>"
+	"¶" CLB #5->4
+:\n
+"<RAJAVÄYLÄKOMIšUUNI>"
+	"RAJAVÄYLÄKOMIšUUNI" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<SRRVK>"
+	"SRRVK" ? @X #1->0
+: 
+"<Komišuuni>"
+	"komišuun" Err/Orth N Sg Nom @HNOUN #2->0
+: 
+"<Aijankohtasta>"
+	"Aijankohtasta" ? @X #3->0
+: 
+"<Vesittenhoito>"
+	"hoito" N Sg Nom @>N #4->5
+		"vesi" N Gen Cmp #4->5
+: 
+"<Luononsuojelu>"
+	"luononsuojelu" N Sg Nom @HNOUN #5->2
+: 
+"<Tulvasuojelu>"
+	"Tulvasuojelu" ? @X #6->0
+: 
+"<Kalastus>"
+	"kalastus" N Sg Nom @>N #7->8
+: 
+"<Yhtheystiot>"
+	"tieto" N Pl Nom @>N #8->9
+		"yhtheys" N Sg Nom Cmp #8->9
+: 
+"<Histuuria>"
+	"histuuria" N Sg Nom @>N #9->10
+: 
+"<Kaartat>"
+	"kaartta" N Pl Nom @HNOUN #10->5
+: 
+"<¶>"
+	"¶" CLB #11->2
+:\n
+"<Kalastuksen>"
+	"kalastus" N Sg Gen @X #1->0
+: 
+"<säänöt>"
+	"sääntö" N Pl Nom @HNOUN #2->1
+	"säänö" N Pl Nom @HNOUN #2->1
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Kalastus>"
+	"kalastus" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tornionväylää>"
+	"Tornionväylää" ? @X #1->0
+: 
+"<koskevat>"
+	"koskea" V Act PrsPrc Pl Nom @>N #2->3
+	"koskeva" A Pl Nom @>N #2->3
+: 
+"<kalastussäänöt>"
+	"sääntö" N Pl Nom @SUBJ> #3->4
+		"kalastus" N Sg Nom Cmp #3->4
+	"säänö" N Pl Nom @SUBJ> #3->4
+		"kalastus" N Sg Nom Cmp #3->4
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FAUX #4->0
+: 
+"<sopimuksheen>"
+	"sopimus" N Sg Ill @<ADVL #5->3
+: 
+"<sisästetty>"
+	"sisästetty" ? @X #6->0
+: 
+"<osa>"
+	"osa" N Sg Nom @<SPRED #7->4
+	"osata" V Act Imprt Sg2 @FMV #7->4
+"<,>"
+	"," CLB #8->9
+: 
+"<ja>"
+	"ja" CC @CNP #9->7
+: 
+"<säätää>"
+	"säätää" ? @X #10->0
+: 
+"<säänöt>"
+	"sääntö" N Pl Nom @SUBJ> #11->0
+	"säänö" N Pl Nom @SUBJ> #11->0
+"<,>"
+	"," CLB #12->13
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #13->14
+: 
+"<koskeva>"
+	"koskea" V Act Ind Prs Pl3 @FS-N< #14->11
+: 
+"<suojattuja>"
+	"suojattuja" ? @X #15->0
+: 
+"<aluheita>"
+	"alue" N Pl Par @<OBJ #16->14
+"<,>"
+	"," CLB #17->16
+: 
+"<kalastuskausia>"
+	"kausi" N Pl Par @<OBJ #18->16
+		"kalastus" N Sg Nom Cmp #18->16
+: 
+"<ja>"
+	"ja" CC @CNP #19->18
+: 
+"<määräaikasia>"
+	"sia" N Sg Nom @>N #20->21
+		"aika" N Nom Cmp #20->21
+			"määrä" N Nom Cmp #20->21
+: 
+"<kausia>"
+	"kausi" N Pl Par @<OBJ #21->16
+"<,>"
+	"," CLB #22->21
+: 
+"<vähittäismittoja>"
+	"vähittäismittoja" ? @X #23->0
+"<,>"
+	"," CLB #24->23
+: 
+"<kalastusvehkheitä>"
+	"vehe" N Pl Par @<OBJ #25->16
+		"kalastus" N Sg Nom Cmp #25->16
+	"vehkheet" N Pl Par @<OBJ #25->16
+		"kalastus" N Sg Nom Cmp #25->16
+: 
+"<ja>"
+	"ja" CC @CNP #26->25
+: 
+"<niitten>"
+	"net" Pron Pers Pl Gen @>N #27->28
+: 
+"<käyttöjä>"
+	"käyttö" N Pl Par @<OBJ #28->25
+"<.>"
+	"." CLB #29->4
+: 
+"<Ylheiset>"
+	"ylheinen" A Pl Nom @SUBJ> #1->3
+: 
+"<valtuutetut>"
+	"valtuutetut" ? @X #2->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<Suomen>"
+	"suomi" N Sg Gen @>N #4->10
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<Ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @>N #6->4
+: 
+"<hallitusten>"
+	"hallitus" N Pl Gen @X #7->0
+: 
+"<määrittämät>"
+	"määrittämät" ? @X #8->0
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<net>"
+	"net" Pron Pers Pl Nom @SUBJ> #10->11
+: 
+"<käsittelevä>"
+	"käsitellä" V Act Ind Prs Pl3 @FMV #11->3
+	"käsitellä" V Act PrsPrc Sg Nom @>N #11->3
+: 
+"<kalastussäänön>"
+	"sääntö" N Sg Gen @>N #12->14
+		"kalastus" N Sg Nom Cmp #12->14
+	"säänö" N Sg Gen @>N #12->14
+		"kalastus" N Sg Nom Cmp #12->14
+: 
+"<poikkeavia>"
+	"poikkeavia" ? @X #13->0
+: 
+"<taipumuksia>"
+	"taipumus" N Pl Par @<SUBJ #14->11
+: 
+"<joka>"
+	"joka" Pr @X #15->0
+: 
+"<vuen>"
+	"vuosi" N Sg Gen @<P #16->16
+: 
+"<pohjalta>"
+	"Pohja" N Prop Sem/Plc Sg Abl @<ADVL #17->11
+"<.>"
+	"." CLB #18->3
+: 
+"<Semmoset>"
+	"semmonen" A Pl Nom @>N #1->3
+: 
+"<poikkeavat>"
+	"poikkeavat" ? @X #2->0
+: 
+"<taipumukset>"
+	"taipumus" N Pl Nom @SUBJ> #3->4
+: 
+"<häätyy>"
+	"häätyä" V Act Ind Prs Pl3 @FMV #4->0
+: 
+"<määritellä>"
+	"määritellä" ? @X #5->0
+: 
+"<kalatilantheen>"
+	"tilanne" N Sg Gen @>N #6->7
+		"kala" N Nom Cmp #6->7
+: 
+"<muuttumisen>"
+	"muuttua" V Der/minen N Sg Gen @<OBJ #7->4
+	"muuttuminen" N Sg Gen @<OBJ #7->4
+: 
+"<pohjalta>"
+	"Pohja" N Prop Sem/Plc Sg Abl @<ADVL #8->4
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #10->4
+: 
+"<vaikka>"
+	"vaikka" CC @CNP #11->10
+: 
+"<koskea>"
+	"koskea" V Inf @X #12->0
+	"koski" N Sg Par @X #12->0
+: 
+"<kalastuskausia>"
+	"sia" N Sg Nom @<SPRED #13->10
+		"kau" N Nom Cmp #13->10
+			"kalastus" N Sg Nom Cmp #13->10
+"<.>"
+	"." CLB #14->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Käythöön>"
+	"käyttö" N Sg Ill @ADVL> #1->12
+: 
+"<otetut>"
+	"ottaa" V Pass PrfPrc Pl Nom @>N #2->4
+: 
+"<jeukraaffiset>"
+	"jeukraaffiset" ? @X #3->0
+: 
+"<aluheet>"
+	"alue" N Pl Nom @>N #4->5
+: 
+"<a>"
+	"a" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #5->12
+"<)>"
+	")" PUNCT RIGHT #6->7
+: 
+"<Könkämäeno>"
+	"Könkämäeno" ? @X #7->0
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<Muonionväylä>"
+	"Muonionväylä" N Prop Sem/Plc Sg Nom @SUBJ> #9->12
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<se>"
+	"se" Pron Dem Sg Nom @>N #11->12
+	"se" Pron Pers Sg Nom @>N #11->12
+: 
+"<osa>"
+	"osa" N Sg Nom @SUBJ> #12->38
+	"osata" V Act Imprt Sg2 @FMV #12->38
+: 
+"<Tornionväylästä>"
+	"Tornionväylästä" ? @X #13->0
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<järvistä>"
+	"Järvinen" N Prop Sem/Sur Sg Par @<OBJ #15->12
+"<,>"
+	"," CLB #16->17
+: 
+"<mistä>"
+	"mikä" Pron Rel Pl Ela @<ADVL #17->12
+: 
+"<Suomen>"
+	"suomi" N Sg Gen @>N #18->23
+: 
+"<ja>"
+	"ja" CC @CNP #19->18
+: 
+"<Ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @>N #20->18
+: 
+"<maitten>"
+	"maa" N Pl Gen @X #21->0
+	"mai" N Pl Gen @X #21->0
+	"maki" N Pl Gen @X #21->0
+: 
+"<välilä>"
+	"Välilä" N Prop Sem/Sur Sg Nom @>N #22->18
+: 
+"<raja>"
+	"Raja" N Prop Sem/Plc Sg Nom @SUBJ> #23->9
+: 
+"<kulkee>"
+	"kulkea" V Act Ind Prs Sg3 @FS-N< #24->15
+: 
+"<(>"
+	"(" PUNCT LEFT #25->26
+"<rajaväylät>"
+	"väylä" N Pl Nom @SUBJ> #26->38
+		"raja" N Nom Cmp #26->38
+"<)>"
+	")" PUNCT RIGHT #27->28
+: 
+"<b>"
+	"b" ? @X #28->0
+"<)>"
+	")" PUNCT RIGHT #29->30
+: 
+"<vesijuoksut>"
+	"juoksu" N Pl Nom @SUBJ> #30->38
+		"vesi" N Nom Cmp #30->38
+"<,>"
+	"," CLB #31->32
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #32->9
+: 
+"<oon>"
+	"olla" V Act Ind Prs Pl3 @FS-N< #33->30
+: 
+"<rajaväylien>"
+	"väylä" N Pl Gen Err/Orth @<OBJ #34->33
+		"raja" N Nom Cmp #34->33
+: 
+"<sivujuoksut>"
+	"juoksu" N Pl Nom @<OBJ #35->33
+		"sivu" N Nom Cmp #35->33
+"<,>"
+	"," CLB #36->35
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #37->9
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FAUX #38->0
+: 
+"<vesijuoksut>"
+	"juoksu" N Pl Nom @<OBJ #39->33
+		"vesi" N Nom Cmp #39->33
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #40->0
+: 
+"<virtaava>"
+	"virrata" V Act PrsPrc Sg Nom @>N #41->42
+: 
+"<väyhlään>"
+	"Väylä" N Prop Sem/Plc Sg Ill @<ADVL #42->33
+	"Väylä" N Prop Sem/Plc Sg Nom Foc/haan @<OBJ #42->33
+"<;>"
+	";" CLB #43->38
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @>N #44->45
+: 
+"<c>"
+	"c" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @<OBJ #45->45
+"<)>"
+	")" PUNCT RIGHT #46->47
+: 
+"<Tornionväylän>"
+	"Tornionväylä" N Prop Sem/Plc Sg Gen @>N #47->48
+: 
+"<haarojen>"
+	"haara" N Pl Gen Err/Orth @X #48->0
+: 
+"<suut>"
+	"suu" N Pl Nom @<OBJ #49->49
+: 
+"<ja>"
+	"ja" CC @CNP #50->49
+: 
+"<d>"
+	"d" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @<OBJ #51->49
+"<)>"
+	")" PUNCT RIGHT #52->51
+: 
+"<¶>"
+	"¶" CLB #53->38
+:\n
+"<Pohjanlahen>"
+	"Pohjanlahen" ? @X #1->0
+: 
+"<pohjospuoli>"
+	"puoli" N Sg Nom @OBJ> #2->9
+		"pohjonen" A Nom Cmp #2->9
+	"puoli" N Sg Nom @OBJ> #2->9
+		"pohjonen" N Nom Cmp #2->9
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<sen>"
+	"se" Pron Dem Sg Gen @>N #4->5
+: 
+"<viivan>"
+	"viiva" N Sg Gen @X #5->0
+: 
+"<sisälä>"
+	"sisälä" Adv @ADVL #6->5
+"<,>"
+	"," CLB #7->8
+: 
+"<jota>"
+	"joka" Pron Rel Sg Par @X #8->0
+: 
+"<veethään>"
+	"vetää" V Pass Ind Prs @FS-N< #9->5
+: 
+"<¶>"
+	"¶" CLB #10->6
+:\n
+"<Haaparannan>"
+	"Haaparanta" N Prop Sem/Plc Sg Gen @X #1->0
+: 
+"<haminasta>"
+	"hamina" N Sg Ela @ADVL> #2->18
+: 
+"<Skomakarenin>"
+	"Skomakarenin" ? @X #3->0
+: 
+"<koilisimphaan>"
+	"koilisimphaan" ? @X #4->0
+: 
+"<kohthaan>"
+	"Koht" N Prop Sem/Sur Sg Nom Foc/haan @X #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<Ylikarin>"
+	"Ylikarin" ? @X #7->0
+: 
+"<itäsimphään>"
+	"itäsimphään" ? @X #8->0
+: 
+"<kohthaan>"
+	"Koht" N Prop Sem/Sur Sg Nom Foc/haan @X #9->0
+"<,>"
+	"," CLB #10->9
+: 
+"<Sarvenkatajan>"
+	"kataja" N Sg Gen @>N #11->13
+		"sarvet" N Gen Cmp #11->13
+	"kataja" N Sg Gen @>N #11->13
+		"sarvi" N Sg Gen Cmp #11->13
+: 
+"<pohjosimphaan>"
+	"pohjonen" A Superl Sg Ill @>N #12->13
+: 
+"<kohthaan>"
+	"Koht" N Prop Sem/Sur Sg Nom Foc/haan @X #13->0
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<sieltä>"
+	"sieltä" Adv @ADVL #15->13
+: 
+"<sitte>"
+	"sitte" Adv @ADVL #16->13
+: 
+"<suorhaan>"
+	"suora" A Sg Ill @>N #17->18
+	"suora" A Sg Nom Foc/haan @>N #17->18
+: 
+"<ithään>"
+	"itä" N Sg Nom Foc/haan @>N #18->13
+	"ittää" V InfMa Ill @IMV #18->13
+	"itä" N Sg Ill @HNOUN #18->13
+: 
+"<riikinrajale>"
+	"riikinraja" N Sg All @N< #19->13
+: 
+"<ja>"
+	"ja" CC @CNP #20->19
+: 
+"<vielä>"
+	"Vie" N Prop Sem/Sur Sg Ade @<ADVL #21->18
+	"Vike" N Prop Sem/Sur Sg Ade @<ADVL #21->18
+: 
+"<siittä>"
+	"se" Pron Dem Sg Ela @X #22->0
+: 
+"<etelhään>"
+	"etelä" N Sg Ill @X #23->0
+	"etelä" N Sg Nom Foc/haan @X #23->0
+: 
+"<riikinraijaa>"
+	"riikinraijaa" ? @X #24->0
+: 
+"<pitkin>"
+	"pitkin" Pr @X #25->0
+: 
+"<Tornion>"
+	"Tornio" N Prop Sg Gen @>N #26->31
+: 
+"<ja>"
+	"ja" CC @CNP #27->26
+: 
+"<Kemin>"
+	"Kem" N Prop Sem/Sur Sg Gen @>N #28->26
+: 
+"<kuntien>"
+	"kunta" N Pl Gen Err/Orth @<P #29->29
+: 
+"<rajale>"
+	"Raja" N Prop Sem/Plc Sg All @X #30->0
+: 
+"<saakka>"
+	"saakka" Adv @ADVL #31->30
+: 
+"<ja>"
+	"ja" CC @CNP #32->31
+: 
+"<jatkossa>"
+	"jatko" N Sg Ine @<ADVL #33->18
+: 
+"<koilisheen>"
+	"koilinen" N Sg Ill @X #34->0
+: 
+"<kunnanraijaa>"
+	"kunnanraijaa" ? @X #35->0
+: 
+"<pitkin>"
+	"pitkin" A Sg Nom @<SPRED #36->35
+	"pitkin" Adv @ADVL #36->35
+: 
+"<manterheele>"
+	"mantere" N Sg All @X #37->0
+"<.>"
+	"." CLB #38->15
+: 
+"<Tornionväylän>"
+	"Tornionväylä" N Prop Sem/Plc Sg Gen @X #1->0
+: 
+"<kalastuslisensi>"
+	"lisensi" N Sg Nom @SUBJ> #2->19
+		"kalastus" N Sg Nom Cmp #2->19
+: 
+"<2017>"
+	"2017" Num Arab Sem/Year Sg Nom @N< #3->2
+	"2017" Num Arab Sem/ID @N< #3->2
+	 Use/Circ Use/Circ"2017" Num Arab Sg Nom
+	 Use/Circ"2017" Num Arab Sem/ID
+	 Use/Circ"2017" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2017" Num Arab Sg Nom
+"<,>"
+	"," CLB #4->3
+: 
+"<lue>"
+	"lue" N Sg Nom @SUBJ> #5->19
+: 
+"<lissää>"
+	"lisätä" V Act Ind Prs Sg3 @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<read>"
+	"read" ? @X #8->0
+: 
+"<more>"
+	"More" N Prop Sem/Sur Sg Nom @SUBJ> #9->19
+: » 
+"<näistä>"
+	"nämä" Pron Dem Pl Pl Ela @>N #10->11
+: 
+"<asioista>"
+	"asia" N Pl Ela @<ADVL #11->9
+: 
+"<fishing>"
+	"fishing" ? @X #12->0
+: 
+"<permit>"
+	"permit" ? @X #13->0
+: » 
+"<Lohiparasiitin>"
+	"parasiitti" N Sg Gen @<OBJ #14->14
+		"lohi" N Nom Cmp #14->14
+: 
+"<leviämisen>"
+	"leviämisen" ? @X #15->0
+: 
+"<estäminen>"
+	"estää" V Der/minen N Sg Nom @SUBJ> #16->19
+"<,>"
+	"," CLB #17->16
+: 
+"<lu>"
+	"lu" ? @X #18->0
+: 
+"<lissää>"
+	"lissää" Adv @ADVL #19->18
+	"lisä" N Sg Par @<OBJ #19->18
+	"lisätä" V Act Ind Prs Sg3 @FMV #19->18
+: 
+"<read>"
+	"read" ? @X #20->0
+: 
+"<more>"
+	"More" N Prop Sem/Sur Sg Nom @X #21->0
+: »  
+"<¶>"
+	"¶" CLB #22->19
+:\n
+"<Tornionväylän>"
+	"Tornionväylä" N Prop Sem/Plc Sg Gen @>N #1->4
+: 
+"<kalastussänöt>"
+	"kalastussänöt" ? @X #2->0
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<englanniksi>"
+	"Englanti" N Prop Sem/Plc Sg Tra @ADVL> #4->19
+"<)>"
+	")" PUNCT RIGHT #5->6
+: 
+"<Fishing>"
+	"Fishing" ? @X #6->0
+: 
+"<regulations>"
+	"regulations" ? @X #7->0
+: 
+"<in>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Gen @>N #8->9
+: 
+"<River>"
+	"River" N Prop Sem/Sur Sg Nom @>N #9->10
+: 
+"<Tornionjoki>"
+	"Tornionjoki" N Prop Sem/Plc Sg Nom @>N #10->11
+: » 
+"<Rajaväyläsopimus>"
+	"sopimus" N Sg Nom @X #11->0
+		"väylä" N Nom Cmp #11->0
+			"raja" N Nom Cmp #11->0
+: 
+"<(>"
+	"(" PUNCT LEFT #12->13
+"<Suomi>"
+	"Suomi" N Prop Sem/Sur Sg Nom @X #13->0
+"<,>"
+	"," CLB #14->13
+: 
+"<pdf>"
+	"pdf" N Prop Sem/Tool-it ACR N Prop ACR Sg Nom @>N #15->19
+"<)>"
+	")" PUNCT RIGHT #16->17
+: 
+"<Rajajväyläsopimus>"
+	"Rajajväyläsopimus" ? @X #17->0
+: 
+"<(>"
+	"(" PUNCT LEFT #18->19
+"<Ruotti>"
+	"Ruotti" N Prop Sem/Plc Sg Nom @HNOUN #19->13
+"<,>"
+	"," CLB #20->19
+: 
+"<pdf>"
+	"pdf" N Prop Sem/Tool-it ACR N Prop ACR Sg Nom @>N #21->23
+"<)>"
+	")" PUNCT RIGHT #22->23
+: 
+"<Rajaväyläsopimus>"
+	"sopimus" N Sg Nom @>N #23->24
+		"väylä" N Nom Cmp #23->24
+			"raja" N Nom Cmp #23->24
+: 
+"<MMM:n>"
+	"MMM" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Gen @>N #24->25
+	 Use/Circ Use/Circ"MMM" Use/Circ Use/Circ Num Use/Circ Rom Sg Gen
+: 
+"<julkasu>"
+	"julkasu" N Sg Nom @<SPRED #25->19
+: 
+"<2014>"
+	"2014" Num Arab Sem/Year Sg Nom @N< #26->25
+	"2014" Num Arab Sem/ID @N< #26->25
+	 Use/Circ Use/Circ"2014" Num Arab Sg Nom
+	 Use/Circ"2014" Num Arab Sem/ID
+	 Use/Circ"2014" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2014" Num Arab Sg Nom
+"<,>"
+	"," CLB #27->26
+: 
+"<suomi>"
+	"Suomi" N Prop Sem/Sur Sg Nom @<SPRED #28->19
+"<+>"
+	"+" PUNCT #29->30
+"<ruotti>"
+	"Ruotti" N Prop Sem/Plc Sg Nom @>N #30->31
+: 
+"<Rajaväyläsopimus>"
+	"sopimus" N Sg Nom @>N #31->32
+		"väylä" N Nom Cmp #31->32
+			"raja" N Nom Cmp #31->32
+: 
+"<englanniksi>"
+	"Englanti" N Prop Sem/Plc Sg Tra @ADVL> #32->42
+: 
+"<(>"
+	"(" PUNCT LEFT #33->34
+"<pdf>"
+	"pdf" N Prop Sem/Tool-it ACR N Prop ACR Sg Nom @>N #34->37
+"<)>"
+	")" PUNCT RIGHT #35->34
+"<,>"
+	"," CLB #36->36
+: 
+"<MMM:n>"
+	"MMM" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Gen @>N #37->38
+	 Use/Circ Use/Circ"MMM" Use/Circ Use/Circ Num Use/Circ Rom Sg Gen
+: 
+"<julkasu>"
+	"julkasu" N Sg Nom @<SPRED #38->19
+: 
+"<2013>"
+	"2013" Num Arab Sem/Year Sg Nom @N< #39->38
+	"2013" Num Arab Sem/ID @N< #39->38
+	 Use/Circ Use/Circ"2013" Num Arab Sg Nom
+	 Use/Circ"2013" Num Arab Sem/ID
+	 Use/Circ"2013" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2013" Num Arab Sg Nom
+: 
+"<Rajajväyläsopimus>"
+	"Rajajväyläsopimus" ? @X #40->0
+: 
+"<(>"
+	"(" PUNCT LEFT #41->42
+"<Pohjos-saame>"
+	"saame" N Sg Nom @HNOUN #42->38
+		"pohjonen" A Nom Cmp #42->38
+	"saame" N Sg Nom @HNOUN #42->38
+		"pohjonen" N Nom Cmp #42->38
+"<,>"
+	"," CLB #43->42
+: 
+"<pdf>"
+	"pdf" N Prop Sem/Tool-it ACR N Prop ACR Sg Nom @>N #44->46
+"<)>"
+	")" PUNCT RIGHT #45->46
+: 
+"<Rajaväyläsopimus>"
+	"sopimus" N Sg Nom @<SPRED #46->42
+		"väylä" N Nom Cmp #46->42
+			"raja" N Nom Cmp #46->42
+: 
+"<(>"
+	"(" PUNCT LEFT #47->48
+"<Meänkieli>"
+	"meänkieli" N Sg Nom @<SPRED #48->42
+"<,>"
+	"," CLB #49->48
+: 
+"<pdf>"
+	"pdf" N Prop Sem/Tool-it ACR N Prop ACR Sg Nom @<SPRED #50->48
+"<)>"
+	")" PUNCT RIGHT #51->50
+: 
+"<¶>"
+	"¶" CLB #52->52
+:\n
+"<Tutkimista>"
+	"tutkia" V Der/minen N Sg Par @X #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<statistiikkiä>"
+	"statistiikkiä" ? @X #3->0
+: 
+"<Ulkomaakauppa>"
+	"kauppa" N Sg Nom @X #4->0
+		"ulkomaa" N Nom Cmp #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<Suomen>"
+	"suomi" N Sg Gen @<OBJ #6->6
+: 
+"<kala>"
+	"kala" N Sg Nom @X #7->0
+"<,>"
+	"," CLB #8->7
+: 
+"<Foreign>"
+	"Foreign" ? @X #9->0
+: 
+"<trade>"
+	"trade" ? @X #10->0
+: 
+"<for>"
+	"for" ? @X #11->0
+: 
+"<Finnish>"
+	"Finnish" ? @X #12->0
+: 
+"<fish>"
+	"fish" ? @X #13->0
+: 
+"<2012>"
+	"2012" Num Arab Sem/Year Sg Nom @X #14->0
+	"2012" Num Arab Sem/ID @X #14->0
+	 Use/Circ Use/Circ"2012" Num Arab Sg Nom
+	 Use/Circ"2012" Num Arab Sem/ID
+	 Use/Circ"2012" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2012" Num Arab Sg Nom
+"<,>"
+	"," CLB #15->14
+: 
+"<RKTL>"
+	"RKTL" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #16->21
+	"RKTL" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #16->21
+: 
+"<2/2013>"
+	"2/2013" Num Arab Sem/ID @N< #17->16
+	 Use/Circ"2/2013" Num Arab Sem/ID
+"<(>"
+	"(" PUNCT LEFT #18->19
+"<pdf-file>"
+	"pdf-file" ? @X #19->0
+"<)>"
+	")" PUNCT RIGHT #20->21
+: » 
+"<Kalakannan>"
+	"kanta" N Sg Gen @<OBJ #21->21
+		"kala" N Nom Cmp #21->21
+: 
+"<vara>"
+	"Vara" N Prop Sem/Plc Sg Nom @X #22->0
+"<,>"
+	"," CLB #23->22
+: 
+"<Fish-stock>"
+	"Fish-stock" ? @X #24->0
+: 
+"<monitoring>"
+	"monitoring" ? @X #25->0
+: »  
+"<¶>"
+	"¶" CLB #26->26
+:\n
+"<Seminaarit>"
+	"seminaari" N Pl Nom @>N #1->2
+: 
+"<Lohiseminaari>"
+	"seminaari" N Sg Nom @>N #2->3
+		"lohi" N Nom Cmp #2->3
+: 
+"<Torniossa>"
+	"Tornio" N Prop Sg Ine @ADVL> #3->8
+"<,>"
+	"," CLB #4->3
+: 
+"<Salmon>"
+	"Salmo" N Prop Sg Gen @>N #5->7
+: 
+"<seminar>"
+	"seminar" ? @X #6->0
+: 
+"<in>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Gen @>N #7->8
+: 
+"<Tornio>"
+	"Tornio" N Prop Sg Nom @HNOUN #8->0
+: 
+"<2012>"
+	"2012" Num Arab Sem/Year Sg Nom @N< #9->8
+	"2012" Num Arab Sem/ID @N< #9->8
+	 Use/Circ Use/Circ"2012" Num Arab Sg Nom
+	 Use/Circ"2012" Num Arab Sem/ID
+	 Use/Circ"2012" Num Arab Sem/Year Sg Nom
+	 Use/Circ"2012" Num Arab Sg Nom
+: »  
+"<¶>"
+	"¶" CLB #10->8
+:\n
+"<Muita>"
+	"muu" Pron Indef Pl Par @>N #1->2
+: 
+"<yhtheyksiä>"
+	"yhtheys" N Pl Par @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @X #1->0
+: 
+"<vesittenhoionviranomhaiset>"
+	"vesittenhoionviranomhaiset" ? @X #2->0
+"<,>"
+	"," CLB #3->2
+: 
+"<Swedish>"
+	"Swedish" ? @X #4->0
+: 
+"<authority>"
+	"authority" ? @X #5->0
+: 
+"<for>"
+	"for" ? @X #6->0
+: 
+"<water>"
+	"water" ? @X #7->0
+: 
+"<management>"
+	"management" ? @X #8->0
+: » 
+"<Ruottalainen>"
+	"ruottalainen" A Sg Nom @SPRED> #9->1
+	"ruottalainen" N Sg Nom @HNOUN #9->1
+: 
+"<maaseutuministraatti>"
+	"maaseutuministraatti" ? @X #10->0
+"<,>"
+	"," CLB #11->10
+: 
+"<Swedish>"
+	"Swedish" ? @X #12->0
+: 
+"<ministry>"
+	"ministry" ? @X #13->0
+: 
+"<for>"
+	"for" ? @X #14->0
+: 
+"<rural>"
+	"rural" ? @X #15->0
+: 
+"<affairs>"
+	"Affairs" N Prop Sem/Org Sg Nom @>N #16->17
+:» 
+"<Suomalainen>"
+	"Suomalainen" N Prop Sem/Sur Sg Nom @>N #17->18
+: 
+"<maanpruuki>"
+	"maanpruuki" N Sg Nom @HNOUN #18->9
+: 
+"<ministraatti>"
+	"ministraatti" ? @X #19->0
+: 
+"<ICES>"
+	"ICES" N Prop Sem/Org ACR N Prop ACR Sg Nom @HNOUN #20->18
+	"ICES" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #20->18
+"<,>"
+	"," CLB #21->20
+: 
+"<Fnnish>"
+	"Fnnish" ? @X #22->0
+: 
+"<ministry>"
+	"ministry" ? @X #23->0
+: 
+"<of>"
+	"of" ? @X #24->0
+: 
+"<agriculture>"
+	"agriculture" ? @X #25->0
+: » 
+"<¶>"
+	"¶" CLB #26->26
+:\n
+"<ICES>"
+	"ICES" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #1->3
+	"ICES" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #1->3
+: » 
+"<Baltian>"
+	"Baltian" ? @X #2->0
+: 
+"<meren>"
+	"meri" N Sg Gen @X #3->0
+: 
+"<porttaali>"
+	"porttaali" ? @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<The>"
+	"The" N Prop Sg Nom @HNOUN #6->3
+: 
+"<Baltic>"
+	"Baltic" ? @X #7->0
+: 
+"<Sea>"
+	"Sea" ? @X #8->0
+: 
+"<Portal>"
+	"Portal" ? @X #9->0
+: » 
+"<¶>"
+	"¶" CLB #10->10
+:\n
+
+]]></dependency></body></document>

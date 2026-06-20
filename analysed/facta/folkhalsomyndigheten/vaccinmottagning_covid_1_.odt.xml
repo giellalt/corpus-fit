@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="facta"/><author><unknown/></author><translator><person firstname="Bengt" lastname="Pohjanen" sex="m" born="" nationality=""/></translator><translated_from xml:lang="swe"/><year>2021</year><wordcount>77</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="swe"/></multilingual><origFileName>Vaccinmottagning covid (1).docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Vaccinmottagning>"
+	"Vaccinmottagning" ? @X #1->0
+: 
+"<covid-19>"
+	"covid-19" N @X #2->0
+: 
+"<Rokotusvasthaanotto>"
+	"vasthaanotto" N Sg Nom @HNOUN #3->2
+		"rokotus" N Sg Nom Cmp #3->2
+: 
+"<covid>"
+	"covid" ? @X #4->0
+: 
+"<-19>"
+	 Use/Circ Use/Circ"-19" Num Arab Sg Nom
+	 Use/Circ"-19" Num Arab Sem/ID
+	 Use/Circ"-19" Num Arab Sg Nom
+: 
+"<¶>"
+	"¶" CLB #6->6
+:\n
+"<Rokotusvasthaanotto>"
+	"vasthaanotto" N Sg Nom @HNOUN #1->0
+		"rokotus" N Sg Nom Cmp #1->0
+: 
+"<covid>"
+	"covid" ? @X #2->0
+: 
+"<-19>"
+	 Use/Circ Use/Circ"-19" Num Arab Sg Nom
+	 Use/Circ"-19" Num Arab Sem/ID
+	 Use/Circ"-19" Num Arab Sg Nom
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Vain>"
+	"vain" Adv @ADVL #1->2
+: 
+"<varattuja>"
+	"varattuja" ? @X #2->0
+: 
+"<aikoja>"
+	"aika" N Pl Par @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Rokotusvasthaanotto>"
+	"vasthaanotto" N Sg Nom @HNOUN #1->0
+		"rokotus" N Sg Nom Cmp #1->0
+: 
+"<covid>"
+	"covid" ? @X #2->0
+: 
+"<-19>"
+	 Use/Circ Use/Circ"-19" Num Arab Sg Nom
+	 Use/Circ"-19" Num Arab Sem/ID
+	 Use/Circ"-19" Num Arab Sg Nom
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Sisälekäynti>"
+	"Sisälekäynti" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Uloskäynti>"
+	"Uloskäynti" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Oletkos>"
+	"olla" V Act Ind Prs Sg2 Qst @FAUX #1->0
+: 
+"<unohtannu>"
+	"unohtaa" V Act PrfPrc Sg Nom @>N #2->5
+: 
+"<täyttää>"
+	"täyttää" V Inf @X #3->0
+: 
+"<sinun>"
+	"sie" Pron Pers Sg Gen @>N #4->5
+: 
+"<terhveysesittelyn>"
+	"esittely" N Sg Gen @<OBJ #5->5
+		"terhveys" N Sg Nom Cmp #5->5
+"<?>"
+	"?" CLB #6->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Piä>"
+	"pittää" V Act Imprt Sg2 @FMV #1->0
+: 
+"<väliä>"
+	"väli" N Sg Par @<OBJ #2->1
+: 
+"<toishiin>"
+	"toinen" A Ord Pl Ill @<ADVL #3->1
+	"toinen" A Pl Ill @<ADVL #3->1
+	"toinen" Pron Pl Ill @<ADVL #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Piä>"
+	"pittää" V Act Imprt Sg2 @FMV #1->0
+: 
+"<henkilötoistus>"
+	"toistus" N Sg Nom @X #2->0
+		"henkilö" N Nom Cmp #2->0
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<terhveysesittely>"
+	"esittely" N Sg Nom @SUBJ> #4->0
+		"terhveys" N Sg Nom Cmp #4->0
+: 
+"<saatavissa>"
+	"saatavissa" ? @X #5->0
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Oota>"
+	"oottaa" V Act Imprt Sg2 @FMV #1->0
+: 
+"<tässä>"
+	"tässä" Adv @ADVL #2->3
+: 
+"<15>"
+	"15" Num Arab Sem/Time-clock Sg Nom @X #3->0
+	"15" Num Arab Sem/ID @X #3->0
+	 Use/Circ Use/Circ"15" Num Arab Sg Nom
+	 Use/Circ"15" A Arab Ord Attr CLBfinal
+	 Use/Circ"15" Num Arab Sem/ID
+	 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom
+	 Use/Circ"15" Num Arab Sg Nom
+: 
+"<minuttia>"
+	"minutti" N Sg Par @<OBJ #4->1
+: 
+"<rokotuksen>"
+	"rokotus" N Sg Gen @<OBJ #5->1
+: 
+"<jälkhiin>"
+	"jälkhiin" Adv @ADVL #6->3
+	"jälki" N Pl Ill @<ADVL #6->3
+"<.>"
+	"." CLB #7->1
+: 
+"<Sitte>"
+	"sitte" Adv @ADVL #1->4
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #2->3
+: 
+"<saatat>"
+	"saattaa" V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<jättää>"
+	"jättää" V Inf @X #4->0
+: 
+"<rokotushuohneen>"
+	"huone" N Sg Gen @<OBJ #5->3
+		"rokotus" N Sg Nom Cmp #5->3
+"<.>"
+	"." CLB #6->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

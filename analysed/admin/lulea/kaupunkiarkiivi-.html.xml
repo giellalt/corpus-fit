@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Kaupunkiarkiivi - Luleå kommun</title><genre code="admin"/><author><unknown/></author><wordcount>259</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>kaupunkiarkiivi-.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Ota>"
+	"ottaa" V Act Imprt Sg2 @FMV #1->0
+: 
+"<mielelhääns>"
+	"mielelhääns" ? @X #2->0
+: 
+"<yhtheyttä>"
+	"yhtheys" N Sg Par @<OBJ #3->1
+: 
+"<sähköpostin>"
+	"posti" N Sg Gen @<OBJ #4->1
+		"sähkö" N Nom Cmp #4->1
+: 
+"<kautta>"
+	"kautta" Po @ADVL #5->2
+: 
+"<elikkä>"
+	"elikkä" CC @X #6->0
+: 
+"<telefoonila>"
+	"telefooni" N Sg Ade @<ADVL #7->1
+: 
+"<0920-45>"
+	"0920-45" Num Arab Sem/ID @N< #8->7
+	 Use/Circ"0920-45" Num Arab Sem/ID
+: 
+"<30>"
+	"30" Num Arab Sem/ID @X #9->0
+	 Use/Circ Use/Circ"30" Num Arab Sg Nom
+	 Use/Circ"30" A Arab Ord Attr CLBfinal
+	 Use/Circ"30" Num Arab Sem/ID
+	 Use/Circ"30" Num Arab Sg Nom
+: 
+"<00.>"
+	"." CLB "<.>" #10->1
+	 Use/Circ"00" A Arab Ord Attr
+		 Use/Circ"00" A Arab Ord Attr CLBfinal "<00>"
+		 Use/Circ"00" Num Arab Sem/ID "<00>"
+		 Use/Circ"00" Num Arab Sem/Time-clock Sg Nom "<00>"
+: 
+"<Met>"
+	"met" Pron Pers Pl Nom @SUBJ> #1->2
+: 
+"<olema>"
+	"olla" V Act Ind Prs Pl1 @FMV #2->5
+	"olla" V AgPrc @>N #2->5
+: 
+"<kiitoliset>"
+	"kiitolinen" A Pl Nom @SUBJ> #3->11
+: 
+"<kaikista>"
+	"kaikki" Pron Qu Pl Ela @>N #4->5
+: 
+"<tipsistä>"
+	"tipsi" N Sg Ela @<ADVL #5->3
+: 
+"<kokoelmista>"
+	"kokoelmista" ? @X #6->0
+: 
+"<elikkä>"
+	"elikkä" CC @X #7->0
+: 
+"<yksityisistä>"
+	"yksityinen" A Pl Ela @>N #8->9
+: 
+"<valokuvista>"
+	"kupe" N Pl Ela @<ADVL #9->2
+		"valo" A Sg Nom Cmp #9->2
+	"kuva" N Pl Ela @<ADVL #9->2
+		"valo" A Sg Nom Cmp #9->2
+	"kupe" N Pl Ela @<ADVL #9->2
+		"valo" N Nom Cmp #9->2
+	"kuva" N Pl Ela @<ADVL #9->2
+		"valo" N Nom Cmp #9->2
+: 
+"<joissako>"
+	"Joki" N Prop Sem/Sur Sg Ine Qst @<ADVL #10->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FMV #11->0
+: 
+"<mutivia>"
+	"mutivia" ? @X #12->0
+: 
+"<Luulajan>"
+	"Luulaja" N Prop Sem/Plc Sg Gen @X #13->0
+: 
+"<kunnasta>"
+	"Kunnas" N Prop Sem/Sur Sg Par @<SUBJ #14->11
+"<.>"
+	"." CLB #15->11
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Esikouhluun>"
+	"esikoulu" N Sg Ill @ADVL> #1->2
+: 
+"<haku>"
+	"haku" N Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+
+]]></dependency></body></document>

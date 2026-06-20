@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Etistää fyysistä aktiviteettiä ja vähentää istumista</title><genre code="admin"/><author><unknown/></author><wordcount>705</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>framja-fysisk-aktivitet-och-minska-stillasittandet-riktlinjer-meankieli.pdf</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Piä>"
+	"pittää" V Act Imprt Sg2 @FMV #1->0
+: 
+"<liikkumispausia>"
+	"pausi" N Pl Par @<OBJ #2->1
+		"liikkua" V Der/minen N Nom Cmp #2->1
+	"pausi" N Sg Par @<OBJ #2->1
+		"liikkua" V Der/minen N Nom Cmp #2->1
+"<,>"
+	"," CLB #3->2
+: 
+"<jonku>"
+	"joku" Pron Sg Gen @>N #4->5
+: 
+"<minutin>"
+	"minutti" N Sg Gen @<OBJ #5->2
+: 
+"<joka>"
+	"joka" Pr @X #6->0
+: 
+"<puolentiima>"
+	"tiima" N Sg Nom @X #7->0
+		"puoli" N Gen Cmp #7->0
+"<.>"
+	"." CLB #8->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

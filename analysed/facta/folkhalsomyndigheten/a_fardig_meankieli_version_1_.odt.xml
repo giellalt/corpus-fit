@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="facta"/><author><unknown/></author><wordcount>2490</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>A      Färdig meänkieli version (1).docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Ylheiskattavia>"
+	"Ylheiskattavia" ? @X #1->0
+: 
+"<päämääriä>"
+	"määrä" N Pl Par @X #2->0
+		"pää" N Nom Cmp #2->0
+:  
+"<¶>"
+	"¶" CLB #3->3
+:\n
+
+]]></dependency></body></document>

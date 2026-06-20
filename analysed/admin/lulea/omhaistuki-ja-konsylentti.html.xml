@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Omhaistuki ja konsylentti - Luleå kommun</title><genre code="admin"/><author><unknown/></author><wordcount>269</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>omhaistuki-ja-konsylentti.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Osalistua>"
+	"osalistua" V Inf @X #1->0
+: 
+"<omhaisryhmään>"
+	"omhaisryhmään" ? @X #2->0
+"<,>"
+	"," CLB #3->2
+: 
+"<omhaiskahvilhaan>"
+	"kahvi" N Sg All Foc/haan @X #4->0
+		"omhainen" A Nom Cmp #4->0
+	"kahvila" N Sg Ill @X #4->0
+		"omhainen" A Nom Cmp #4->0
+	"kahvila" N Sg Nom Foc/haan @X #4->0
+		"omhainen" A Nom Cmp #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<luenthoin>"
+	"luento" N Pl Ill @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<terhveysaktiviteethiin>"
+	"aktiviteetti" N Pl Ill @X #8->0
+		"terhveys" N Sg Nom Cmp #8->0
+	"aktiviteetti" N Sg Ill @X #8->0
+		"terhveys" N Sg Nom Cmp #8->0
+: 
+"<elikkä>"
+	"elikkä" CC @X #9->0
+: 
+"<oppisirkkelhiin>"
+	"oppisirkkelhiin" ? @X #10->0
+: 
+"<¶>"
+	"¶" CLB #11->11
+:\n
+"<Esikouhluun>"
+	"esikoulu" N Sg Ill @ADVL> #1->2
+: 
+"<haku>"
+	"haku" N Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+
+]]></dependency></body></document>

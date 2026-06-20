@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Hallintoalueet - Institutet för språk och folkminnen</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><wordcount>246</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="dan"/></multilingual><origFileName>https://www.isof.se/sprak/sprakpolitik/minoritetslagen/hallintoalueet.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA[: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lyssna>"
+	"Lyssna" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Kontakt>"
+	"Kontakt" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Sök>"
+	"Sök" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<|>"
+	"|" CLB #1->1
+:  
+"<Hallintoalueet>"
+	"Hallintoalueet" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Hallintoalueet>"
+	"Hallintoalueet" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Erityisillä>"
+	"Erityisillä" ? @X #1->0
+: 
+"<hallintoalueilla>"
+	"hallintoalueilla" ? @X #2->0
+: 
+"<kansalaisilla>"
+	"kansalaisilla" ? @X #3->0
+: 
+"<on>"
+	"On" N Prop Sg Nom @>N #4->5
+: 
+"<oikeus>"
+	"oikeus" N Sg Nom @SUBJ> #5->6
+: 
+"<käyttää>"
+	"käyttää" V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<suomea>"
+	"suomi" N Sg Par @<OBJ #7->6
+"<,>"
+	"," CLB #8->7
+: 
+"<meänkieltä>"
+	"meänkieli" N Sg Par @<OBJ #9->7
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<saamea>"
+	"saame" N Sg Par @<OBJ #11->7
+: 
+"<suullisissa>"
+	"suullisissa" ? @X #12->0
+: 
+"<ja>"
+	"ja" CC @CNP #13->12
+: 
+"<kirjallisissa>"
+	"kirjallisissa" ? @X #14->0
+: 
+"<kontakteissa>"
+	"kontakteissa" ? @X #15->0
+: 
+"<hallintoviranomaisten>"
+	"hallintoviranomaisten" ? @X #16->0
+: 
+"<ja>"
+	"ja" CC @CNP #17->16
+: 
+"<tuomioistuinten>"
+	"istuin" N Pl Gen @>P #18->19
+		"tuomio" N Nom Cmp #18->19
+: 
+"<kanssa>"
+	"kanssa" Po @ADVL #19->16
+"<.>"
+	"." CLB #20->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Laki>"
+	"Laki" N Prop Sem/Plc Sg Nom @SUBJ> #1->2
+: 
+"<antaa>"
+	"antaa" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<myös>"
+	"myös" Adv @ADVL #3->4
+: 
+"<oikeuden>"
+	"oikeuden" ? @X #4->0
+: 
+"<esikoulupaikkaan>"
+	"esikoulupaikkaan" ? @X #5->0
+: 
+"<toiminnassa>"
+	"toiminnassa" ? @X #6->0
+"<,>"
+	"," CLB #7->8
+: 
+"<jossa>"
+	"joka" Pron Rel Sg Ine @<ADVL #8->2
+: 
+"<käytetään>"
+	"käytetään" ? @X #9->0
+: 
+"<suomea>"
+	"suomi" N Sg Par @X #10->0
+"<,>"
+	"," CLB #11->10
+: 
+"<meänkieltä>"
+	"meänkieli" N Sg Par @X #12->0
+: 
+"<tai>"
+	"Tai" N Prop Sg Nom @>N #13->14
+: 
+"<saamea>"
+	"saame" N Sg Par @X #14->0
+"<,>"
+	"," CLB #15->16
+: 
+"<kuten>"
+	"kuten" CC @X #16->0
+: 
+"<myös>"
+	"myös" Adv @ADVL #17->16
+: 
+"<oikeuden>"
+	"oikeuden" ? @X #18->0
+: 
+"<saada>"
+	"saada" ? @X #19->0
+: 
+"<vanhustenhuoltoa>"
+	"vanhustenhuoltoa" ? @X #20->0
+: 
+"<kyseistä>"
+	"kyseistä" ? @X #21->0
+: 
+"<kieltä>"
+	"kieli" N Sg Par @X #22->0
+: 
+"<osaavalta>"
+	"osaavalta" ? @X #23->0
+: 
+"<henkilöltä>"
+	"henkilö" N Sg Abl @<ADVL #24->2
+"<.>"
+	"." CLB #25->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Suomen>"
+	"suomi" N Sg Gen @>N #1->2
+: 
+"<kielen>"
+	"kieli" N Sg Gen @X #2->0
+: 
+"<hallintoalueeseen>"
+	"hallintoalueeseen" ? @X #3->0
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @>N #4->5
+: 
+"<kunnat>"
+	"kunta" N Pl Nom @<OBJ #5->5
+: 
+"<¶>"
+	"¶" CLB #6->6
+:\n
+"<Meänkielen>"
+	"meänkieli" N Sg Gen @X #1->0
+: 
+"<hallintoalueeseen>"
+	"hallintoalueeseen" ? @X #2->0
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @>N #3->4
+: 
+"<kunnat>"
+	"kunta" N Pl Nom @<OBJ #4->4
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Meänkielen>"
+	"meänkieli" N Sg Gen @X #1->0
+: 
+"<hallintoalueeseen>"
+	"hallintoalueeseen" ? @X #2->0
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @SUBJ> #3->0
+: 
+"<seuraavat>"
+	"seuraava" A Pl Nom @>N #4->5
+	"seurata" V Act PrsPrc Pl Nom @>N #4->5
+: 
+"<kunnat>"
+	"kunta" N Pl Nom @<OBJ #5->5
+"<:>"
+	":" CLB #6->3
+: 
+"<Haaparanta>"
+	"Haaparanta" N Prop Sem/Plc Sg Nom @HNOUN #7->5
+"<,>"
+	"," CLB #8->7
+: 
+"<Jällivaara>"
+	"Jällivaara" ? @X #9->0
+"<,>"
+	"," CLB #10->9
+: 
+"<Kalix>"
+	"Kalix" Err/Lex N Prop Sem/Plc Sg Nom @HNOUN #11->7
+"<,>"
+	"," CLB #12->11
+: 
+"<Kiiruna>"
+	"Kiiruna" N Prop Sem/Plc Sg Nom @HNOUN #13->11
+"<,>"
+	"," CLB #14->13
+: 
+"<Luulaja>"
+	"Luulaja" N Prop Sem/Plc Sg Nom @HNOUN #15->13
+"<,>"
+	"," CLB #16->15
+: 
+"<Pajala>"
+	"Pajala" N Prop Sem/Plc Sg Nom @HNOUN #17->15
+"<,>"
+	"," CLB #18->17
+: 
+"<Tukholma>"
+	"Tukholma" N Prop Sem/Plc Sg Nom @HNOUN #19->17
+"<,>"
+	"," CLB #20->19
+: 
+"<Uumaja>"
+	"Uumaja" N Prop Sem/Plc Sg Nom @HNOUN #21->19
+: 
+"<ja>"
+	"ja" CC @CNP #22->21
+: 
+"<Övertorneå>"
+	"Övertorneå" N Prop Sem/Plc Sg Nom @SUBJ> #23->0
+"<.>"
+	"." CLB #24->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Saamen>"
+	"saame" N Sg Gen @>N #1->2
+: 
+"<kielen>"
+	"kieli" N Sg Gen @X #2->0
+: 
+"<hallintoalueeseen>"
+	"hallintoalueeseen" ? @X #3->0
+: 
+"<kuuluvat>"
+	"kuulua" V Act PrsPrc Pl Nom @>N #4->5
+: 
+"<kunnat>"
+	"kunta" N Pl Nom @<OBJ #5->5
+: 
+"<¶>"
+	"¶" CLB #6->6
+:\n
+"<Alueet>"
+	"Alueet" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

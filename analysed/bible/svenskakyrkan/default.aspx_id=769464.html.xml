@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="bible"/><author><unknown/></author><wordcount>107</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer+apertium@mm.st"/><origFileName>http://www.svenskakyrkan.se/default.aspx?id=769464</origFileName><parallel_text xml:lang="fin" location="default.aspx_id=655209.html"/><parallel_text xml:lang="sme" location="default.aspx_id=767264.html"/><parallel_text xml:lang="smj" location="default.aspx_id=766393.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 104145 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Rippikoulutus>"
+	"koulutus" N Sg Nom @HNOUN #1->0
+		"rippi" N Nom Cmp #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<Svenska>"
+	"Svenska" ? @X #3->0
+: 
+"<kyrkan>"
+	"kyrkan" ? @X #4->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #5->6
+: 
+"<Om>"
+	"Om" ? @X #6->0
+: 
+"<oss>"
+	"oss" ? @X #7->0
+: 
+"<¶>"
+	"¶" CLB #8->1
+:\n
+"<Rippikoulutus>"
+	"koulutus" N Sg Nom @HNOUN #1->0
+		"rippi" N Nom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Rippikoulutus>"
+	"koulutus" N Sg Nom @SUBJ> #1->2
+		"rippi" N Nom Cmp #1->2
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FAUX #2->0
+: 
+"<yks>"
+	"yksi" Num Sg Nom @SUBJ> #3->19
+: 
+"<tarjous>"
+	"tarjous" N Sg Nom @SUBJ> #4->19
+: 
+"<sulle>"
+	"sie" Pron Pers Sg All @<ADVL #5->4
+"<,>"
+	"," CLB #6->7
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #7->8
+: 
+"<olet>"
+	"olla" V Act Ind Prs Sg2 @FS-N< #8->5
+: 
+"<elämän>"
+	"elämä" N Sg Gen @<OBJ #9->9
+: 
+"<uutelias>"
+	"uutelias" ? @X #10->0
+: 
+"<ja>"
+	"ja" CC @CNP #11->10
+: 
+"<haluat>"
+	"haluta" V Act Ind Prs Sg2 @FS-N< #12->8
+: 
+"<tietää>"
+	"tietää" V Inf @X #13->0
+: 
+"<enemän>"
+	"enemän" Adv @ADVL #14->13
+: 
+"<kristinuskosta>"
+	"kristinusko" N Sg Ela @<ADVL #15->12
+: 
+"<ja>"
+	"ja" CC @CNP #16->15
+: 
+"<mitä>"
+	"mitä" Adv @ADVL #17->13
+: 
+"<se>"
+	"se" Pron Pers Sg Nom @SUBJ> #18->19
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #19->2
+: 
+"<merkitä>"
+	"merkitä" V Inf @X #20->0
+: 
+"<sulle>"
+	"sie" Pron Pers Sg All @<ADVL #21->19
+"<.>"
+	"." CLB #22->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Rippikoulutuksen>"
+	"koulutus" N Sg Gen @>N #1->2
+		"rippi" N Nom Cmp #1->2
+: 
+"<aikana>"
+	"aika" N Sg Ess @X #2->0
+: 
+"<saat>"
+	"saaja" V Act Ind Prs Pl3 @FMV #3->2
+	"saaja" V Act Ind Prs Sg2 @FMV #3->2
+	"saa’a" V Act Ind Prs Pl3 @FMV #3->2
+	"saa’a" V Act Ind Prs Sg2 @FMV #3->2
+	"sata" Num Pl Nom @N< #3->2
+: 
+"<keskusteluitten>"
+	"keskustelu" N Pl Gen @<OBJ #4->3
+"<,>"
+	"," CLB #5->4
+: 
+"<jumalanpalveluksitten>"
+	"jumalanpalveluksitten" ? @X #6->0
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<puhheitten>"
+	"puhe" N Pl Gen @>P #8->9
+: 
+"<kautta>"
+	"kautta" Po @ADVL #9->6
+: 
+"<maholisuuen>"
+	"maholinen" A Der/suus N Sg Gen @<OBJ #10->3
+	"maholisuus" N Sg Gen @<OBJ #10->3
+: 
+"<ajatella>"
+	"ajatella" V Inf @X #11->0
+: 
+"<kuka>"
+	"kuka" Pron Prel Sg Nom @SUBJ> #12->14
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #13->14
+: 
+"<olet>"
+	"olla" V Act Ind Prs Sg2 @FMV #14->3
+: 
+"<ja>"
+	"ja" CC @CNP #15->14
+: 
+"<mitä>"
+	"mitä" Adv @ADVL #16->11
+: 
+"<sie>"
+	"sie" Pron Pers Sg Nom @>N #17->17
+: 
+"<uskot>"
+	"uskoa" V Act Ind Prs Sg2 @FMV #18->3
+"<.>"
+	"." CLB #19->9
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Se>"
+	"se" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<koskee>"
+	"koskea" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<uskononkysymyksiä>"
+	"kysymys" N Pl Par @<OBJ #3->2
+		"uskonto" N Sg Gen Cmp #3->2
+"<,>"
+	"," CLB #4->3
+: 
+"<kuka>"
+	"kuka" Pron Prel Sg Nom @>N #5->6
+: 
+"<Jeesus>"
+	"Jeesus" N Prop Sem/Mal Sg Nom @SUBJ> #6->7
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FMV #7->2
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<mitä>"
+	"mitä" Adv @ADVL #9->0
+: 
+"<Raamatussa>"
+	"raamattu" N Sg Ine @<ADVL #10->7
+: 
+"<seisoo>"
+	"seisoa" V Act Ind Prs Sg3 @FMV #11->2
+"<.>"
+	"." CLB #12->2
+: 
+"<Mutta>"
+	"mutta" CS @CVP #1->6
+: 
+"<kansa>"
+	"kansa" N Sg Nom @>N #2->3
+: 
+"<peruskysymyksiä>"
+	"peruskysymys" N Pl Par @X #3->0
+: 
+"<ihmisestä>"
+	"ihminen" N Sg Ela @ADVL> #4->8
+"<,>"
+	"," CLB #5->4
+: 
+"<esimerkiks>"
+	"esimerkiks" Adv @ADVL #6->3
+: 
+"<mikä>"
+	"Mikä" N Prop Sem/Mal Sg Nom @SUBJ> #7->8
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FS-ADVL> #8->12
+: 
+"<oiken>"
+	"oiken" Adv @ADVL #9->3
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<mikä>"
+	"Mikä" N Prop Sem/Mal Sg Nom @SUBJ> #11->12
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FS-ADVL> #12->0
+: 
+"<väärin>"
+	"väärin" Adv @ADVL #13->3
+"<,>"
+	"," CLB #14->1
+: 
+"<ystävyyestä>"
+	"ystävyys" N Sg Ela @<ADVL #15->12
+"<,>"
+	"," CLB #16->1
+: 
+"<rakhauvesta>"
+	"rakhauvesta" ? @X #17->0
+"<,>"
+	"," CLB #18->1
+: 
+"<seksistä>"
+	"seksi" N Sg Ela @<ADVL #19->12
+"<,>"
+	"," CLB #20->1
+: 
+"<elämän>"
+	"elämä" N Sg Gen @X #21->0
+: 
+"<tarkotuksesta>"
+	"tarkotus" N Sg Ela @<ADVL #22->12
+"<.>"
+	"." CLB #23->6
+: 
+"<Kysymyksiä>"
+	"kysymys" N Pl Par @X #1->0
+: 
+"<joita>"
+	"joka" Pron Rel Pl Par @X #2->0
+: 
+"<kaikki>"
+	"kaikki" Pron Qu Sg Nom @>N #3->4
+: 
+"<ihmiset>"
+	"ihminen" N Pl Nom @SUBJ> #4->7
+: 
+"<kohtaavat>"
+	"kohata" V Act PrsPrc Pl Nom @SUBJ> #5->7
+: 
+"<koska>"
+	"koska" Adv @ADVL #6->2
+: 
+"<ei>"
+	"ei" V Neg Act Prs Sg3 @FS-N< #7->1
+: 
+"<kukhaan>"
+	"kukhaan" Adv @ADVL #8->2
+: 
+"<elä>"
+	"ellää" V Neg Act Imprt ConNeg Sg2 @FAUX #9->0
+: 
+"<yksin>"
+	"yksin" Adv @ADVL #10->2
+"<.>"
+	"." CLB #11->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Rippikoulunaika>"
+	"aika" N Sg Nom @SUBJ> #1->2
+		"koulu" N Sg Gen Cmp #1->2
+			"rippi" N Nom Cmp #1->2
+	"aika" N Sg Nom @SUBJ> #1->2
+		"rippikoulu" N Sg Gen Cmp #1->2
+: 
+"<lopetethaan>"
+	"lopettaa" V Pass Ind Prs @FMV #2->0
+: 
+"<yhelä>"
+	"yksi" Num Sg Ade @<ADVL #3->2
+	"yksi" Pron Indef Ade @<ADVL #3->2
+: 
+"<rippikoulun>"
+	"rippikoulu" N Sg Gen @<OBJ #4->2
+: 
+"<jumalanpalveluksella>"
+	"jumalanpalveluksella" ? @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<Rippikoulutus>"
+	"koulutus" N Sg Nom @SUBJ> #1->2
+		"rippi" N Nom Cmp #1->2
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FMV #2->0
+: 
+"<vahvistus>"
+	"vahvistus" N Sg Nom @<SPRED #3->2
+: 
+"<sinun>"
+	"sie" Pron Pers Sg Gen @>N #4->5
+: 
+"<kastamisesta>"
+	"kastaa" V Der/minen N Sg Ela @<ADVL #5->2
+"<.>"
+	"." CLB #6->2
+: 
+"<Jumalan>"
+	"jumala" N Sg Gen @X #1->0
+: 
+"<silmissä>"
+	"silmä" N Pl Ine @ADVL> #2->5
+: 
+"<kaikki>"
+	"kaikki" Pron Qu Sg Nom @>N #3->4
+: 
+"<ihmiset>"
+	"ihminen" N Pl Nom @>N #4->5
+: 
+"<on>"
+	"On" N Prop Sg Nom @HNOUN #5->1
+: 
+"<arvokhaat>"
+	"arvokas" A Pl Nom @<SPRED #6->5
+"<.>"
+	"." CLB #7->7
+: 
+"<Rippikoulutus>"
+	"koulutus" N Sg Nom @SUBJ> #1->2
+		"rippi" N Nom Cmp #1->2
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FAUX #2->0
+: 
+"<yks>"
+	"yksi" Num Sg Nom @SUBJ> #3->0
+: 
+"<malli>"
+	"malli" N Sg Nom @SUBJ> #4->0
+: 
+"<vahvistaa>"
+	"vahvistaa" V Act Ind Prs Sg3 @X #5->0
+: 
+"<just>"
+	"just" Adv @ADVL #6->5
+: 
+"<sen>"
+	"se" Pron Pers Sg Gen @<OBJ #7->7
+: 
+"<sulle>"
+	"sie" Pron Pers Sg All @<ADVL #8->4
+"<.>"
+	"." CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"</>"
+	"/" PUNCT MIDDLE #1->1
+"</>"
+	"/" PUNCT MIDDLE #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+
+]]></dependency></body></document>

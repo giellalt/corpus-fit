@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="facta"/><author><unknown/></author><wordcount>302</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>4087_syncentralen-A5 mki.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Näköhoitosentraali>"
+	"sentraali" N Sg Nom @HNOUN #1->0
+		"hoito" N Nom Cmp #1->0
+			"näkö" N Nom Cmp #1->0
+	"hoitosentraali" N Sg Nom @HNOUN #1->0
+		"näkö" N Nom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Yhessä>"
+	"yhessä" Adv @ADVL #1->5
+	"yksi" Num Sg Ine @ADVL> #1->5
+	"yksi" Pron Indef Ine @ADVL> #1->5
+: 
+"<meän>"
+	"met" Pron Pers Pl Gen @>P #2->3
+: 
+"<kans>"
+	"kans" Po @ADVL #3->0
+: 
+"<Sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #4->5
+: 
+"<saat>"
+	"saaja" V Act Ind Prs Pl3 @FMV #5->0
+	"saaja" V Act Ind Prs Sg2 @FMV #5->0
+	"saa’a" V Act Ind Prs Pl3 @FMV #5->0
+	"saa’a" V Act Ind Prs Sg2 @FMV #5->0
+: 
+"<¶>"
+	"¶" CLB #6->3
+:\n
+
+]]></dependency></body></document>

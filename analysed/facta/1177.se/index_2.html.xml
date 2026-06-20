@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="facta"/><author><unknown/></author><wordcount>549</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://www.1177.se/fit/other-languages/other-languages/regler-och-rattigheter---andra-sprak/tandvardsstod-om-man-har-en-funktionsnedsattning---andra-sprak/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Mitenkäs>"
+	"Mitenkäs" ? @X #1->0
+: 
+"<hammashoitotukea>"
+	"tuki" N Sg Par @X #2->0
+		"hoito" N Nom Cmp #2->0
+			"hammas" N Sg Nom Cmp #2->0
+	"tuki" N Sg Par @X #2->0
+		"hammashoito" N Nom Cmp #2->0
+: 
+"<haethaan>"
+	"hakea" V Act Ind Prs Sg2 Foc/haan @FMV #3->0
+	"hakea" V Pass Ind Prs @FMV #3->0
+"<?>"
+	"?" CLB #4->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

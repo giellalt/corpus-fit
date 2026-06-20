@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Erityiskoulu - Umeå kommun</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><wordcount>126</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="dan"/></multilingual><origFileName>https://www.umea.se/kommunochpolitik/languages/meankieli/lapsetjakoulutus/erityiskoulu.4.640818217563dc9fe53133.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA[: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Meny>"
+	"menyy" Err/Orth N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Erityiskoulu>"
+	"koulu" N Sg Nom @HNOUN #1->0
+		"erityinen" A Nom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Erityiskoulu>"
+	"koulu" N Sg Nom @HNOUN #1->0
+		"erityinen" A Nom Cmp #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<Särskola>"
+	"Särskola" ? @X #3->0
+"<)>"
+	")" PUNCT RIGHT #4->3
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Ennen>"
+	"ennen" Pr @X #1->0
+: 
+"<erityiskoulun>"
+	"koulu" N Sg Gen @>N #2->3
+		"erityinen" A Nom Cmp #2->3
+: 
+"<vasthaanottoa>"
+	"vasthaanotto" N Sg Par @<P #3->3
+: 
+"<pittää>"
+	"pittää" V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<tehhä>"
+	"tehhä" V Inf @X #5->0
+	"tehjä" V Inf @X #5->0
+	"tehä" V Inf @X #5->0
+: 
+"<tutkimuksen>"
+	"tutkimus" N Sg Gen @<OBJ #6->4
+"<,>"
+	"," CLB #7->8
+: 
+"<joka>"
+	"joka" Pr @X #8->0
+	"joka" Pron Rel Sg Nom @X #8->0
+	"jokata" V Act Imprt Sg2 @X #8->0
+: 
+"<koostuu>"
+	"koostuu" ? @X #9->0
+: 
+"<neljästä>"
+	"neljä" Num Sg Ela @<ADVL #10->4
+: 
+"<arvosteluista>"
+	"arvostelu" N Pl Ela @NUM< #11->11
+"<:>"
+	":" CLB #12->4
+: 
+"<pedagookinen>"
+	"pedagookinen" A Sg Nom @X #13->0
+"<,>"
+	"," CLB #14->13
+: 
+"<sosiaalinen>"
+	"sosiaalinen" A Sg Nom @X #15->0
+"<,>"
+	"," CLB #16->15
+: 
+"<metesiininen>"
+	"metesiininen" ? @X #17->0
+: 
+"<ja>"
+	"ja" CC @CNP #18->17
+: 
+"<psykolookinen>"
+	"psykolookinen" A Sg Nom @X #19->0
+"<.>"
+	"." CLB #20->4
+: 
+"<Vasthaanottotiimi>"
+	"tiimi" N Sg Nom @X #1->0
+		"vasthaanotto" N Nom Cmp #1->0
+: 
+"<koostuu>"
+	"koostuu" ? @X #2->0
+: 
+"<erityiskoulun>"
+	"koulu" N Sg Gen @X #3->0
+		"erityinen" A Nom Cmp #3->0
+: 
+"<koordinaatturista>"
+	"koordinaatturista" ? @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<spesiaalipedagooki>"
+	"spesiaalipedagooki" ? @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<kaks>"
+	"kaksi" Num Sg Nom @SUBJ> #8->13
+: 
+"<koulupsykolookia>"
+	"psykolooki" N Sg Par @NUM< #9->9
+		"koulu" N Nom Cmp #9->9
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<metesiinisen>"
+	"metesiinisen" ? @X #11->0
+: 
+"<johonvastuussa>"
+	"vastuu" N Sg Ine @ADVL> #12->13
+		"johto" N Sg Gen Cmp #12->13
+: 
+"<käsittelee>"
+	"käsitellä" V Act Ind Prs Pl3 @FMV #13->0
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<valmistellee>"
+	"valmistellee" ? @X #15->0
+: 
+"<päätöstä>"
+	"päätös" N Sg Par @<OBJ #16->13
+"<.>"
+	"." CLB #17->13
+: 
+"<Päätös>"
+	"päätös" N Sg Nom @>N #1->2
+: 
+"<vasthaanotosta>"
+	"vasthaanotto" N Sg Ela @ADVL> #2->3
+: 
+"<ottaa>"
+	"ottaa" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<sitten>"
+	"sitten" Adv @ADVL #4->5
+: 
+"<kolutusdirehtööri>"
+	"kolutusdirehtööri" ? @X #5->0
+"<.>"
+	"." CLB #6->3
+: 
+"<Kaikki>"
+	"kaikki" Pron Qu Sg Nom @SUBJ> #1->3
+: 
+"<askelheet>"
+	"askelheet" ? @X #2->0
+: 
+"<tapahtuu>"
+	"tapahtua" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<yhteisneuvonossa>"
+	"yhteisneuvonossa" ? @X #4->0
+: 
+"<oppilhaan>"
+	"oppilas" N Sg Gen @>N #5->6
+: 
+"<huoltajan>"
+	"huoltaja" N Sg Gen @>P #6->7
+: 
+"<kans>"
+	"kans" Po @ADVL #7->4
+"<.>"
+	"." CLB #8->3
+: 
+"<Molemat>"
+	"molemat" N Sg Nom @>N #1->2
+	"molemat" Pron @>N #1->2
+: 
+"<huoltajat>"
+	"huoltaja" N Pl Nom @SUBJ> #2->0
+: 
+"<hakevat>"
+	"hakea" V Act PrsPrc Pl Nom @>N #3->4
+: 
+"<vasthaanottoa>"
+	"vasthaanotto" N Sg Par @<OBJ #4->4
+: 
+"<eriyiskoulhuun>"
+	"eriyiskoulhuun" ? @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<Tietoja>"
+	"tieto" N Pl Par @X #1->0
+: 
+"<hakemuksesta>"
+	"hakemus" N Sg Ela @ADVL> #2->3
+: 
+"<antaa>"
+	"antaa" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<erityiskoulun>"
+	"koulu" N Sg Gen @<OBJ #4->3
+		"erityinen" A Nom Cmp #4->3
+: 
+"<koordinaatturi>"
+	"koordinaatturi" ? @X #5->0
+"<.>"
+	"." CLB #6->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Laki>"
+	"Laki" N Prop Sem/Plc Sg Nom @SUBJ> #1->9
+: 
+"<erikoisesta>"
+	"erikoinen" A Sg Ela @>N #2->3
+: 
+"<tuesta>"
+	"tuki" N Sg Ela @<ADVL #3->1
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<palveluksesta>"
+	"palvelus" N Sg Ela @<ADVL #5->3
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+"<LSS>"
+	"LSS" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #7->9
+"<)>"
+	")" PUNCT RIGHT #8->9
+: 
+"<antaa>"
+	"antaa" V Act Ind Prs Sg3 @FMV #9->0
+: 
+"<lapsile>"
+	"lapsi" N Pl All @<ADVL #10->9
+: 
+"<ja>"
+	"ja" CC @CNP #11->10
+: 
+"<nuorile>"
+	"nuora" N Pl All @<ADVL #12->10
+	"nuoret" N Pl All @<ADVL #12->10
+	"nuori" A Pl All @<ADVL #12->10
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #13->21
+: 
+"<kulkevat>"
+	"kulkea" V Act PrsPrc Pl Nom @>N #14->15
+: 
+"<erityiskoulua>"
+	"koulu" N Sg Par @<OBJ #15->15
+		"erityinen" A Nom Cmp #15->15
+: 
+"<oikeuven>"
+	"oikeuven" ? @X #16->0
+: 
+"<neuvonthaan>"
+	"neuvonthaan" ? @X #17->0
+: 
+"<ja>"
+	"ja" CC @CNP #18->17
+: 
+"<muuhun>"
+	"muuhun" #19->19
+: 
+"<henkilökohtaisheen>"
+	"henkilökohtaisheen" ? @X #20->0
+: 
+"<tukheen>"
+	"tukea" V InfMa Ill @IMV #21->10
+	"tuki" N Sg Ill @<ADVL #21->10
+"<.>"
+	"." CLB #22->9
+: 
+"<Se>"
+	"se" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<koskee>"
+	"koskea" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<eksperttitukea>"
+	"tuki" N Sg Par @<OBJ #3->2
+		"ekspertti" N Nom Cmp #3->2
+: 
+"<missä>"
+	"mikä" Pron Rel Pl Ine @<ADVL #4->2
+	"mikä" Pron Rel Sg Ine @<ADVL #4->2
+: 
+"<suurta>"
+	"suuri" A Sg Par @>N #5->6
+: 
+"<huomiota>"
+	"huomio" N Sg Par @X #6->0
+: 
+"<otethaan>"
+	"ottaa" V Pass Ind Prs @FS-N< #7->3
+: 
+"<jokhaisesta>"
+	"jokhaisesta" ? @X #8->0
+: 
+"<lapsesta>"
+	"lapsi" N Sg Ela @<ADVL #9->7
+"<.>"
+	"." CLB #10->2
+: 
+"<Vastuussa>"
+	"vastuu" N Sg Ine @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<Ansvarig>"
+	"Ansvarig" ? @X #3->0
+"<:>"
+	":" CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+
+]]></dependency></body></document>

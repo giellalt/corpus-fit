@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Avustusta - Kiruna kommun</title><genre code="admin"/><author><unknown/></author><wordcount>726</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>avustusta.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Itänen>"
+	"Itänen" ? @X #1->0
+: 
+"<kunnanosa>"
+	"osa" N Sg Nom @HNOUN #2->0
+		"kunta" N Sg Gen Cmp #2->0
+: 
+"<:>"
+	":" CLB #3->2
+: 
+"<Tistriktisaihraanhoitaja>"
+	"Tistriktisaihraanhoitaja" ? @X #4->0
+"<:>"
+	":" CLB #5->2
+: 
+"<0980-756>"
+	"0980-756" Num Arab Sem/ID @X #6->0
+	 Use/Circ"0980-756" Num Arab Sem/ID
+: 
+"<41>"
+	"41" Num Arab Sem/ID @X #7->0
+	 Use/Circ Use/Circ"41" Num Arab Sg Nom
+	 Use/Circ"41" A Arab Ord Attr CLBfinal
+	 Use/Circ"41" Num Arab Sem/ID
+	 Use/Circ"41" Num Arab Sg Nom
+: 
+"<elikkä>"
+	"elikkä" CC @X #8->0
+: 
+"<0980-756>"
+	"0980-756" Num Arab Sem/ID @X #9->0
+	 Use/Circ"0980-756" Num Arab Sem/ID
+: 
+"<37>"
+	"37" Num Arab Sem/ID @X #10->0
+	 Use/Circ Use/Circ"37" Num Arab Sg Nom
+	 Use/Circ"37" A Arab Ord Attr CLBfinal
+	 Use/Circ"37" Num Arab Sem/ID
+	 Use/Circ"37" Num Arab Sg Nom
+: 
+"<Tistriktityöterapeytti>"
+	"Tistriktityöterapeytti" ? @X #11->0
+"<:>"
+	":" CLB #12->2
+: 
+"<0980-756>"
+	"0980-756" Num Arab Sem/ID @X #13->0
+	 Use/Circ"0980-756" Num Arab Sem/ID
+: 
+"<95>"
+	"95" Num Arab Sem/ID @X #14->0
+	 Use/Circ Use/Circ"95" Num Arab Sg Nom
+	 Use/Circ"95" A Arab Ord Attr CLBfinal
+	 Use/Circ"95" Num Arab Sem/ID
+	 Use/Circ"95" Num Arab Sg Nom
+: 
+"<Tistriktsiukkajymnasti>"
+	"Tistriktsiukkajymnasti" ? @X #15->0
+"<:>"
+	":" CLB #16->2
+: 
+"<0980-701>"
+	"0980-701" Num Arab Sem/ID @X #17->0
+	 Use/Circ"0980-701" Num Arab Sem/ID
+: 
+"<02>"
+	"02" Num Arab Sem/Time-clock Sg Nom @HNOUN #18->2
+	 Use/Circ"02" A Arab Ord Attr CLBfinal
+	 Use/Circ"02" Num Arab Sem/ID
+	 Use/Circ"02" Num Arab Sem/Time-clock Sg Nom
+:  
+"<¶>"
+	"¶" CLB #19->2
+:\n
+
+]]></dependency></body></document>

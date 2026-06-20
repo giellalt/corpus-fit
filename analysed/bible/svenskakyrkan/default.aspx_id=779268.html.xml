@@ -1,0 +1,790 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="bible"/><author><unknown/></author><wordcount>220</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer+apertium@mm.st"/><origFileName>http://www.svenskakyrkan.se/default.aspx?id=779268</origFileName><parallel_text xml:lang="sma" location="gyrhkesjimmie-gaajhkesidie-gaahpan.html"/><parallel_text xml:lang="sme" location="ipmilbalvalus-lea-rabas-buohkaide.html"/><parallel_text xml:lang="smj" location="jubmeldievnno-rabas-gajkajda.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 104145 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Jumalanpalvelu>"
+	"Jumalanpalvelu" ? @X #1->0
+: 
+"<on>"
+	"On" N Prop Sg Nom @HNOUN #2->0
+: 
+"<avoin>"
+	"avoin" A Sg Nom @<SPRED #3->2
+: 
+"<kaikile>"
+	"kaikki" Pron Qu Pl All @N< #4->2
+: 
+"<->"
+	"-" PUNCT MIDDLE #5->6
+: 
+"<Svenska>"
+	"Svenska" ? @X #6->0
+: 
+"<kyrkan>"
+	"kyrkan" ? @X #7->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #8->9
+: 
+"<Om>"
+	"Om" ? @X #9->0
+: 
+"<oss>"
+	"oss" ? @X #10->0
+: 
+"<¶>"
+	"¶" CLB #11->2
+:\n
+"<Jumalanpalvelu>"
+	"Jumalanpalvelu" ? @X #1->0
+: 
+"<on>"
+	"On" N Prop Sg Nom @HNOUN #2->0
+: 
+"<avoin>"
+	"avoin" A Sg Nom @<SPRED #3->2
+: 
+"<kaikile>"
+	"kaikki" Pron Qu Pl All @N< #4->2
+: 
+"<¶>"
+	"¶" CLB #5->2
+:\n
+"<Jumalanpalveluja>"
+	"Jumalanpalveluja" ? @X #1->0
+: 
+"<piethään>"
+	"pietä" V Pass Ind Prs @FMV #2->0
+	"pittää" V Pass Ind Prs @FMV #2->0
+: 
+"<joka>"
+	"joka" Pr @X #3->0
+: 
+"<pyhä>"
+	"Pyhä" N Prop Sem/Plc Sg Nom @>N #4->5
+: 
+"<Ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @>N #5->6
+: 
+"<kirkon>"
+	"kirkko" N Sg Gen @<P #6->6
+: 
+"<seurakunnissa>"
+	"seurakunta" N Pl Ine @<ADVL #7->2
+"<,>"
+	"," CLB #8->9
+: 
+"<ja>"
+	"ja" CC @CNP #9->7
+: 
+"<useasti>"
+	"useasti" Adv @ADVL #10->3
+: 
+"<muinakin>"
+	"muu" A Pl Ess Foc/kin @>N #11->12
+	"muu" Pron Indef Pl Ess Foc/kin @>N #11->12
+: 
+"<päivinä>"
+	"Päivi" N Prop Sem/Fem Sg Ess @<SPRED #12->2
+"<.>"
+	"." CLB #13->2
+: 
+"<Jumalanpalvelu>"
+	"Jumalanpalvelu" ? @X #1->0
+: 
+"<on>"
+	"On" N Prop Sg Nom @HNOUN #2->0
+: 
+"<aina>"
+	"aina" Adv @ADVL #3->1
+: 
+"<kaikitten>"
+	"kaikki" Pron Qu Pl Gen @X #4->0
+: 
+"<käytettävissä>"
+	"käytettävissä" ? @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Alusta>"
+	"alku" N Sg Ela @ADVL> #1->4
+	"alusta" N Sg Nom @SUBJ> #1->4
+: 
+"<asti>"
+	"asti" Adv @ADVL #2->5
+: 
+"<kristityt>"
+	"kristitty" A Pl Nom @SUBJ> #3->0
+	"kristitty" N Pl Nom @SUBJ> #3->0
+: 
+"<kokkointuvat>"
+	"kokkointua" V Act PrsPrc Pl Nom @HNOUN #4->3
+: 
+"<jumalanpalvelhuun>"
+	"jumalanpalvelhuun" ? @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<Alussa>"
+	"alku" N Sg Ine @ADVL> #1->1
+: 
+"<net>"
+	"net" Pron Pers Pl Nom @SUBJ> #2->3
+: 
+"<ei>"
+	"ei" V Neg Act Prs Pl3 @FAUX #3->0
+: 
+"<tietysti>"
+	"tietysti" Interj @X #4->0
+: 
+"<olheet>"
+	"olla" V Act PrfPrc Pl Nom @<OBJ #5->5
+: 
+"<niin>"
+	"niin" Adv @ADVL #6->4
+: 
+"<monta>"
+	"moni" A Sg Par @<SUBJ #7->3
+"<.>"
+	"." CLB #8->3
+: 
+"<Jossakin>"
+	"joka" Pron Rel Sg Ine Foc/kin @>N #1->2
+: 
+"<paikoissa>"
+	"paikat" N Pl Ine @ADVL> #2->4
+	"paikka" N Pl Ine @ADVL> #2->4
+	"paikko" N Pl Ine @ADVL> #2->4
+: 
+"<heitä>"
+	"het" Pron Pers Pl Par @X #3->0
+: 
+"<vainothiin>"
+	"vainota" V Pass Ind Prt @FS-N< #4->0
+: 
+"<uskon>"
+	"usko" N Sg Gen @<OBJ #5->4
+: 
+"<vuoksi>"
+	"vuoksi" Adv @ADVL #6->3
+"<.>"
+	"." CLB #7->4
+: 
+"<Oli>"
+	"olla" V Act Ind Prt Sg3 @FAUX #1->0
+: 
+"<tarve>"
+	"tarve" N Sg Nom @<SPRED #2->0
+: 
+"<kohata>"
+	"kohata" V Inf @X #3->0
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<kuunella>"
+	"kuunella" ? @X #5->0
+: 
+"<Jeesuuksen>"
+	"Jeesuuksen" ? @X #6->0
+: 
+"<kertomuksista>"
+	"kertomus" N Pl Ela @<ADVL #7->7
+"<,>"
+	"," CLB #8->7
+: 
+"<kuulla>"
+	"kuulla" V Inf @X #9->0
+: 
+"<tulkintoja>"
+	"tulkinta" N Pl Par @<SUBJ #10->1
+: 
+"<Jeesuksen>"
+	"Jeesus" N Prop Sem/Mal Sg Gen @<OBJ #11->11
+: 
+"<elämästä>"
+	"ellää" V InfMa Ela @IMV #12->1
+	"elämä" N Sg Ela @<ADVL #12->1
+"<,>"
+	"," CLB #13->12
+: 
+"<kuolemasta>"
+	"kuola" V InfMa Ela @IMV #14->12
+	"kuolema" N Sg Ela @<ADVL #14->12
+	"kuolla" V InfMa Ela @IMV #14->12
+: 
+"<ja>"
+	"ja" CC @CNP #15->14
+: 
+"<ylösnousemuksesta>"
+	"ylösnousemus" N Sg Ela @<ADVL #16->14
+"<.>"
+	"." CLB #17->1
+: 
+"<Jumalanpalveluksen>"
+	"jumalanpalvelus" N Sg Gen @X #1->0
+: 
+"<mallia>"
+	"malli" N Sg Par @X #2->0
+: 
+"<perithiin>"
+	"periä" V Pass Ind Prt @FMV #3->0
+: 
+"<osittain>"
+	"osittain" Adv @ADVL #4->2
+: 
+"<vanhaasta>"
+	"vanhaa" A Sg Ela @<ADVL #5->3
+: 
+"<juutalais>"
+	"juutalais" ? @X #6->0
+: 
+"<uskosthaan>"
+	"usko" N Sg Nom PxSg2 Foc/haan @<OBJ #7->3
+"<.>"
+	"." CLB #8->3
+: 
+"<Syynakuukasta>"
+	"Syynakuukasta" ? @X #1->0
+: 
+"<tunnethiin>"
+	"tuntea" V Act Ind Prt Pl3 @FMV #2->0
+	"tuntea" V Pass Ind Prt @FMV #2->0
+: 
+"<tekstinlukemista>"
+	"lukeminen" N Sg Par @<OBJ #3->2
+		"teksti" N Sg Gen Cmp #3->2
+"<.>"
+	"." CLB #4->2
+: 
+"<Tärkeä>"
+	"tärkeä" A Sg Nom @>N #1->2
+: 
+"<ruokapala>"
+	"pala" N Sg Nom @SUBJ> #2->8
+		"ruoka" N Nom Cmp #2->8
+: 
+"<Jo>"
+	"jo" Adv @ADVL #3->5
+: 
+"<varhain>"
+	"varas" N Pl Ill @ADVL> #4->5
+	"varhain" Adv @ADVL #4->5
+: 
+"<kristinuskon>"
+	"kristinusko" N Sg Gen @X #5->0
+: 
+"<histuuriassa>"
+	"histuuria" N Sg Ine @ADVL> #6->8
+: 
+"<ruokapala>"
+	"pala" N Sg Nom @SUBJ> #7->8
+		"ruoka" N Nom Cmp #7->8
+: 
+"<oli>"
+	"olla" V Act Ind Prt Sg3 @FMV #8->0
+: 
+"<tärkeä>"
+	"tärkeä" A Sg Nom @>N #9->10
+: 
+"<osa>"
+	"osa" N Sg Nom @<SPRED #10->8
+: 
+"<yhteisöstä>"
+	"yhteisöstä" ? @X #11->0
+"<.>"
+	"." CLB #12->3
+: 
+"<Se>"
+	"se" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<oli>"
+	"olla" V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<rakhauven>"
+	"rakhauven" ? @X #3->0
+: 
+"<ruokapala>"
+	"pala" N Sg Nom @OBJ> #4->4
+		"ruoka" N Nom Cmp #4->4
+"<,>"
+	"," CLB #5->6
+: 
+"<kun>"
+	"kun" CS @CVP #6->7
+: 
+"<jaethiin>"
+	"jakaa" V Act Ind Prt Pl3 @FS-<ADVL #7->2
+	"jakaa" V Pass Ind Prt @FS-<ADVL #7->2
+: 
+"<ruokaa>"
+	"ruoka" N Sg Par @<OBJ #8->7
+"<.>"
+	"." CLB #9->2
+: 
+"<Ruokapala>"
+	"pala" N Sg Nom @SUBJ> #1->2
+		"ruoka" N Nom Cmp #1->2
+: 
+"<kehittyi>"
+	"kehittyä" V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<toiminthaan>"
+	"toiminta" N Sg Ill @<ADVL #3->2
+: 
+"<joka>"
+	"joka" Pr @X #4->0
+: 
+"<kuvasi>"
+	"kuvata" V Act Ind Prt Sg3 @FMV #5->2
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<muistutti>"
+	"muistuttaa" V Act Ind Prt Sg3 @FMV #7->5
+: 
+"<oppilapsitten>"
+	"oppilapsitten" ? @X #8->0
+: 
+"<viimistä>"
+	"viiminen" A Sg Par @>N #9->10
+: 
+"<ruokapallaa>"
+	"pala" N Sg Par @<P #10->10
+		"ruoka" N Nom Cmp #10->10
+: 
+"<yhessä>"
+	"yhessä" Adv @ADVL #11->8
+	"yksi" Num Sg Ine @N< #11->8
+	"yksi" Pron Indef Ine @<ADVL #11->8
+: 
+"<Jeesuksen>"
+	"Jeesus" N Prop Sem/Mal Sg Gen @<OBJ #12->7
+: 
+"<kansa>"
+	"kansa" N Sg Nom @X #13->0
+"<.>"
+	"." CLB #14->2
+: 
+"<Yritethiin>"
+	"yrittää" V Act Ind Prt Pl3 @FMV #1->0
+	"yrittää" V Pass Ind Prt @FMV #1->0
+: 
+"<tulkata>"
+	"tulkata" ? @X #2->0
+: 
+"<sitä>"
+	"se" Pron Pers Sg Par @<OBJ #3->1
+: 
+"<ette>"
+	"ette" CS @CVP #4->6
+: 
+"<Jeesus>"
+	"Jeesus" N Prop Sem/Mal Sg Nom @SUBJ> #5->6
+: 
+"<oli>"
+	"olla" V Act Ind Prt Sg3 @FS-<ADVL #6->1
+: 
+"<kuollu>"
+	"kuollu" Adv @ADVL #7->2
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<syntyny>"
+	"syntyä" V Act PrfPrc Sg Nom @<OBJ #9->6
+"<.>"
+	"." CLB #10->1
+: 
+"<Se>"
+	"se" Pron Dem Sg Nom @>N #1->2
+: 
+"<ruokapala>"
+	"pala" N Sg Nom @SUBJ> #2->6
+		"ruoka" N Nom Cmp #2->6
+"<,>"
+	"," CLB #3->2
+: 
+"<ehtoolinen>"
+	"ehtoolinen" N Sg Nom @SUBJ> #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<juhlithaan>"
+	"juhlia" V Act Ind Prs Sg2 Foc/haan @FMV #6->0
+	"juhlia" V Act Ind Prt Pl3 Foc/haan @FMV #6->0
+	"juhlia" V Act Ind Prt Sg2 Foc/haan @FMV #6->0
+	"juhlia" V Pass Ind Prs @FMV #6->0
+: 
+"<vieläki>"
+	"vielä" Adv Foc/kin @ADVL #7->0
+: 
+"<aika>"
+	"aika" Adv @ADVL #8->6
+	"aika" N Sg Nom @<OBJ #8->6
+: 
+"<useasti>"
+	"useasti" Adv @ADVL #9->0
+: 
+"<kaikissa>"
+	"kaikki" Pron Qu Pl Ine @>N #10->12
+: 
+"<kristilisissä>"
+	"kristilinen" A Pl Ine @>N #11->12
+: 
+"<kirkoissa>"
+	"kirkko" N Pl Ine @<ADVL #12->6
+"<.>"
+	"." CLB #13->6
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kristilinen>"
+	"kristilinen" A Sg Nom @SUBJ> #1->5
+: 
+"<jumalanpalvelu>"
+	"jumalanpalvelu" ? @X #2->0
+: 
+"<Kristilisessä>"
+	"kristilinen" A Sg Ine @>N #3->4
+: 
+"<jumalanpalveluksessa>"
+	"jumalanpalvelus" N Sg Ine @ADVL> #4->5
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<olla>"
+	"olla" V Inf @FAUX #6->5
+: 
+"<monta>"
+	"monta" Pr @X #7->0
+: 
+"<mallia>"
+	"malli" N Sg Par @<P #8->8
+"<,>"
+	"," CLB #9->8
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @>N #10->11
+: 
+"<kohta>"
+	"kohta" Adv @ADVL #11->7
+	"kohta" N Sg Nom @>N #11->7
+: 
+"<aina>"
+	"Ai" N Prop Sg Ess @<SPRED #12->5
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FAUX #13->6
+: 
+"<lauluja>"
+	"laulu" N Pl Par @<P #14->14
+: 
+"<Jumalan>"
+	"jumala" N Sg Gen @<P #15->15
+: 
+"<kunniaksi>"
+	"kunnia" N Sg Tra @X #16->0
+"<,>"
+	"," CLB #17->16
+: 
+"<raamatunlukemista>"
+	"lukeminen" N Sg Par @<P #18->18
+		"raamattu" N Sg Gen Cmp #18->18
+: 
+"<ja>"
+	"ja" CC @CNP #19->6
+: 
+"<rukkoilua>"
+	"rukkoilua" ? @X #20->0
+"<.>"
+	"." CLB #21->5
+: 
+"<Jumalanpalvelu>"
+	"Jumalanpalvelu" ? @X #1->0
+: 
+"<kaikissa>"
+	"kaikki" Pron Qu Pl Ine @>N #2->3
+: 
+"<seurakunnissa>"
+	"seurakunta" N Pl Ine @ADVL> #3->7
+: 
+"<Ruottin>"
+	"Ruotti" N Prop Sem/Plc Sg Gen @>N #4->5
+: 
+"<kirkon>"
+	"kirkko" N Sg Gen @X #5->0
+: 
+"<seurakunnissa>"
+	"seurakunta" N Pl Ine @ADVL> #6->7
+: 
+"<piethään>"
+	"piettää" V InfMa Ill @IMV #7->0
+	"pietä" V Pass Ind Prs @IMV #7->0
+	"piki" N Pl Nom Foc/haan @SUBJ> #7->0
+	"pittää" V Pass Ind Prs @IMV #7->0
+: 
+"<jumalanpalveluja>"
+	"jumalanpalveluja" ? @X #8->0
+: 
+"<kuitekki>"
+	"kuitekki" Adv @ADVL #9->8
+: 
+"<joka>"
+	"joka" Pr @X #10->0
+	"jokata" V Act Imprt Sg2 @X #10->0
+: 
+"<pyhä>"
+	"Pyhä" N Prop Sem/Plc Sg Nom @<OBJ #11->7
+"<.>"
+	"." CLB #12->7
+: 
+"<Mutta>"
+	"mutta" CS @CVP #1->2
+: 
+"<useasti>"
+	"useasti" Adv @ADVL #2->4
+: 
+"<on>"
+	"On" N Prop Sg Nom @HNOUN #3->0
+: 
+"<jumalanpalveluja>"
+	"jumalanpalveluja" ? @X #4->0
+: 
+"<muinaki>"
+	"muu" A Pl Ess Foc/kin @>N #5->6
+	"muu" Pron Indef Pl Ess Foc/kin @>N #5->6
+: 
+"<viikonpäivinä>"
+	"viikonpäivät" N Pl Ess @N< #6->3
+"<.>"
+	"." CLB #7->2
+: 
+"<Sie>"
+	"sie" Pron Pers Sg Nom @SUBJ> #1->2
+: 
+"<saatat>"
+	"saattaa" V Act Ind Prs Sg2 @FMV #2->0
+: 
+"<löytää>"
+	"löytää" V Inf @X #3->0
+: 
+"<mikkä>"
+	"mikä" Pron Interr Pl Nom @>N #4->8
+: 
+"<jumalanpalvelut>"
+	"jumalanpalvelut" ? @X #5->0
+: 
+"<piethään>"
+	"pietä" V Pass Ind Prs @FMV #6->2
+	"pittää" V Pass Ind Prs @FMV #6->2
+: 
+"<jossakin>"
+	"joka" Pron Rel Sg Ine Foc/kin @>N #7->8
+: 
+"<kirkossa>"
+	"kirkko" N Sg Ine @<ADVL #8->6
+: 
+"<sinun>"
+	"sie" Pron Pers Sg Gen @>N #9->10
+: 
+"<asuinpaikan>"
+	"asuinpaikka" N Sg Gen @>N #10->11
+: 
+"<lähelä>"
+	"lähelä" Adv @ADVL #11->5
+	"lähi" N Sg Ade @<ADVL #11->5
+: 
+"<lukemalla>"
+	"lukea" V InfMa Ade @IMV #12->6
+: 
+"<viikon>"
+	"viikko" N Sg Gen @X #13->0
+: 
+"<saarnalistaa>"
+	"lista" N Sg Par @<OBJ #14->12
+		"saarna" N Nom Cmp #14->12
+"<.>"
+	"." CLB #15->2
+: 
+"<Net>"
+	"net" Pron Pers Pl Nom @X #1->0
+: 
+"<julkaisthaan>"
+	"julkaisthaan" ? @X #2->0
+: 
+"<useasti>"
+	"useasti" Adv @ADVL #3->2
+: 
+"<jossakin>"
+	"joka" Pron Rel Sg Ine Foc/kin @>N #4->6
+: 
+"<paikalisessa>"
+	"paikalinen" A Sg Ine @>N #5->6
+: 
+"<avisissa>"
+	"avisi" N Sg Ine @ADVL> #6->11
+"<,>"
+	"," CLB #7->6
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #8->11
+: 
+"<monta>"
+	"monta" Pr @X #9->0
+: 
+"<seurakuntaa>"
+	"seurakunta" N Sg Par @<P #10->10
+: 
+"<löyät>"
+	"löytää" V Act Ind Prs Sg2 @FMV #11->0
+: 
+"<kans>"
+	"kans" Po @ADVL #12->9
+: 
+"<wepistä>"
+	"wepistä" ? @X #13->0
+"<.>"
+	"." CLB #14->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ovet>"
+	"ovi" N Pl Nom @SUBJ> #1->5
+: 
+"<auki>"
+	"auki" A Sg Nom @>N #2->6
+	"auki" Adv @ADVL #2->6
+: 
+"<kaikile>"
+	"kaikki" Pron Qu Pl All @ADVL> #3->5
+: 
+"<Kaikin>"
+	"Kai" N Prop Sem/Mal Sg Nom Foc/kin @SUBJ> #4->5
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FMV #5->0
+: 
+"<tervetulheita>"
+	"tervetulheita" Interj @X #6->0
+: 
+"<mukhaan>"
+	"Mukka" N Prop Sem/Sur Sg Ill @<ADVL #7->5
+	"Mukka" N Prop Sem/Sur Sg Nom Foc/haan @<SPRED #7->5
+"<:>"
+	":" CLB #8->5
+: 
+"<nuoret>"
+	"nuoret" N Pl Nom @HNOUN #9->5
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<vanhaat>"
+	"vanhaa" A Pl Nom @<SPRED #11->9
+"<,>"
+	"," CLB #12->11
+: 
+"<uskovaiset>"
+	"uskovainen" N Pl Nom @SUBJ> #13->0
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<ei-uskovaiset>"
+	"ei-uskovaiset" ? @X #15->0
+"<.>"
+	"." CLB #16->5
+: 
+"<Jumalanpalveluksessa>"
+	"jumalanpalvelus" N Sg Ine @ADVL> #1->3
+: 
+"<met>"
+	"met" Pron Pers Pl Nom @SUBJ> #2->3
+: 
+"<saama>"
+	"saaja" V Act Ind Prs Pl1 @FMV #3->0
+	"saa’a" V Act Ind Prs Pl1 @FMV #3->0
+: 
+"<apua>"
+	"apu" N Sg Par @<OBJ #4->3
+: 
+"<tulkata>"
+	"tulkata" ? @X #5->0
+: 
+"<meän>"
+	"met" Pron Pers Pl Gen @X #6->0
+: 
+"<elämiä>"
+	"elämiä" ? @X #7->0
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<kohata>"
+	"kohata" V Inf @X #9->0
+: 
+"<Jumalaa>"
+	"jumala" N Sg Par @<OBJ #10->3
+"<.>"
+	"." CLB #11->3
+: 
+"<Mutta>"
+	"mutta" CS @CVP #1->3
+: 
+"<jumalanpalvelu>"
+	"jumalanpalvelu" ? @X #2->0
+: 
+"<on>"
+	"On" N Prop Sg Nom @HNOUN #3->0
+: 
+"<kans>"
+	"kans" Po @ADVL #4->2
+: 
+"<yks>"
+	"yksi" Num Sg Nom @HNOUN #5->3
+: 
+"<merkki>"
+	"merkki" N Sg Nom @NUM< #6->6
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<toistus>"
+	"toistus" N Sg Nom @>N #8->9
+: 
+"<kirkon>"
+	"kirkko" N Sg Gen @X #9->0
+: 
+"<uskosta>"
+	"usko" N Sg Ela @X #10->0
+: 
+"<ja>"
+	"ja" CC @CNP #11->10
+: 
+"<olosta>"
+	"olo" N Sg Ela @<ADVL #12->5
+: 
+"<yhteiskunnassa>"
+	"Yhteiskunta" N Prop Sem/Obj Sg Ine @X #13->0
+"<.>"
+	"." CLB #14->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"</>"
+	"/" PUNCT MIDDLE #1->1
+"</>"
+	"/" PUNCT MIDDLE #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+
+]]></dependency></body></document>

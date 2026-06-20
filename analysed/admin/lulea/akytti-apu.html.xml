@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Akytti apu - Luleå kommun</title><genre code="admin"/><author><unknown/></author><wordcount>448</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>akytti-apu.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Rikosuhrisjuuri>"
+	"Rikosuhrisjuuri" ? @X #1->0
+: 
+"<antaa>"
+	"antaa" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<tukea>"
+	"tukea" V Inf @X #3->0
+: 
+"<henkilöile>"
+	"henkilö" N Pl All @<ADVL #4->2
+: 
+"<joilekko>"
+	"Joki" N Prop Sem/Sur Sg All Qst @<ADVL #5->2
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FAUX #6->2
+: 
+"<tehty>"
+	"tehhä" V Pass PrfPrc Sg Nom @>N #7->8
+	"tehjä" V Pass PrfPrc Sg Nom @>N #7->8
+	"tehä" V Pass PrfPrc Sg Nom @>N #7->8
+: 
+"<rikos>"
+	"rikos" N Sg Nom @SUBJ> #8->0
+"<,>"
+	"," CLB #9->10
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #10->11
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-N< #11->8
+: 
+"<nähny>"
+	"nähhä" V Act PrfPrc Sg Nom @>N #12->13
+	"nähjä" V Act PrfPrc Sg Nom @>N #12->13
+	"nähä" V Act PrfPrc Sg Nom @>N #12->13
+: 
+"<rikoksen>"
+	"rikos" N Sg Gen @<OBJ #13->13
+: 
+"<elikkä>"
+	"elikkä" CC @X #14->0
+: 
+"<oon>"
+	"olla" V Act Ind Prs Sg3 @FS-N< #15->2
+: 
+"<omhainen>"
+	"omhainen" A Sg Nom @<OBJ #16->15
+: 
+"<elikkä>"
+	"elikkä" CC @X #17->0
+: 
+"<likhiiinen>"
+	"likhiiinen" ? @X #18->0
+: 
+"<rikosuhrile>"
+	"uhri" N Sg All @<ADVL #19->15
+		"rikos" N Sg Nom Cmp #19->15
+"<.>"
+	"." CLB #20->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Esikouhluun>"
+	"esikoulu" N Sg Ill @ADVL> #1->2
+: 
+"<haku>"
+	"haku" N Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+
+]]></dependency></body></document>

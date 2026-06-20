@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>422</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://www.kalix.se/kommun/nationella-minoriteter/meankieli/Vanhustenhuollosta-meankiella/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Sulle>"
+	"sie" Pron Pers Sg All @ADVL> #1->2
+: 
+"<saatethaan>"
+	"saattaa" V Pass Ind Prs @FMV #2->0
+: 
+"<myöntää>"
+	"myöntää" V Inf @X #3->0
+: 
+"<apua>"
+	"apu" N Sg Par @<SUBJ #4->2
+"<:>"
+	":" CLB #5->2
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<Kukas>"
+	"kuka" Pron Prel Sg Nom Err/Orth @SUBJ> #1->2
+: 
+"<saattaa>"
+	"saattaa" V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<saa>"
+	"saaja" V Act Ind Prs Sg3 @X #3->0
+	"saa’a" V Act Ind Prs Sg3 @X #3->0
+: 
+"<kotipalvelua>"
+	"kotipalvelua" ? @X #4->0
+"<?>"
+	"?" CLB #5->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

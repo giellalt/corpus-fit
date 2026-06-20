@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fit" id="no_id"><header><title>Nuorisotalot ja kohtauspaikat lapsile ja nuorile - Umeå kommun</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><wordcount>139</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="dan"/></multilingual><origFileName>https://www.umea.se/kommunochpolitik/languages/meankieli/lapsetjakoulutus/nuorisotalotjakohtauspaikatlapsilejanuorile.4.640818217563dc9fe53140.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA[: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Meny>"
+	"menyy" Err/Orth N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Nuorisotalot>"
+	"talo" N Pl Nom @HNOUN #1->0
+		"nuoriso" N Nom Cmp #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<kohtauspaikat>"
+	"paikat" N Pl Nom @>N #3->4
+		"kohtaus" N Sg Nom Cmp #3->4
+	"paikka" N Pl Nom @>N #3->4
+		"kohtaus" N Sg Nom Cmp #3->4
+: 
+"<lapsile>"
+	"lapsi" N Pl All @X #4->0
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<nuorile>"
+	"nuora" N Pl All @<ADVL #6->1
+	"nuoret" N Pl All @<ADVL #6->1
+	"nuori" A Pl All @<ADVL #6->1
+: 
+"<¶>"
+	"¶" CLB #7->1
+:\n
+"<Uumajan>"
+	"Uumaja" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<kunta>"
+	"kunta" N Sg Nom @SUBJ> #2->3
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FMV #3->0
+: 
+"<töissä>"
+	"työ" N Pl Ine @<ADVL #4->3
+: 
+"<nuorten>"
+	"nuoret" N Pl Gen @>N #5->6
+: 
+"<vapa-aijan>"
+	"vapa-aika" N Sg Gen @>P #6->7
+: 
+"<kans>"
+	"kans" Po @ADVL #7->0
+: 
+"<monela>"
+	"moni" A Sg Ade @>N #8->9
+: 
+"<tavala>"
+	"tapa" N Sg Ade @<ADVL #9->3
+"<.>"
+	"." CLB #10->3
+: 
+"<Met>"
+	"met" Pron Pers Pl Nom @>N #1->3
+: 
+"<luoma>"
+	"lua" V Act Ind Prs Pl1 @FMV #2->0
+	"luoa" V Act Ind Prs Pl1 @FMV #2->0
+: 
+"<kohtauspaikkoja>"
+	"paikat" N Pl Par @<OBJ #3->2
+		"kohtaus" N Sg Nom Cmp #3->2
+	"paikka" N Pl Par @<OBJ #3->2
+		"kohtaus" N Sg Nom Cmp #3->2
+	"paikko" N Pl Par @<OBJ #3->2
+		"kohtaus" N Sg Nom Cmp #3->2
+: 
+"<13–25>"
+	"13–" Use/TTS"25" Num Arab Sem/Time-clock Span Sg Nom @N< #4->3
+	 Use/Circ Use/Circ"13–25" Num Arab Sg Nom
+	 Use/Circ"13–" Use/TTS"25" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"13–25" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"13–25" Num Arab Sg Nom
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+: 
+"<vuotisten>"
+	"vuotinen" A Pl Gen Err/Orth @<OBJ #5->2
+: 
+"<lapsile>"
+	"lapsi" N Pl All @<ADVL #6->2
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<nuorile>"
+	"nuora" N Pl All @<ADVL #8->6
+	"nuoret" N Pl All @<ADVL #8->6
+	"nuori" A Pl All @<ADVL #8->6
+"<.>"
+	"." CLB #9->2
+: 
+"<Nuorisotalot>"
+	"talo" N Pl Nom @SUBJ> #1->0
+		"nuoriso" N Nom Cmp #1->0
+: 
+"<suuntautuvat>"
+	"suuntautuvat" ? @X #2->0
+: 
+"<nuorhiin>"
+	"nuora" N Pl Ill @ADVL> #3->3
+	"nuori" A Pl Ill @ADVL> #3->3
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @>N #4->5
+: 
+"<on>"
+	"On" N Prop Sg Nom @SUBJ> #5->13
+: 
+"<13–17>"
+	"13–" Use/TTS"17" Num Arab Sem/Time-clock Span Sg Nom @N< #6->5
+	 Use/Circ Use/Circ"13–17" Num Arab Sg Nom
+	 Use/Circ"13–" Use/TTS"17" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"13–17" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"13–17" Num Arab Sg Nom
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom "<17>"
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom "<17>"
+	 Use/Circ Use/Circ"17" Num Arab Sg Nom "<17>"
+	 Use/Circ"17" A Arab Ord Attr CLBfinal "<17>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"17" A Arab Ord Attr CLBfinal "<17>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ"17" A Arab Ord Attr CLBfinal "<17>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ"17" A Arab Ord Attr CLBfinal "<17>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ"17" A Arab Ord Attr CLBfinal "<17>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"17" A Arab Ord Attr CLBfinal "<17>"
+	 Use/Circ"17" A Arab Ord Attr CLBfinal "<17>"
+	 Use/Circ"17" A Arab Ord Attr CLBfinal "<17>"
+	 Use/Circ"17" Num Arab Sem/ID "<17>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sem/ID "<17>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ"17" Num Arab Sem/ID "<17>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ"17" Num Arab Sem/ID "<17>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sem/ID "<17>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sem/ID "<17>"
+	 Use/Circ"17" Num Arab Sem/ID "<17>"
+	 Use/Circ"17" Num Arab Sem/ID "<17>"
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom "<17>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom "<17>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom "<17>"
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom "<17>"
+	 Use/Circ"17" Num Arab Sem/Time-clock Sg Nom "<17>"
+	 Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+	 Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+	 Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+	 Use/Circ"17" Num Arab Sg Nom "<17>"
+	 Use/Circ"17" Num Arab Sg Nom "<17>"
+	 Use/Circ"17" Num Arab Sg Nom "<17>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"13" Num Arab Sg Nom "<13>"
+: 
+"<vuen>"
+	"vuosi" N Sg Gen @>N #7->8
+: 
+"<välissä>"
+	"väli" N Sg Ine @ADVL> #8->2
+	"välissä" Adv @ADVL #8->2
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<meän>"
+	"met" Pron Pers Pl Gen @>N #10->11
+: 
+"<nuorten>"
+	"nuoret" N Pl Gen @>N #11->12
+: 
+"<talo>"
+	"talo" N Sg Nom @SUBJ> #12->13
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FS-N< #13->3
+: 
+"<Hamnmagasinet>"
+	"Hamnmagasinet" ? @X #14->0
+: 
+"<kaupunkin>"
+	"punkki" N Sg Gen @X #15->0
+		"kau" N Nom Cmp #15->0
+: 
+"<kesustassa>"
+	"kesustassa" ? @X #16->0
+: 
+"<ja>"
+	"ja" CC @CNP #17->16
+: 
+"<Ersbodassa>"
+	"Ersbodassa" ? @X #18->0
+: 
+"<meilä>"
+	"met" Pron Pers Pl Ade @<ADVL #19->13
+: 
+"<on>"
+	"On" N Prop Sg Nom @>N #20->21
+: 
+"<toiminta>"
+	"toiminta" N Sg Nom @>N #21->22
+: 
+"<nuorile>"
+	"nuora" N Pl All @<ADVL #22->13
+	"nuoret" N Pl All @<ADVL #22->13
+	"nuori" A Pl All @<SPRED #22->13
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @>N #23->24
+: 
+"<on>"
+	"On" N Prop Sg Nom @<SPRED #24->13
+: 
+"<15–25>"
+	"15–" Use/TTS"25" Num Arab Sem/Time-clock Span Sg Nom @N< #25->24
+	 Use/Circ Use/Circ"15–25" Num Arab Sg Nom
+	 Use/Circ"15–" Use/TTS"25" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"15–25" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"15–25" Num Arab Sg Nom
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sem/ID "<15>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ"15" Num Arab Sem/ID "<15>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+			 Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+	 Use/Circ"25" A Arab Ord Attr CLBfinal "<25>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ"15" Num Arab Sem/ID "<15>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+			 Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+	 Use/Circ"25" Num Arab Sem/ID "<25>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sem/ID "<15>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sem/Time-clock Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sem/ID "<15>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ"15" Num Arab Sg Nom "<15>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+	 Use/Circ"25" Num Arab Sg Nom "<25>"
+			 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+			 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+			 Use/Circ"15" Num Arab Sem/ID "<15>"
+			 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+			 Use/Circ"15" Num Arab Sg Nom "<15>"
+			 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+			 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+			 Use/Circ"15" Num Arab Sem/ID "<15>"
+			 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+			 Use/Circ"15" Num Arab Sg Nom "<15>"
+			 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+			 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+			 Use/Circ"15" Num Arab Sem/ID "<15>"
+			 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+			 Use/Circ"15" Num Arab Sg Nom "<15>"
+: 
+"<vuen>"
+	"vuosi" N Sg Gen @NUM< #26->26
+: 
+"<välissä>"
+	"väli" N Sg Ine @<ADVL #27->18
+	"välissä" Adv @ADVL #27->18
+"<.>"
+	"." CLB #28->1
+: 
+"<Uumajan>"
+	"Uumaja" N Prop Sem/Plc Sg Gen @X #1->0
+: 
+"<kunta>"
+	"kunta" N Sg Nom @SUBJ> #2->3
+: 
+"<tarjoaa>"
+	"tarjota" V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<kans>"
+	"kans" Po @ADVL #4->1
+: 
+"<sattunhaisia>"
+	"sattunhaisia" ? @X #5->0
+: 
+"<kohtauspaikkoja>"
+	"paikat" N Pl Par @<OBJ #6->3
+		"kohtaus" N Sg Nom Cmp #6->3
+	"paikka" N Pl Par @<OBJ #6->3
+		"kohtaus" N Sg Nom Cmp #6->3
+	"paikko" N Pl Par @<OBJ #6->3
+		"kohtaus" N Sg Nom Cmp #6->3
+"<,>"
+	"," CLB #7->6
+: 
+"<esimerkiks>"
+	"esimerkiks" Adv @ADVL #8->5
+: 
+"<kesätoimintaa>"
+	"toiminta" N Sg Par @<OBJ #9->3
+		"kesä" N Nom Cmp #9->3
+: 
+"<Nydalassa>"
+	"Nydalassa" ? @X #10->0
+"<.>"
+	"." CLB #11->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Met>"
+	"met" Pron Pers Pl Nom @SUBJ> #1->2
+: 
+"<tuema>"
+	"tukea" V Act Ind Prs Pl1 @FMV #2->0
+: 
+"<kans>"
+	"kans" Po @ADVL #3->5
+: 
+"<nuoria>"
+	"nuora" N Pl Par @<OBJ #4->2
+	"nuoret" N Pl Par @<OBJ #4->2
+	"nuori" A Pl Par @<OBJ #4->2
+: 
+"<järjestäjiä>"
+	"järjestäjiä" ? @X #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<tarjoama>"
+	"tarjota" V AgPrc @>N #7->8
+: 
+"<lupatoimintaa>"
+	"toiminta" N Sg Par @<OBJ #8->2
+		"lupa" N Nom Cmp #8->2
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<aktiviteettiä>"
+	"aktiviteettiä" ? @X #10->0
+: 
+"<nuorile>"
+	"nuora" N Pl All @<ADVL #11->2
+	"nuoret" N Pl All @<ADVL #11->2
+	"nuori" A Pl All @<ADVL #11->2
+: 
+"<joila>"
+	"Joki" N Prop Sem/Sur Sg Ade @<ADVL #12->2
+: 
+"<on>"
+	"On" N Prop Sg Nom @X #13->0
+: 
+"<liikuntarajoitheita>"
+	"liikuntarajoitheita" ? @X #14->0
+"<.>"
+	"." CLB #15->2
+: 
+"<Kaikki>"
+	"kaikki" Pron Qu Sg Nom @>N #1->2
+: 
+"<toiminta>"
+	"toiminta" N Sg Nom @SUBJ> #2->3
+: 
+"<on>"
+	"olla" V Act Ind Prs Sg3 Err/Orth @FMV #3->0
+: 
+"<huumetonta>"
+	"huumetonta" ? @X #4->0
+"<.>"
+	"." CLB #5->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kohtauspaikkoja>"
+	"paikat" N Pl Par @X #1->0
+		"kohtaus" N Sg Nom Cmp #1->0
+	"paikka" N Pl Par @X #1->0
+		"kohtaus" N Sg Nom Cmp #1->0
+	"paikko" N Pl Par @X #1->0
+		"kohtaus" N Sg Nom Cmp #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<vapa-aijan>"
+	"vapa-aika" N Sg Gen @X #3->0
+: 
+"<toimintoja>"
+	"toimintoja" ? @X #4->0
+: 
+"<sulle>"
+	"sie" Pron Pers Sg All @ADVL> #5->6
+: 
+"<jolla>"
+	"jollata" V Act Imprt Sg2 @FMV #6->0
+: 
+"<on>"
+	"On" N Prop Sg Nom @X #7->0
+: 
+"<toiminanrajotheisuus>"
+	"toiminanrajotheisuus" ? @X #8->0
+: 
+"<¶>"
+	"¶" CLB #9->6
+:\n
+
+]]></dependency></body></document>
